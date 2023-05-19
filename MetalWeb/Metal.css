@@ -1,0 +1,29 @@
+/*-------------Estilo NavBar------------------*/
+
+.metal-navbar{
+    display: flex;
+    justify-content: center;
+}
+
+.metal-navbar a {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    font-size:1.5rem;
+}
+
+/*-------------------------------------------*/
+
+
+/*-------Estilo Seccion 1------------------*/
+.metal-seccion1{
+    background-color: rgba(0, 0, 0, 0.826);
+
+}
+
+.metal-seccion1-img{
+    width: 305px;
+    height: 100px;
+}
+
+
+/*-------------------------------------------*/
