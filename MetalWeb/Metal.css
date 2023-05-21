@@ -27,3 +27,17 @@
 
 
 /*-------------------------------------------*/
+
+/*-------Estilo Componente Bandas------------------*/
+.metal-componente-bandas {
+    background-color: rgba(0, 0, 0, 0.826);
+
+}
+
+.metal-componente-bandas-img {
+    width: 305px;
+    height: 100px;
+}
+
+
+/*-------------------------------------------*/
