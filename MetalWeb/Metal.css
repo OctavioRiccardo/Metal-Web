@@ -16,7 +16,7 @@
 
 /*-------Estilo Seccion 1------------------*/
 .metal-seccion1{
-    background-color: rgba(0, 0, 0, 0.826);
+    background-color: rgba(44, 44, 44, 255);
 
 }
 
@@ -27,17 +27,21 @@
 
 
 /*-------------------------------------------*/
-
-/*-------Estilo Componente Bandas------------------*/
-.metal-componente-bandas {
-    background-color: rgba(0, 0, 0, 0.826);
+/*--------Estilo Aside---------------------*/
+#lanzamientos{
+    background-color: black;
+    padding: 30px;
 
 }
 
-.metal-componente-bandas-img {
-    width: 305px;
-    height: 100px;
+#lanzamientos h2{
+    background-color: rgba(44, 44, 44, 255);
+    text-align: center;
 }
 
+.contenidoLanzamientos a .row{
+    background-color: rgba(44, 44, 44, 255);
+    margin: 10px 0px;
+    border: 2px black solid;
+}
 
-/*-------------------------------------------*/
