@@ -20,10 +20,13 @@
     <!----------------------JavaScript Personalizado---------------------->
     <script defer src="./Metal.js"></script>
 
-       <!----------------------Google Font Roboto---------------------->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!----------------------Google Font Roboto---------------------->
+   
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+    <!----------------------Google Font Metal Mania---------------------->
+  
+    <link href="https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap" rel="stylesheet">
 
 </head>
 
@@ -62,7 +65,7 @@
     <!----------------------------------------------------Componente Seccion 1-------------------------------------------------->
     <div class="container-fluid metal-seccion1">
         <div class="row">
-            <div class="col-8">
+            <div class="col-md-8">
 
                 <!----------------Esta seccion pertenece al lado Izquierdo donde se encuentran las tarjetas-------------------------->
                 <div class="container-fluid" style="padding: 0px;">
@@ -122,15 +125,15 @@
                 <!---------------------------------------------------------------------------------------------------------------------------->
             </div>
 
-            <!----------------Esta seccion pertenece al lado Derecho donde se encuentra el Aside------------------------------->
-            <div class="col-4 ">
+            <!----------------Esta seccion pertenece al lado Derecho donde se encuentra el Aside------------------------------->   
+            <div class="col-md-3" id="columnaAside">
                 <section id="lanzamientos">
                     <h2>Nuevos lanzamientos</h2>
                     <div class="contenidoLanzamientos">
                         <a href="#">
                             <div class="row">
                                 <div class="col-3">
-                                    <img src="./assets/images/imagen-ejemplo.jpg" alt="..." style="width: 100px;">
+                                    <img src="./assets/images/imagen-ejemplo.jpg" alt="...">
                                 </div>
                                 <div class="col-9">
                                     <h3>Titulo Ejemplo</h3>
@@ -141,7 +144,7 @@
                         <a href="#">
                             <div class="row">
                                 <div class="col-3">
-                                    <img src="./assets/images/imagen-ejemplo.jpg" alt="..." style="width: 100px;">
+                                    <img src="./assets/images/imagen-ejemplo.jpg" alt="..." >
                                 </div>
                                 <div class="col-9">
                                     <h3>Titulo Ejemplo</h3>
@@ -152,7 +155,7 @@
                         <a href="#">
                             <div class="row">
                                 <div class="col-3">
-                                    <img src="./assets/images/imagen-ejemplo.jpg" alt="..." style="width: 100px;">
+                                    <img src="./assets/images/imagen-ejemplo.jpg" alt="...">
                                 </div>
                                 <div class="col-9">
                                     <h3>Titulo Ejemplo</h3>
@@ -163,7 +166,7 @@
                         <a href="#">
                             <div class="row">
                                 <div class="col-3">
-                                    <img src="./assets/images/imagen-ejemplo.jpg" alt="..." style="width: 100px;">
+                                    <img src="./assets/images/imagen-ejemplo.jpg" alt="...">
                                 </div>
                                 <div class="col-9">
                                     <h3>Titulo Ejemplo</h3>
@@ -174,7 +177,7 @@
                         <a href="#">
                             <div class="row">
                                 <div class="col-3">
-                                    <img src="./assets/images/imagen-ejemplo.jpg" alt="..." style="width: 100px;">
+                                    <img src="./assets/images/imagen-ejemplo.jpg" alt="...">
                                 </div>
                                 <div class="col-9">
                                     <h3>Titulo Ejemplo</h3>
@@ -187,32 +190,38 @@
                 </section>
 
             </div>
-            <!---------------------------------------------------------------------------------------------------------------------------->
+             <div class="col-md-1"></div> 
+            <!---------------------------------------------------------------------------------------------------------------------------->  
         </div>
     </div>
     <!-------------------------------------------------------------------------------------------------------------------------------->
-    <!-----------------------------------------Pertenece al Footer----------------------------------------------------------------------------------->
 
+
+    <!-----------------------------------------Pertenece al Footer----------------------------------------------------------------------------------->
     <footer class="footer-style">
         <div class="container-fluid text-center">
 
             <div class="card text-center">
                 <div class="card-header">
                     <div class="row">
-                        <div class="col-4">
-                            <h5 style="text-align: left;">Siguenos en:</h5>
+                        <div class="col-8">
+                            <h5 style="text-align: left;">Síguenos en:</h5>
                         </div>
-                        <div class="col-md-2">
-                            <a target="_blank" href="#" class="btn-social btn-outline"><i class="fa-brands fa-facebook"></i></a>
-                        </div>
-                        <div class="col-md-2">
-                            <a target="_blank" href="#" class="btn-social btn-outline"></a>
-                        </div>
-                        <div class="col-md-2">
-                            <a target="_blank" href="#" class="btn-social btn-outline"></a>
-                        </div>
-                        <div class="col-md-2">
-                            <a target="_blank" href="#" class="btn-social btn-outline"></a>
+                        <div class="col-md-4">
+                            <div class="row d-flex justify-content-center">
+                                <div class="col-md-3">
+                                    <a target="_blank" href="#" class="btn-social btn-outline"><i class="fa-brands fa-youtube"></i></a>
+                                </div>
+                                <div class="col-md-3">
+                                    <a target="_blank" href="#" class="btn-social btn-outline"><i class="fa-brands fa-facebook"></i></a>
+                                </div>
+                                <div class="col-md-3">
+                                    <a target="_blank" href="#" class="btn-social btn-outline"><i class="fa-brands fa-instagram"></i></a>
+                                </div>
+                                <div class="col-md-3">
+                                    <a target="_blank" href="#" class="btn-social btn-outline"><i class="fa-brands fa-whatsapp"></i></a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

@@ -1,3 +1,20 @@
+@font-face {
+    font-family: Roboto-Regular;
+    src: url(./assets/fonts/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: MetalMania-Regular;
+    src: url(./assets/fonts/MetalMania-Regular.ttf);
+}
+body{
+    font-family:Roboto-Regular;
+    
+}
+.background-gradient{
+    background: rgb(40,28,55);
+    background: linear-gradient(90deg, rgba(40,28,55,1) 10%, rgba(120,21,113,1) 53%, rgba(16,1,37,1) 88%);
+}
+
 /*-------------Estilo NavBar------------------*/
 
 .metal-navbar{
@@ -28,20 +45,48 @@
 
 /*-------------------------------------------*/
 /*--------Estilo Aside---------------------*/
+#columnaAside{
+     /* margin-left: 20px;  */
+    /* width: 330px; */
+}
+
 #lanzamientos{
     background-color: black;
     padding: 30px;
+    padding-top: 15px;
+    padding-bottom: 10px;
 
 }
 
 #lanzamientos h2{
-    background-color: rgba(44, 44, 44, 255);
     text-align: center;
+    color: white;
+    font-size: 25px;
+    font-family:MetalMania-Regular;
 }
 
 .contenidoLanzamientos a .row{
+
     background-color: rgba(44, 44, 44, 255);
-    margin: 10px 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     border: 2px black solid;
+    padding: 5px;
 }
 
+.contenidoLanzamientos a{
+    text-decoration: none;
+}
+
+.contenidoLanzamientos .col-3 img{
+    width: 80px;
+}
+
+.contenidoLanzamientos .col-9{
+    padding-left: 35px;
+    color: white;
+}
+
+.contenidoLanzamientos .col-9 h3{
+    font-size: 22px;
+}
