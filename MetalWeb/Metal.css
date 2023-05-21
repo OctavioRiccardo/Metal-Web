@@ -28,20 +28,47 @@
 
 /*-------------------------------------------*/
 /*--------Estilo Aside---------------------*/
+#columnaAside{
+     /* margin-left: 20px;  */
+    /* width: 330px; */
+}
+
 #lanzamientos{
     background-color: black;
     padding: 30px;
+    padding-top: 15px;
+    padding-bottom: 10px;
 
 }
 
 #lanzamientos h2{
-    background-color: rgba(44, 44, 44, 255);
     text-align: center;
+    color: white;
+    font-size: 25px;
 }
 
 .contenidoLanzamientos a .row{
+
     background-color: rgba(44, 44, 44, 255);
-    margin: 10px 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     border: 2px black solid;
+    padding: 5px;
 }
 
+.contenidoLanzamientos a{
+    text-decoration: none;
+}
+
+.contenidoLanzamientos .col-3 img{
+    width: 80px;
+}
+
+.contenidoLanzamientos .col-9{
+    padding-left: 35px;
+    color: white;
+}
+
+.contenidoLanzamientos .col-9 h3{
+    font-size: 22px;
+}
