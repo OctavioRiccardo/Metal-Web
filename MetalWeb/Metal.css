@@ -75,7 +75,7 @@ h1{
 /*-------------------------------------------*/
 
 /* --------Contenedor Seccion 1-------------- */
-#contenedorSeccion1{
+#contenedorSeccion-1{
     padding-top: 50px;
 }
 
@@ -206,5 +206,35 @@ h1{
 
 
 /*------------------------------------------------*/
+
+/*--------Estilo Seccion Bandas---------------------*/
+.contenedor-Bandas-1 {
+    padding-top: 50px;
+}
+.img-nandas-1 {
+    width: 305px;
+    height: 100px;
+}
+
+.bandas-1 {
+    padding: 30px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.bandas-1 h1 {
+    text-align: center;
+    color: white;
+    font-size: 70px;
+    margin-top: 70px;
+    font-family: MetalMania-Regular;
+}
+
+/*-------------------------------------------*/
+
+
+/*----------------------------------------------------*/
+
+
 
 
