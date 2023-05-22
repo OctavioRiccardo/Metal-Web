@@ -1,3 +1,5 @@
+
+/*--------------------------Estilo General------------------------*/
 @font-face {
     font-family: Roboto-Regular;
     src: url(./assets/fonts/Roboto-Regular.ttf);
@@ -6,15 +8,29 @@
     font-family: MetalMania-Regular;
     src: url(./assets/fonts/MetalMania-Regular.ttf);
 }
+
 body{
     font-family:Roboto-Regular;
     background-color: rgba(44, 44, 44, 255);
     
 }
+
+h1{
+    font-family: MetalMania-Regular;
+    src: url(./assets/fonts/MetalMania-Regular.ttf);
+}
+
 .background-gradient{
     background: rgb(40,28,55);
     background: linear-gradient(90deg, rgba(40,28,55,1) 10%, rgba(120,21,113,1) 53%, rgba(16,1,37,1) 88%);
 }
+
+
+
+/*-----------------------------------------------------------------*/
+
+
+
 
 /*-------------Estilo NavBar------------------*/
 
@@ -22,29 +38,71 @@ body{
     display: flex;
     justify-content: center;
 }
+#nav-button{
+    color: #f0f8ff;
+}
 
 .metal-navbar a {
     margin-left: 2rem;
     margin-right: 2rem;
     font-size:1.5rem;
+    text-decoration: none !important;
+    color: #f0f8ff;
+    font-family: MetalMania-Regular;
+}
+.metal-navbar a :hover {
+
+}
+
+.background-gradient .navbar-toggler {
+    color: rgba(255, 255, 255, 0.992);
+    border-color: rgba(255, 255, 255, 0.968);
+}
+
+.background-gradient .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.navbar-toggler-icon {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
 }
 
 /*-------------------------------------------*/
 
 
 /*-------Estilo Seccion 1------------------*/
-.metal-seccion1{
+/* .seccion-1
+{
     background-color: rgba(44, 44, 44, 255);
 
-}
-
-.metal-seccion1-img{
+} */
+.img-seccion-1
+{
     width: 305px;
     height: 100px;
 }
-
+.seccion-1 
+{
+   background-color: rgba(44, 44, 44, 255);
+    padding: 30px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+.seccion-1 h1 
+{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-family: MetalMania-Regular;
+}
 
 /*-------------------------------------------*/
+
 /*--------Estilo Aside---------------------*/
 #columnaAside{
      /* margin-left: 20px;  */
@@ -91,3 +149,12 @@ body{
 .contenidoLanzamientos .col-9 h3{
     font-size: 22px;
 }
+
+/*------------------------------------------------*/
+
+/*--------Estilo Footer---------------------*/
+
+
+/*------------------------------------------------*/
+
+
