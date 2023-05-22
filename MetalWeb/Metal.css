@@ -110,7 +110,7 @@ h1{
 /*--------Estilo Aside---------------------*/
 @media only screen and (min-width: 1200px) {
 #columnaAside{
-    margin-left: 30px;
+    margin: 0px auto;
     margin-top: 70px;
     width: 355px; 
 }
