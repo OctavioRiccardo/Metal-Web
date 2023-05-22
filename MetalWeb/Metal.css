@@ -122,6 +122,7 @@ h1{
     padding: 30px;
     padding-top: 15px;
     padding-bottom: 10px;
+    border: 1px solid white;
 
 }
 
@@ -139,6 +140,14 @@ h1{
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 5px;
+    color: white;
+    transition: color .3s linear, transform .2s linear, border .3s linear;
+}
+
+.contenidoLanzamientos a .row:hover{
+    color: blueviolet;
+    transform: scale(1.1);
+    border: .5px solid blueviolet;
 }
 
 .contenidoLanzamientos a{
@@ -152,12 +161,10 @@ h1{
 .contenidoLanzamientos .col-9{
     padding-left: 35px;
     padding-top: 5px;
-    color: white;
+
 }
 
-.contenidoLanzamientos .col-9:hover{
-    color: blueviolet;
-}
+
 
 .contenidoLanzamientos h3{
     font-size: 18px;
