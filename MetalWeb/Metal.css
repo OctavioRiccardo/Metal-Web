@@ -74,6 +74,11 @@ h1{
 
 /*-------------------------------------------*/
 
+/* --------Contenedor Seccion 1-------------- */
+#contenedorSeccion1{
+    padding-top: 50px;
+}
+
 
 /*-------Estilo Seccion 1------------------*/
 /* .seccion-1
@@ -88,7 +93,6 @@ h1{
 }
 .seccion-1 
 {
-   background-color: rgba(44, 44, 44, 255);
     padding: 30px;
     padding-top: 15px;
     padding-bottom: 10px;
@@ -107,6 +111,7 @@ h1{
 @media only screen and (min-width: 1200px) {
 #columnaAside{
     margin-left: 40px;
+    margin-top: 60px;
     width: 330px; 
 }
 }
