@@ -110,9 +110,9 @@ h1{
 /*--------Estilo Aside---------------------*/
 @media only screen and (min-width: 1200px) {
 #columnaAside{
-    margin-left: 40px;
+    margin-left: 30px;
     margin-top: 70px;
-    width: 350px; 
+    width: 355px; 
 }
 }
 
@@ -161,7 +161,7 @@ h1{
 }
 
 .contenidoLanzamientos .col-9{
-    padding-left: 35px;
+    padding-left: 30px;
     padding-top: 5px;
 
 }
