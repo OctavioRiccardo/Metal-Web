@@ -97,6 +97,49 @@ h1{
 
 /*-------------------------------------------*/
 
+/* ----------Contenedor Carrusel--------------- */
+#contenedorCarrusel{
+    margin-top: 30px;
+    padding: 0px;
+    width: 100%;
+
+}
+
+
+
+/* --------------Estilo Carrusel----------------- */
+#contenedorCarrusel .carousel-item{
+    position: relative;
+}
+
+#contenedorCarrusel .carousel-item img{
+    height: 60vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+#contenedorCarrusel .carousel-item .carruselTexto{
+    height: 130px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    opacity: .7;
+
+}
+
+@media only screen and (min-width: 900px){
+    #contenedorCarrusel{
+        width: 75%;
+    }
+
+    #contenedorCarrusel .carousel-item img{
+        height: 70vh;
+    }
+}
+
+
 /* --------Contenedor Seccion 1-------------- */
 #contenedorSeccion1{
     padding-top: 50px;
