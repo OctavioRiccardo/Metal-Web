@@ -34,6 +34,29 @@ h1{
 
 /*-------------Estilo NavBar------------------*/
 
+#imagenLogoBlanco{
+    position: relative;
+    z-index: 0;
+    
+}
+
+#imagenLogoVioleta{
+    position: absolute;
+    scale: 1.04;
+    filter: blur(3px);
+    opacity: 0;
+    z-index: 1;
+    transition: opacity .4s linear;
+}
+
+
+.navbar-brand:hover #imagenLogoVioleta{
+    opacity: .7;
+}
+
+
+
+
 .metal-navbar{
     display: flex;
     justify-content: center;
