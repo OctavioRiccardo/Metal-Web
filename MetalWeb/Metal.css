@@ -238,6 +238,36 @@ h1{
 }
 /*-----------------------------------------------------*/
 
+/*------------Estilo suscripción------------------*/
+.suscripción{
+    display: flex;
+    justify-content: center;
+}
+.suscripción-card{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    margin-top: 70px;
+    font-family: MetalMania-Regular;
+  
+}
+.encabezado {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    margin-top: 70px;
+    font-family: MetalMania-Regular;
+}
+
+
+
+/*-----------------------------------------------------*/
+
+
+
+
+
+
 /*------------------Estilo Footer---------------------*/
 .metal-footer{
     color: #e5e5e5;
