@@ -34,7 +34,7 @@ h1{
 #nav-button{
     color: #f0f8ff;
 }
-.metal-navbar a {
+.metal-navbar a{
     margin-left: 2rem;
     margin-right: 2rem;
     font-size:1.5rem;
@@ -66,8 +66,9 @@ h1{
 
 
 /* ---------------Estilo Seccion 1-------------- */
-#contenedorSeccion-1{
+#contenedorSeccion1{
     padding-top: 50px;
+    
 }
 /* .seccion-1
 {
@@ -89,7 +90,7 @@ h1{
 {
     text-align: center;
     color: white;
-    font-size: 25px;
+    font-size: 50px;
     font-family: MetalMania-Regular;
 }
 /*-------------------------------------------------*/
@@ -209,6 +210,34 @@ h1{
 .paginacion{
     display: flex;
     justify-content: center;
+}
+
+/*----------------------------------------------------*/
+
+/*----------------------Estilo formulario consulta------------*/
+.formualrio-consulta{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+  
+    padding: 30px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    border: 1px solid white;
+    border-radius: .8%;
+    margin: 70px;
+    color: aliceblue;
+}
+.campo-email{
+
+}
+
+.consulta h2 {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    margin-top: 70px;
+    font-family: MetalMania-Regular;
 }
 
 /*----------------------------------------------------*/
