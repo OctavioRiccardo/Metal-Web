@@ -27,6 +27,30 @@ h1{
 
 
 /*-------------Estilo NavBar------------------*/
+
+#imagenLogoBlanco{
+    position: relative;
+    z-index: 0;
+    
+}
+
+#imagenLogoVioleta{
+    position: absolute;
+    scale: 1.04;
+    filter: blur(3px);
+    opacity: 0;
+    z-index: 1;
+    transition: opacity .4s linear;
+}
+
+
+.navbar-brand:hover #imagenLogoVioleta{
+    opacity: .7;
+}
+
+
+
+
 .metal-navbar{
     display: flex;
     justify-content: center;
@@ -64,8 +88,50 @@ h1{
 /*------------------------------------------------*/
 
 
+/* ----------Contenedor Carrusel--------------- */
+#contenedorCarrusel{
+    margin-top: 30px;
+    padding: 0px;
+    width: 100%;
 
-/* ---------------Estilo Seccion 1-------------- */
+}
+
+
+
+/* --------------Estilo Carrusel----------------- */
+#contenedorCarrusel .carousel-item{
+    position: relative;
+}
+
+#contenedorCarrusel .carousel-item img{
+    height: 60vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+#contenedorCarrusel .carousel-item .carruselTexto{
+    height: 130px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    opacity: .7;
+
+}
+
+@media only screen and (min-width: 900px){
+    #contenedorCarrusel{
+        width: 75%;
+    }
+
+    #contenedorCarrusel .carousel-item img{
+        height: 70vh;
+    }
+}
+
+
+/* --------Contenedor Seccion 1-------------- */
 #contenedorSeccion1{
     padding-top: 50px;
     
