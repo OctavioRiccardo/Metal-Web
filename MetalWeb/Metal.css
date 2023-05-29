@@ -67,7 +67,7 @@ h1{
     font-family: MetalMania-Regular;
 }
 .metal-navbar a :hover {
-
+    
 }
 .background-gradient .navbar-toggler {
     color: rgba(255, 255, 255, 0.992);
@@ -364,6 +364,10 @@ cursor: pointer;
     background: #300054;
 }
 
+.btn:hover{
+    background:#300054;
+    color: white;
+}
 
 
 /*----------------------------------------------------*/
