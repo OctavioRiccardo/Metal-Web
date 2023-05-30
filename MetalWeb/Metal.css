@@ -352,15 +352,16 @@ h1{
 .list-group-item:hover{
     background: #300054;
 }
-.btn{
-    background: rgb(40,28,55);
-    background: linear-gradient(90deg, rgba(40,28,55,1) 10%, rgba(120,21,113,1) 53%, rgba(16,1,37,1) 88%);
-}
+  .btn{
+    background-color: #e5e5e5;
+    /* background: rgb(40,28,55);
+    background: linear-gradient(90deg, rgba(40,28,55,1) 10%, rgba(120,21,113,1) 53%, rgba(16,1,37,1) 88%); */
+} 
 
 .btn:hover{
     background:#300054;
     color: white;
-}
+} 
 
 
 /*----------------------------------------------------*/
