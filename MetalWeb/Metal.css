@@ -361,20 +361,20 @@ h1{
     color: #f0f8ff;
     font-family: MetalMania-Regular;
 }
-.list-group {
+.metal-footer .list-group {
     border-radius: 5px;
 }
 
-.list-group-item{
+.metal-footer .list-group-item{
     color: #f0f8ff;
     background: rgb(40, 28, 55);
     border-radius: 5px;
     cursor: pointer;
 }
-.list-group-item:hover{
+.metal-footer .list-group-item:hover{
      background: #300054; 
 }
-  .btn{
+.btn{
     background-color: #e5e5e5;
     /* background: rgb(40,28,55);
     background: linear-gradient(90deg, rgba(40,28,55,1) 10%, rgba(120,21,113,1) 53%, rgba(16,1,37,1) 88%); */
