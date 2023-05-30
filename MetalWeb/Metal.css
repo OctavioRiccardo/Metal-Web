@@ -92,7 +92,7 @@ h1{
     position: relative;
 }
 #contenedorCarrusel .carousel-item img{
-    height: 60vh;
+    height: 70vh;
     width: 100%;
     overflow: hidden;
 }
@@ -107,7 +107,7 @@ h1{
 }
 @media only screen and (min-width: 900px){
     #contenedorCarrusel{
-        width: 75%;
+        width: 850px;
     }
     #contenedorCarrusel .carousel-item img{
         height: 70vh;
@@ -136,6 +136,8 @@ h1{
 }
 .card-bandas{
     background-color: black;
+    max-width: 340px;
+    margin: 0 auto;
 }
 .card-info{
     background-color:#2c2c2c
