@@ -350,7 +350,7 @@ h1{
     cursor: pointer;
 }
 .list-group-item:hover{
-    background: #300054;
+     background: #300054; 
 }
   .btn{
     background-color: #e5e5e5;
