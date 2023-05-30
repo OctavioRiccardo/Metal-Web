@@ -57,7 +57,6 @@ h1{
     color: #f0f8ff;
     font-family: MetalMania-Regular;
 }
-
 .background-gradient .navbar-toggler {
     color: rgba(255, 255, 255, 0.992);
     border-color: rgba(255, 255, 255, 0.968);
@@ -340,6 +339,30 @@ h1{
     color: #f0f8ff;
     font-family: MetalMania-Regular;
 }
+.list-group {
+    border-radius: 5px;
+}
+
+.list-group-item{
+    color: #f0f8ff;
+    background: rgb(40, 28, 55);
+    border-radius: 5px;
+    cursor: pointer;
+}
+.list-group-item:hover{
+    background: #300054;
+}
+.btn{
+    background: rgb(40,28,55);
+    background: linear-gradient(90deg, rgba(40,28,55,1) 10%, rgba(120,21,113,1) 53%, rgba(16,1,37,1) 88%);
+}
+
+.btn:hover{
+    background:#300054;
+    color: white;
+}
+
+
 /*----------------------------------------------------*/
 
 
