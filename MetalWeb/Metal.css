@@ -79,26 +79,23 @@ h1{
 /*------------------------------------------------*/
 
 
-/* ----------Contenedor Carrusel--------------- */
+/* ----------Contenedor Carrusel---------------*/
 #contenedorCarrusel{
     margin-top: 30px;
     padding: 0px;
     width: 100%;
 }
-
-
+/*------------------------------------------------*/
 
 /* --------------Estilo Carrusel----------------- */
 #contenedorCarrusel .carousel-item{
     position: relative;
 }
-
 #contenedorCarrusel .carousel-item img{
     height: 60vh;
     width: 100%;
     overflow: hidden;
 }
-
 #contenedorCarrusel .carousel-item .carruselTexto{
     height: 130px;
     width: 100%;
@@ -108,19 +105,17 @@ h1{
     background-color: black;
     opacity: .7;
 }
-
 @media only screen and (min-width: 900px){
     #contenedorCarrusel{
         width: 75%;
     }
-
     #contenedorCarrusel .carousel-item img{
         height: 70vh;
     }
 }
+/*------------------------------------------------*/
 
-
-/* --------Contenedor Seccion 1-------------- */
+/* --------Contenedor Seccion 1---------------*/
 #contenedorSeccion1{
     padding-top: 50px;
 }
@@ -220,7 +215,6 @@ h1{
     .contenidoLanzamientos a .row{
         height: auto;
     }
-
     .contenidoLanzamientos img{
         width: 100%;
         height: auto;
@@ -228,7 +222,6 @@ h1{
     .contenidoLanzamientos .col-3{
         max-width: 185px;
     }
-
     .contenidoLanzamientos .col-9{
          padding: 0px;
          padding-top: 7px;
@@ -239,8 +232,7 @@ h1{
 
 /*--------Estilo Seccion Bandas---------------------*/
 .contenedor-Bandas-1 {
-    padding-top: 50px;
-    
+    padding-top: 50px; 
 }
 .img-nandas-1 {
     width: 305px;
@@ -267,6 +259,7 @@ h1{
     justify-content: center;
 }
 /*----------------------------------------------------*/
+
 
 /*------------Estilo formulario consulta------------*/
 .formualrio-consulta{
@@ -299,7 +292,8 @@ h1{
 }
 /*-----------------------------------------------------*/
 
-/*------------Estilo suscripción------------------*/
+
+/*------------Estilo suscripción----------------------*/
 .suscripción{
     display: flex;
     justify-content: center;
@@ -322,17 +316,12 @@ h1{
 .card-text li {
     color: #e5e5e5;
 }
-
 .suscripción-button{
     font-size: 20px;
     color: blueviolet;
 
 }
 /*-----------------------------------------------------*/
-
-
-
-
 
 
 /*------------------Estilo Footer---------------------*/
