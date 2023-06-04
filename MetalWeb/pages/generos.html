@@ -19,44 +19,56 @@
     <script defer src="../Metal.js"></script> 
 
 </head>
-<body>
+<body class="background-gradient">
     <!----------------------------------------------------Componente Narbar--------------------------------------------->
         <header>
-            <div class="container-fluid">
-                <div class="row">
+        <div class="container-fluid">
+            <div class="row">
 
-                    <nav class="navbar navbar-expand-lg navbar-light">
-                        <div class="container-fluid">
+                <nav class="navbar navbar-expand-lg background-gradient">
+                    <div class="container-fluid ">
 
-                             <a class="navbar-brand" href="../index.html"><img src="../assets//svgs/Logo-navbar.svg" alt="" width="140" height="130"></a>
-                            
-                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
-                            </button>
+                        <a class="navbar-brand" href="../index.html">
+                            <img src="../assets/svgs/Logo-navbar-OjosVioleta.svg" id="imagenLogoVioleta"
+                                alt="..." width="140" height="130">
+                            <img src="../assets/svgs/Logo-navbar-blanco.svg" id="imagenLogoBlanco" alt=""
+                                width="140" height="130">
+                        </a>
 
-                            <div class="collapse navbar-collapse metal-navbar" id="navbarNavAltMarkup">
-                                <div class="navbar-nav">
-                                    <a class="nav-link " aria-current="page" href="../index.html">Inicio</a>
-                                    <a class="nav-link " aria-current="page" href="../pages/bandas.html">Bandas</a>
-                                    <a class="nav-link" href="../pages/generos.html">Generos</a>
-                                    <a class="nav-link" href="../pages/subscripcion.html">Subscripcion</a>
-                                    <a class="nav-link" href="../index.html#contactos">Contacto</a>
-                                </div>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class=" text-light metal-navbar ">Menu</span>
+                        </button>
+
+                        <div class="collapse navbar-collapse metal-navbar" id="navbarNavAltMarkup">
+                            <div class="navbar-nav">
+                                <a class="nav-link " aria-current="page" href="../index.html">Inicio</a>
+                                <a class="nav-link " aria-current="page" href="./generos.html">Generos</a>
+                                <a class="nav-link" href="./Eventos.html">Eventos</a>
+                                <a class="nav-link" href="../index.html#contactos">Contacto</a>
                             </div>
-
                         </div>
-                    </nav>
 
-                </div>
+                    </div>
+                </nav>
+
             </div>
-        </header>
+        </div>
+    </header>
     <!----------------------------------------------------------------------------------------------------------------------------->
 
 
  <!----------------------------------------------------Componente Generos-------------------------------------------------->
-    <div class="container-fluid metal-seccion1" style="padding: 0px;">
+    <div class="container-fluid generos-seccion1" style="padding: 0px;">
+        <h1>Nombre Genero</h1>
+        <div class="descripcionGenero">
+        <p>El thrash metal es un subgénero más agresivo del heavy metal tradicional que se caracteriza
+             específicamente por sus ritmos pesados similares al metal extremo, NWOBHM, speed metal, y
+              hardcore punk en agresividad y contundencia.</p>
+            </div>
         <div class="row">
-            <div class="col-8  style="padding: 0px;">
+            <div class="col-xl-8  style="padding: 0px;">
 
             <!----------------Esta seccion pertenece al lado Izaquierdo donde se encuentran las tarjetas-------------------------->   
                 <div class="container-fluid" style="padding: 0px;"> 
@@ -117,14 +129,156 @@
             </div>
 
             <!----------------Esta seccion pertenece al lado Derecho donde se encuentra el Aside------------------------------->   
-            <div class="col-4">
-            
+            <div class="col-xl-4" id="columnaAside">
+                <section class="mt-5" id="lanzamientos">
+                    <h2>Nuevos lanzamientos</h2>
+                    <div class="contenidoLanzamientos">
+                        <a href="#">
+                            <div class="row">
+                                <div class="col-3">
+                                    <img src="../assets/images/imagen-ejemplo.jpg" alt="...">
+                                </div>
+                                <div class="col-9">
+                                    <h3>Banda 1</h3>
+                                    <p>Album Mil Horas</p>
+                                    <p>Genero Ejemplo</p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="row">
+                                <div class="col-3">
+                                    <img src="../assets/images/imagen-ejemplo.jpg" alt="...">
+                                </div>
+                                <div class="col-9">
+                                    <h3>Banda 2</h3>
+                                    <p>Album Mil Horas</p>
+                                    <p>Genero</p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="row">
+                                <div class="col-3">
+                                    <img src="../assets/images/imagen-ejemplo.jpg" alt="...">
+                                </div>
+                                <div class="col-9">
+                                    <h3>Banda 3</h3>
+                                    <p>Album Mil Horas</p>
+                                    <p>Genero</p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="row">
+                                <div class="col-3">
+                                    <img src="../assets/images/imagen-ejemplo.jpg" alt="...">
+                                </div>
+                                <div class="col-9">
+                                    <h3>Banda 4</h3>
+                                    <p>Album Mil Horas</p>
+                                    <p>Genero</p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="row">
+                                <div class="col-3">
+                                    <img src="../assets/images/imagen-ejemplo.jpg" alt="...">
+                                </div>
+                                <div class="col-9">
+                                    <h3>Banda 5</h3>
+                                    <p>Album Mil Horas</p>
+                                    <p>Genero</p>
+                                </div>
+                            </div>
+                        </a>
+                        </a>
+                    </div>
+                </section>
+                <!--------------------------------------------------------------------------------------------------------------------------->
             </div>
             <!---------------------------------------------------------------------------------------------------------------------------->  
         </div>
+        
     </div>
 <!-------------------------------------------------------------------------------------------------------------------------------->
+<!--------------------------------------------Componente footer-------------------------------------------------------------->
+ <footer class="d text-center ">
+            <div class="card text-center metal-footer">
+                <div class="card-header">
+                    <div class="row">
+                        <div class="col-8 d-flex justify-content-center">
+                            <h5 class="text-center">Síguenos en:</h5>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="row d-flex justify-content-center">
+                                <div class="col-md-3">
+                                    <a target="_blank" href="#" class="btn-social btn-outline"><i
+                                            class="fa-brands fa-youtube  fa-2xl"></i></a>
+                                </div>
+                                <div class="col-md-3">
+                                    <a target="_blank" href="#" class="btn-social btn-outline"><i
+                                            class="fa-brands fa-facebook  fa-2xl"></i></a>
+                                </div>
+                                <div class="col-md-3">
+                                    <a target="_blank" href="#" class="btn-social btn-outline"><i
+                                            class="fa-brands fa-instagram  fa-2xl"></i></a>
+                                </div>
+                                <div class="col-md-3">
+                                    <a target="_blank" href="#" class="btn-social btn-outline"><i
+                                            class="fa-brands fa-whatsapp  fa-2xl"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-3 footer-col">
+                                <h3>Generos</h3>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">Power Metal</li>
+                                    <li class="list-group-item">Heavy Metal</li>
+                                    <li class="list-group-item">Thrash Metal</li>
+                                    <li class="list-group-item">Speed Metal</li>
+                                </ul>
+                            </div>
 
+                            <div class="col-md-3 footer-col">
+                                <h3>Productos</h3>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">Registrarse</li>
+                                    <li class="list-group-item">Ingresar</li>
+                                    <li class="list-group-item">Suscripciones</li>
+                                    <li class="list-group-item">Ayuda</li>
+                                </ul>
+                            </div>
+
+                            <div class="col-md-3 footer-col">
+                                <h3>Contacto</h3>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">Telefono</li>
+                                    <li class="list-group-item">Correo</li>
+                                    <li class="list-group-item">Ayuda</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-3 footer-col">
+                                <h3>Dirección</h3>
+                                <p>
+                                    CABA - Argentina <br />
+                                    carrasco 400
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-footer text-muted">
+                        <p>Copyright &copy;
+                            <script>document.write(new Date().getFullYear())</script> Todos Los Derechos Reservados.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
 
 </body>
 </html>
