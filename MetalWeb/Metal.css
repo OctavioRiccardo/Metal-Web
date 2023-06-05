@@ -410,4 +410,7 @@ h1{
     font-weight: bold;
 }
 
+.seccion-generos a{
+    text-decoration: none;
+}
 

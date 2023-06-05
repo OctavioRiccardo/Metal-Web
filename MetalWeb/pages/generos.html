@@ -1,27 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Generos - Page</title>
 
-     
-     <!--------------------Bootstrap 5.2------------------------------------->
+
+    <!--------------------Bootstrap 5.2------------------------------------->
     <link rel="stylesheet" href="../Lib/bootstrap-5.0.2/css/bootstrap.css">
     <!--------------------Bootstrap JavaScript------------------------------>
-    <script  defer src="../Lib/bootstrap-5.0.2/js/bootstrap.js" defer></script>
+    <script defer src="../Lib/bootstrap-5.0.2/js/bootstrap.js" defer></script>
 
     <!---------------------Hojas de estilos Personalizada------------------>
     <link rel="stylesheet" href="../Metal.css">
 
     <!----------------------JavaScript Personalizado---------------------->
-    <script defer src="../Metal.js"></script> 
+    <script defer src="../Metal.js"></script>
 
 </head>
+
 <body class="background-gradient">
     <!----------------------------------------------------Componente Narbar--------------------------------------------->
-        <header>
+    <header>
         <div class="container-fluid">
             <div class="row">
 
@@ -29,10 +31,10 @@
                     <div class="container-fluid ">
 
                         <a class="navbar-brand" href="../index.html">
-                            <img src="../assets/svgs/Logo-navbar-OjosVioleta.svg" id="imagenLogoVioleta"
-                                alt="..." width="140" height="130">
-                            <img src="../assets/svgs/Logo-navbar-blanco.svg" id="imagenLogoBlanco" alt=""
+                            <img src="../assets/svgs/Logo-navbar-OjosVioleta.svg" id="imagenLogoVioleta" alt="..."
                                 width="140" height="130">
+                            <img src="../assets/svgs/Logo-navbar-blanco.svg" id="imagenLogoBlanco" alt="" width="140"
+                                height="130">
                         </a>
 
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -59,43 +61,52 @@
     <!----------------------------------------------------------------------------------------------------------------------------->
 
 
- <!----------------------------------------------------Componente Generos-------------------------------------------------->
+    <!----------------------------------------------------Componente Generos-------------------------------------------------->
     <div class="container-fluid generos-seccion1" style="padding: 0px;">
-         <div class="row">
+        <div class="row">
             <div class="col-xl-8">
                 <!----------------Esta seccion pertenece al lado Izquierdo donde se encuentran las tarjetas-------------------------->
                 <div class="container-fluid seccion-1 seccion-generos">
                     <h1>Generos</h1>
                     <div class="row m-3">
                         <div class="col-md-4 mt-3">
-                            <div class="card card-bandas">
-                                <img class="" src="../assets/images/Bandas y Discos/Power Metal/power-metal.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <ul class="list-group card-text">
-                                        <li class="list-group-item card-info text-light">Power Metal</li>
-                                    </ul>
+                            <a href="./Bandas.html?genero=power">
+                                <div class="card card-bandas">
+                                    <img class="" src="../assets/images/Bandas y Discos/Power Metal/power-metal.jpg"
+                                        class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <ul class="list-group card-text">
+                                            <li class="list-group-item card-info text-light">Power Metal</li>
+                                        </ul>
+                                    </div>
                                 </div>
-                            </div>
+                            </a>
                         </div>
                         <div class="col-md-4 mt-3">
-                            <div class="card card-bandas">
-                                <img class="" src="../assets/images/imagen-ejemplo.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <ul class="list-group card-text">
-                                        <li class="list-group-item card-info">Heavy Metal</li>
-                                    </ul>
+                            <a href="./Bandas.html?genero=heavy">
+                                <div class="card card-bandas">
+                                    <img class="" src="../assets/images/imagen-ejemplo.jpg" class="card-img-top"
+                                        alt="...">
+                                    <div class="card-body">
+                                        <ul class="list-group card-text">
+                                            <li class="list-group-item card-info">Heavy Metal</li>
+                                        </ul>
+                                    </div>
                                 </div>
-                            </div>
+                            </a>
                         </div>
                         <div class="col-md-4 mt-3">
-                            <div class="card card-bandas">
-                                <img class="" src="../assets/images/Bandas y Discos/Doom Metal/Doom_Metal_1.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <ul class="list-group card-text">
-                                        <li class="list-group-item card-info">Doom Metal</li>
-                                    </ul>
+                            <a href="./Bandas.html?genero=doom">
+                                <div class="card card-bandas">
+                                    <img class="" src="../assets/images/Bandas y Discos/Doom Metal/Doom_Metal_1.jpg"
+                                        class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <ul class="list-group card-text">
+                                            <li class="list-group-item card-info">Doom Metal</li>
+                                        </ul>
+                                    </div>
                                 </div>
-                            </div>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -173,85 +184,86 @@
                 <!--------------------------------------------------------------------------------------------------------------------------->
             </div>
         </div>
-        
+
     </div>
-<!-------------------------------------------------------------------------------------------------------------------------------->
-<!--------------------------------------------Componente footer-------------------------------------------------------------->
- <footer class="d text-center ">
-            <div class="card text-center metal-footer">
-                <div class="card-header">
-                    <div class="row">
-                        <div class="col-8 d-flex justify-content-center">
-                            <h5 class="text-center">Síguenos en:</h5>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="row d-flex justify-content-center">
-                                <div class="col-md-3">
-                                    <a target="_blank" href="#" class="btn-social btn-outline"><i
-                                            class="fa-brands fa-youtube  fa-2xl"></i></a>
-                                </div>
-                                <div class="col-md-3">
-                                    <a target="_blank" href="#" class="btn-social btn-outline"><i
-                                            class="fa-brands fa-facebook  fa-2xl"></i></a>
-                                </div>
-                                <div class="col-md-3">
-                                    <a target="_blank" href="#" class="btn-social btn-outline"><i
-                                            class="fa-brands fa-instagram  fa-2xl"></i></a>
-                                </div>
-                                <div class="col-md-3">
-                                    <a target="_blank" href="#" class="btn-social btn-outline"><i
-                                            class="fa-brands fa-whatsapp  fa-2xl"></i></a>
-                                </div>
-                            </div>
-                        </div>
+    <!-------------------------------------------------------------------------------------------------------------------------------->
+    <!--------------------------------------------Componente footer-------------------------------------------------------------->
+    <footer class="d text-center ">
+        <div class="card text-center metal-footer">
+            <div class="card-header">
+                <div class="row">
+                    <div class="col-8 d-flex justify-content-center">
+                        <h5 class="text-center">Síguenos en:</h5>
                     </div>
-                    <div class="card-body">
-                        <div class="row">
-                            <div class="col-md-3 footer-col">
-                                <h3>Generos</h3>
-                                <ul class="list-group list-group-flush">
-                                    <li class="list-group-item">Power Metal</li>
-                                    <li class="list-group-item">Heavy Metal</li>
-                                    <li class="list-group-item">Thrash Metal</li>
-                                    <li class="list-group-item">Speed Metal</li>
-                                </ul>
+                    <div class="col-md-4">
+                        <div class="row d-flex justify-content-center">
+                            <div class="col-md-3">
+                                <a target="_blank" href="#" class="btn-social btn-outline"><i
+                                        class="fa-brands fa-youtube  fa-2xl"></i></a>
                             </div>
-
-                            <div class="col-md-3 footer-col">
-                                <h3>Productos</h3>
-                                <ul class="list-group list-group-flush">
-                                    <li class="list-group-item">Registrarse</li>
-                                    <li class="list-group-item">Ingresar</li>
-                                    <li class="list-group-item">Suscripciones</li>
-                                    <li class="list-group-item">Ayuda</li>
-                                </ul>
+                            <div class="col-md-3">
+                                <a target="_blank" href="#" class="btn-social btn-outline"><i
+                                        class="fa-brands fa-facebook  fa-2xl"></i></a>
                             </div>
-
-                            <div class="col-md-3 footer-col">
-                                <h3>Contacto</h3>
-                                <ul class="list-group list-group-flush">
-                                    <li class="list-group-item">Telefono</li>
-                                    <li class="list-group-item">Correo</li>
-                                    <li class="list-group-item">Ayuda</li>
-                                </ul>
+                            <div class="col-md-3">
+                                <a target="_blank" href="#" class="btn-social btn-outline"><i
+                                        class="fa-brands fa-instagram  fa-2xl"></i></a>
                             </div>
-                            <div class="col-md-3 footer-col">
-                                <h3>Dirección</h3>
-                                <p>
-                                    CABA - Argentina <br />
-                                    carrasco 400
-                                </p>
+                            <div class="col-md-3">
+                                <a target="_blank" href="#" class="btn-social btn-outline"><i
+                                        class="fa-brands fa-whatsapp  fa-2xl"></i></a>
                             </div>
                         </div>
-                    </div>
-                    <div class="card-footer text-muted">
-                        <p>Copyright &copy;
-                            <script>document.write(new Date().getFullYear())</script> Todos Los Derechos Reservados.
-                        </p>
                     </div>
                 </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-3 footer-col">
+                            <h3>Generos</h3>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Power Metal</li>
+                                <li class="list-group-item">Heavy Metal</li>
+                                <li class="list-group-item">Thrash Metal</li>
+                                <li class="list-group-item">Speed Metal</li>
+                            </ul>
+                        </div>
+
+                        <div class="col-md-3 footer-col">
+                            <h3>Productos</h3>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Registrarse</li>
+                                <li class="list-group-item">Ingresar</li>
+                                <li class="list-group-item">Suscripciones</li>
+                                <li class="list-group-item">Ayuda</li>
+                            </ul>
+                        </div>
+
+                        <div class="col-md-3 footer-col">
+                            <h3>Contacto</h3>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Telefono</li>
+                                <li class="list-group-item">Correo</li>
+                                <li class="list-group-item">Ayuda</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3 footer-col">
+                            <h3>Dirección</h3>
+                            <p>
+                                CABA - Argentina <br />
+                                carrasco 400
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer text-muted">
+                    <p>Copyright &copy;
+                        <script>document.write(new Date().getFullYear())</script> Todos Los Derechos Reservados.
+                    </p>
+                </div>
             </div>
-        </footer>
+        </div>
+    </footer>
 
 </body>
+
 </html>
