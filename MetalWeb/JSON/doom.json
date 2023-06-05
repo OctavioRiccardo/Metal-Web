@@ -1,0 +1,474 @@
+{
+    "titulo": "Doom Metal",
+    "imagen": "./assets/images/Bandas y Discos/Doom Metal/Doom_Metal_1.jpg",
+    "descripcion": "El doom metal es un subgénero extremo del heavy metal, se distingue por su atmósfera lenta y pesada, de tonalidad oscura con riffs graves.",
+    "bandas": [
+        {
+            "titulo:": "Cathedral",
+            "imgLogo": "./assets/images/Bandas y Discos/Doom Metal/Cathedral/logo.png",
+            "imgBanda": "./assets/images/Bandas y Discos/Doom Metal/Cathedral/img.jpg",
+            "pais": "Reino Unido",
+            "genero": "Doom Metal",
+            "integrantes": [
+                {
+                    "nombre": "Lee Dorrian",
+                    "Ocupacion":"Vocalista"
+                },
+                {
+                    "nombre": "Garry Jennings",
+                    "Ocupacion":"Guitarrista"
+                },
+                {
+                    "nombre": "Bryan Dixon",
+                    "Ocupacion":"Baterista"
+                }
+            ],
+            "albumes": [
+                {
+                    "titulo": "Soul Sacrifice-Statik Majik",
+                    "imgAlbum": "./assets/images/Bandas y Discos/Doom Metal/Cathedral/soul-sacrifice-statik-majik.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "Soul Sacrifice"
+                        },
+                        {
+                            "nombre": "Autumn Twilight"
+                        },
+                        {
+                            "nombre": "Frozen Rapture"
+                        },
+                        {
+                            "nombre": "Golden Blood (Flooding)"
+                        },
+                        {
+                            "nombre": "Midnight Mountain"
+                        },
+                        {
+                            "nombre": "Hypnos 164"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "",
+                    "imgAlbum": "",
+                    "canciones": [
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "nombre": ""
+                        }
+                    ]
+                },
+                {
+                    "titulo": "",
+                    "imgAlbum": "",
+                    "canciones": [
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "nombre": ""
+                        }
+                    ]
+                },
+                {
+                    "titulo": "",
+                    "imgAlbum": "",
+                    "canciones": [
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "nombre": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "titulo:": "",
+            "imgLogo": "",
+            "imgBanda": "",
+            "pais": "",
+            "genero": "",
+            "integrantes": [
+                {
+                    "nombre": ""
+                },
+                {
+                    "nombre": ""
+                },
+                {
+                    "nombre": ""
+                }
+            ],
+            "albumes": [
+                {
+                    "titulo": "",
+                    "imgAlbum": "",
+                    "canciones": [
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "nombre": ""
+                        }
+                    ]
+                },
+                {
+                    "titulo": "",
+                    "imgAlbum": "",
+                    "canciones": [
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "nombre": ""
+                        }
+                    ]
+                },
+                {
+                    "titulo": "",
+                    "imgAlbum": "",
+                    "canciones": [
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "nombre": ""
+                        }
+                    ]
+                },
+                {
+                    "titulo": "",
+                    "imgAlbum": "",
+                    "canciones": [
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "nombre": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "titulo:": "",
+            "imgLogo": "",
+            "imgBanda": "",
+            "pais": "",
+            "genero": "",
+            "integrantes": [
+                {
+                    "nombre": ""
+                },
+                {
+                    "nombre": ""
+                },
+                {
+                    "nombre": ""
+                }
+            ],
+            "albumes": [
+                {
+                    "titulo": "",
+                    "imgAlbum": "",
+                    "canciones": [
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "nombre": ""
+                        }
+                    ]
+                },
+                {
+                    "titulo": "",
+                    "imgAlbum": "",
+                    "canciones": [
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "nombre": ""
+                        }
+                    ]
+                },
+                {
+                    "titulo": "",
+                    "imgAlbum": "",
+                    "canciones": [
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "nombre": ""
+                        }
+                    ]
+                },
+                {
+                    "titulo": "",
+                    "imgAlbum": "",
+                    "canciones": [
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "nombre": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "titulo:": "",
+            "imgLogo": "",
+            "imgBanda": "",
+            "pais": "",
+            "genero": "",
+            "integrantes": [
+                {
+                    "nombre": ""
+                },
+                {
+                    "nombre": ""
+                },
+                {
+                    "nombre": ""
+                }
+            ],
+            "albumes": [
+                {
+                    "titulo": "",
+                    "imgAlbum": "",
+                    "canciones": [
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "nombre": ""
+                        }
+                    ]
+                },
+                {
+                    "titulo": "",
+                    "imgAlbum": "",
+                    "canciones": [
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "nombre": ""
+                        }
+                    ]
+                },
+                {
+                    "titulo": "",
+                    "imgAlbum": "",
+                    "canciones": [
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "nombre": ""
+                        }
+                    ]
+                },
+                {
+                    "titulo": "",
+                    "imgAlbum": "",
+                    "canciones": [
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "nombre": ""
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
