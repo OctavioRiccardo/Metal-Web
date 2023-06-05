@@ -49,142 +49,145 @@
                     ]
                 },
                 {
-                    "titulo": "",
-                    "imgAlbum": "",
+                    "titulo": "Supernatural Birth Machine",
+                    "imgAlbum": "./assets/images/Bandas y Discos/Doom Metal/Cathedral/Supernatural-Birth-Machine.jpg",
                     "canciones": [
                         {
-                            "nombre": ""
+                            "nombre": "Cybertron 71 - Eternal Countdown"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Urko's Conquest"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Stained Glass Horizon"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Cyclops Revolution"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Birth Machine 2000"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Nightmare Castle"
                         }
                     ]
                 },
                 {
-                    "titulo": "",
-                    "imgAlbum": "",
+                    "titulo": "The Last Spire",
+                    "imgAlbum": "./assets/images/Bandas y Discos/Doom Metal/Cathedral/The-Last-Spire.jpg",
                     "canciones": [
                         {
-                            "nombre": ""
+                            "nombre": "Entrance to Hell"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Pallbearer"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Cathedral of the Damned"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Tower of Silence"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Infestation of Grey Death"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "An Observation"
                         }
                     ]
                 },
                 {
-                    "titulo": "",
-                    "imgAlbum": "",
+                    "titulo": "The VIIth Coming",
+                    "imgAlbum": "./assets/images/Bandas y Discos/Doom Metal/Cathedral/The-Viith-Coming.jpg",
                     "canciones": [
                         {
-                            "nombre": ""
+                            "nombre": "Phoenix Rising"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Resisting the Ghost"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Skullflower"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Aphrodite's Winter"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Empty Mirror"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Nocturnal Fist"
                         }
                     ]
                 }
             ]
         },
         {
-            "titulo:": "",
-            "imgLogo": "",
-            "imgBanda": "",
-            "pais": "",
-            "genero": "",
+            "titulo:": "Candlemass",
+            "imgLogo": "./assets/images/Bandas y Discos/Doom Metal/Candlemass/logo.png",
+            "imgBanda": "./assets/images/Bandas y Discos/Doom Metal/Candlemass/image.jpg",
+            "pais": "Suecia",
+            "genero": "Doom Metal",
             "integrantes": [
                 {
-                    "nombre": ""
+                    "nombre": "Johan Längquist",
+                    "Ocupacion":"Vocalista"
                 },
                 {
-                    "nombre": ""
+                    "nombre": "Mats Bjorkman",
+                    "Ocupacion":"Guitarrista"
                 },
                 {
-                    "nombre": ""
+                    "nombre": "Jan Lindh",
+                    "Ocupacion":"Baterista"
                 }
             ],
             "albumes": [
                 {
-                    "titulo": "",
-                    "imgAlbum": "",
+                    "titulo": "King of the Grey Islands",
+                    "imgAlbum": "./assets/images/Bandas y Discos/Doom Metal/Candlemass/candlemass-king-if-the-grey-islands-cd-.jpg",
                     "canciones": [
                         {
-                            "nombre": ""
+                            "nombre": "Prologue"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Emperor of the Void"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Devil Seed"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Of Stars and Smoke"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Demonia 6"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Destroyer"
                         }
                     ]
                 },
                 {
-                    "titulo": "",
-                    "imgAlbum": "",
+                    "titulo": "Epicus Doomicus Metallicus",
+                    "imgAlbum": "./assets/images/Bandas y Discos/Doom Metal/Candlemass/Epicus Doomicus Metallicus_4855.jpg",
                     "canciones": [
                         {
-                            "nombre": ""
+                            "nombre": "Solitude"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Demon's Gate"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Crystal Ball"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Black Stone Wielder"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Under the Oak"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "A Sorcerer's Pledge"
                         }
                     ]
                 },
