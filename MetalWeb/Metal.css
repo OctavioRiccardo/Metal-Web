@@ -157,7 +157,14 @@ h1{
     background-color: black;
     max-width: 340px;
     margin: 0 auto;
+    padding: 5px;
+    overflow: hidden;
 }
+
+.card-bandas img{
+    border-radius: 2%;
+}
+
 .card-info{
     background-color:#2c2c2c
 }
@@ -171,7 +178,7 @@ h1{
 @media only screen and (min-width: 1200px) {
 #columnaAside{
     margin: 0px auto;
-    margin-top: 70px;
+    margin-top: 64px;
     width: 355px; 
 }
 }
@@ -390,24 +397,9 @@ h1{
 
 
 /* -------------------Pagina Generos--------------------- */
-.generos-seccion1 h1{
-    color: white;
+.seccion-generos .card-text li{
     text-align: center;
-    font-size: 50px;
+    font-size: 18px;
 }
-
-.generos-seccion1 .descripcionGenero p{
-    color: white;
-    font-size: 25px;
-    text-align: center;
-    
-}
-
-.generos-seccion1 .descripcionGenero{
-    padding: 40px 50px;
-/*     background-color: #2c2c2c; */
-    border-radius: .8%;
-}
-
 
 
