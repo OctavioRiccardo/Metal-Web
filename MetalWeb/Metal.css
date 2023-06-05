@@ -406,7 +406,8 @@ h1{
 /* -------------------Pagina Generos--------------------- */
 .seccion-generos .card-text li{
     text-align: center;
-    font-size: 18px;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 
