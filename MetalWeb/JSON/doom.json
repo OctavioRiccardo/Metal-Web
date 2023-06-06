@@ -192,166 +192,169 @@
                     ]
                 },
                 {
-                    "titulo": "",
-                    "imgAlbum": "",
+                    "titulo": "Chapter VI",
+                    "imgAlbum": "./assets/images/Bandas y Discos/Doom Metal/Candlemass/Chapter-VI.jpg",
                     "canciones": [
                         {
-                            "nombre": ""
+                            "nombre": "The Dying Illusion"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Julie Laughs No More"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Where the Runes Still Speak"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "The Ebony Throne"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Temple of the Dead"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Aftermath"
                         }
                     ]
                 },
                 {
-                    "titulo": "",
-                    "imgAlbum": "",
+                    "titulo": "Sweet Evil Sun",
+                    "imgAlbum": "./assets/images/Bandas y Discos/Doom Metal/Candlemass/Sweet Evil Sun_6074.jpg",
                     "canciones": [
                         {
-                            "nombre": ""
+                            "nombre": "Wizard of the Vortex"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Sweet Evil Sun"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Angel Battle"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Black Butterfly"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "When Death Sighs"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Scandinavian Gods"
                         }
                     ]
                 }
             ]
         },
         {
-            "titulo:": "",
-            "imgLogo": "",
-            "imgBanda": "",
-            "pais": "",
-            "genero": "",
+            "titulo:": "Trouble",
+            "imgLogo": "./assets/images/Bandas y Discos/Doom Metal/Trouble/logo.png",
+            "imgBanda": "./assets/images/Bandas y Discos/Doom Metal/Trouble/image.png",
+            "pais": "USA",
+            "genero": "Doom Metal",
             "integrantes": [
                 {
-                    "nombre": ""
+                    "nombre": "kyle Thomas",
+                    "Ocupacion":"Vocalista"
                 },
                 {
-                    "nombre": ""
+                    "nombre": "Rick Wartell",
+                    "Ocupacion":"Guitarrista"
                 },
                 {
-                    "nombre": ""
+                    "nombre": "Marko Lira",
+                    "Ocupacion":"Baterista"
                 }
             ],
             "albumes": [
                 {
-                    "titulo": "",
-                    "imgAlbum": "",
+                    "titulo": "Manic Frustration",
+                    "imgAlbum": "./assets/images/Bandas y Discos/Doom Metal/Trouble/Manic-Frustration.jpg",
                     "canciones": [
                         {
-                            "nombre": ""
+                            "nombre": "Come Touch the Sky"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "'Scuse Me"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "The Sleeper"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Fear"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Rain"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Tragedy Man"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Plastic Green Head",
+                    "imgAlbum": "./assets/images/Bandas y Discos/Doom Metal/Trouble/Plastic-Green-Head.JPG",
+                    "canciones": [
+                        {
+                            "nombre": "Plastic Green Head"
+                        },
+                        {
+                            "nombre": "The Eye"
+                        },
+                        {
+                            "nombre": "Flowers"
+                        },
+                        {
+                            "nombre": "Opium-Eater"
+                        },
+                        {
+                            "nombre": "Hear the Earth"
+                        },
+                        {
+                            "nombre": "Another Day"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Psalm 9",
+                    "imgAlbum": "./assets/images/Bandas y Discos/Doom Metal/Trouble/Psalm-9.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "The Tempter"
+                        },
+                        {
+                            "nombre": "Assassin"
+                        },
+                        {
+                            "nombre": "Victim of the Insane"
+                        },
+                        {
+                            "nombre": "Revelation (Life or Death)"
+                        },
+                        {
+                            "nombre": "Bastards Will Pay"
+                        },
+                        {
+                            "nombre": "The Fall of Lucifer"
                         }
                     ]
                 },
                 {
                     "titulo": "",
-                    "imgAlbum": "",
+                    "imgAlbum": "./assets/images/Bandas y Discos/Doom Metal/Trouble/Trouble-RuntotheLight.jpg",
                     "canciones": [
                         {
-                            "nombre": ""
+                            "nombre": "The Misery Shows"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Thinking of the Past"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "On Borrowed Time"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Run to the Light"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Peace of Mind"
                         },
                         {
-                            "nombre": ""
-                        }
-                    ]
-                },
-                {
-                    "titulo": "",
-                    "imgAlbum": "",
-                    "canciones": [
-                        {
-                            "nombre": ""
-                        },
-                        {
-                            "nombre": ""
-                        },
-                        {
-                            "nombre": ""
-                        },
-                        {
-                            "nombre": ""
-                        },
-                        {
-                            "nombre": ""
-                        },
-                        {
-                            "nombre": ""
-                        }
-                    ]
-                },
-                {
-                    "titulo": "",
-                    "imgAlbum": "",
-                    "canciones": [
-                        {
-                            "nombre": ""
-                        },
-                        {
-                            "nombre": ""
-                        },
-                        {
-                            "nombre": ""
-                        },
-                        {
-                            "nombre": ""
-                        },
-                        {
-                            "nombre": ""
-                        },
-                        {
-                            "nombre": ""
+                            "nombre": "Born in a Prison"
                         }
                     ]
                 }
