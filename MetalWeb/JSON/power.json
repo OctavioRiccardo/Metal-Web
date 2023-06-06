@@ -1,242 +1,248 @@
 {
     "titulo": "Power Metal",
-    "imagen": "",
-    "descripcion": "",
+    "imagen": "./assets/images/Bandas y Discos/Power Metal/power-metal.jpg",
+    "descripcion": "El power metal es un subgénero del heavy metal que combina elementos del metal tradicional con metal neoclásico. Forma parte de una de las vertientes del speed metal. A diferencia del thrash metal (otra variante del speed metal) el power metal bien definido se concentra en la velocidad, los arreglos melódicos y la técnica instrumental.",
     "bandas": [
         {
-            "titulo:": "",
-            "imgLogo": "",
-            "imgBanda": "",
-            "pais": "",
-            "genero": "",
+            "titulo:": "Blind Guardian",
+            "imgLogo": "./assets/images/Bandas y Discos/Power Metal/Blind Guardian/logo.png",
+            "imgBanda": "./assets/images/Bandas y Discos/Power Metal/Blind Guardian/image.jpg",
+            "pais": "Alemania",
+            "genero": "Melodic Power",
             "integrantes": [
                 {
-                    "nombre": ""
+                    "nombre": "Hansi Kürsch",
+                    "Ocupacion":"Vocalista"
                 },
                 {
-                    "nombre": ""
+                    "nombre": "André Olbrich",
+                    "Ocupacion":"Guitarrista"
                 },
                 {
-                    "nombre": ""
+                    "nombre": "Frederik Ehmke",
+                    "Ocupacion":"Baterista"
                 }
             ],
             "albumes": [
                 {
-                    "titulo": "",
-                    "imgAlbum": "",
+                    "titulo": "Battalions of Fear",
+                    "imgAlbum": "./assets/images/Bandas y Discos/Power Metal/Blind Guardian/Battalions of Fear_7478.jpg",
                     "canciones": [
                         {
-                            "nombre": ""
+                            "nombre": "Majesty"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Guardian of the Blind"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Trial by the Archon"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Wizard's Crown"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Run for the Night"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "The Martyr"
                         }
                     ]
                 },
                 {
-                    "titulo": "",
-                    "imgAlbum": "",
+                    "titulo": "Follow the Blind",
+                    "imgAlbum": "./assets/images/Bandas y Discos/Power Metal/Blind Guardian/Follow the Blind_8414.jpg",
                     "canciones": [
                         {
-                            "nombre": ""
+                            "nombre": "Inquisition"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Banish from Sanctuary"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Damned for All Time"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Follow the Blind"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Hall of the King"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Fast to Madness"
                         }
                     ]
                 },
                 {
-                    "titulo": "",
-                    "imgAlbum": "",
+                    "titulo": "Somewhere Far Beyond",
+                    "imgAlbum": "./assets/images/Bandas y Discos/Power Metal/Blind Guardian/Somewhere Far Beyond_1341.jpg",
                     "canciones": [
                         {
-                            "nombre": ""
+                            "nombre": "Time What Is Time"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Journey through the Dark"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Black Chamber"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Theatre of Pain"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "The Quest for Tanelorn"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Ashes to Ashes"
                         }
                     ]
                 },
                 {
-                    "titulo": "",
-                    "imgAlbum": "",
+                    "titulo": "Nightfall in Middle-Earth",
+                    "imgAlbum": "./assets/images/Bandas y Discos/Power Metal/Blind Guardian/Nightfall in Middle-Earth_2574.jpg",
                     "canciones": [
                         {
-                            "nombre": ""
+                            "nombre": "War of Wrath"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Into the Storm"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Lammoth"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Nightfall"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "The Minstrel"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "The Curse of Feanor"
                         }
                     ]
                 }
             ]
         },
         {
-            "titulo:": "",
-            "imgLogo": "",
-            "imgBanda": "",
-            "pais": "",
-            "genero": "",
+            "titulo:": "Helloween",
+            "imgLogo": "./assets/images/Bandas y Discos/Power Metal/Helloween/logo.png",
+            "imgBanda": "./assets/images/Bandas y Discos/Power Metal/Helloween/image.jpg",
+            "pais": "Alemania",
+            "genero": "Melodic Power",
             "integrantes": [
                 {
-                    "nombre": ""
+                    "nombre": "Andi Deris",
+                    "Ocupacion":"Vocalista"
                 },
                 {
-                    "nombre": ""
+                    "nombre": "Michael Weikath",
+                    "Ocupacion":"Guitarrista"
                 },
                 {
-                    "nombre": ""
+                    "nombre": "Dani Löble",
+                    "Ocupacion":"Baterista"
                 }
             ],
             "albumes": [
                 {
-                    "titulo": "",
-                    "imgAlbum": "",
+                    "titulo": "Walls of Jericho",
+                    "imgAlbum": "./assets/images/Bandas y Discos/Power Metal/Helloween/walls-of-Jericho.jpg",
                     "canciones": [
                         {
-                            "nombre": ""
+                            "nombre": "Walls of Jericho"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Ride the Sky"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Reptile"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Guardians"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Phantoms of Death"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Metal Invaders"
                         }
                     ]
                 },
                 {
-                    "titulo": "",
-                    "imgAlbum": "",
+                    "titulo": "Keeper of the Seven Keys - Part II",
+                    "imgAlbum": "./assets/images/Bandas y Discos/Power Metal/Helloween/keeper-of-the-seven-keys-part-ii-5e80af9c85a94.jpg",
                     "canciones": [
                         {
-                            "nombre": ""
+                            "nombre": "Invitation"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Eagle Fly Free"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "You Always Walk Alone"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Rise and Fall"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Dr. Stein"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "We Got the Right"
                         }
                     ]
                 },
                 {
-                    "titulo": "",
-                    "imgAlbum": "",
+                    "titulo": "Better Than Raw",
+                    "imgAlbum": "./assets/images/Bandas y Discos/Power Metal/Helloween/Better-than-raw.jpg",
                     "canciones": [
                         {
-                            "nombre": ""
+                            "nombre": "Push"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Falling Higher"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Hey Lord !"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Don't Spit on My Mind"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Revelation"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Time"
                         }
                     ]
                 },
                 {
-                    "titulo": "",
-                    "imgAlbum": "",
+                    "titulo": "The Dark Ride",
+                    "imgAlbum": "./assets/images/Bandas y Discos/Power Metal/Helloween/the-dark-ride.jpg",
                     "canciones": [
                         {
-                            "nombre": ""
+                            "nombre": "Beyond the Portal"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Mr. Torture"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "All Over the Nations"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Escalation 666"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Mirror Mirror"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "If I Could Fly"
                         }
                     ]
                 }
             ]
         },
         {
-            "titulo:": "",
+            "titulo:": "Rhapsody",
             "imgLogo": "",
             "imgBanda": "",
             "pais": "",
