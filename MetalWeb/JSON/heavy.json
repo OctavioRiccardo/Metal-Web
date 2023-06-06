@@ -1,467 +1,479 @@
 {
     "titulo": "Heavy Metal",
-    "imagen": "",
-    "descripcion": "",
+    "imagen": "./assets/images/imagen-ejemplo.jpg",
+    "descripcion": "El heavy metal es un género musical que nació a finales de los años sesenta y principios de los setenta tanto en el Reino Unido como en los Estados Unidos, cuyos orígenes provienen del blues rock, hard rock y del rock psicodélico. Se caracteriza principalmente por sus guitarras fuertes y distorsionadas, ritmos enfáticos, los sonidos del bajo y la batería son más densos de lo habitual y la voz es generalmente aguda o gutural.",
     "bandas": [
         {
-            "titulo:": "",
-            "imgLogo": "",
-            "imgBanda": "",
-            "pais": "",
-            "genero": "",
+            "titulo:": "Black Sabbath",
+            "imgLogo": "./assets/images/Bandas y Discos/Heavy Metal/Black Sabbath/logo.png",
+            "imgBanda": "./assets/images/Bandas y Discos/Heavy Metal/Black Sabbath/image.jpg",
+            "pais": "Reino Unido",
+            "genero": "heavy metal",
             "integrantes": [
                 {
-                    "nombre": ""
+                    "nombre": "Ozzy Osbourne",
+                    "Ocupacion":"Vocalista(Dios)"
                 },
                 {
-                    "nombre": ""
+                    "nombre": "Tony Iommi",
+                    "Ocupacion":"Guitarrista(Dios)"
                 },
                 {
-                    "nombre": ""
+                    "nombre": "Tommy Clufetos",
+                    "Ocupacion":"Baterista"
                 }
             ],
             "albumes": [
                 {
-                    "titulo": "",
-                    "imgAlbum": "",
+                    "titulo": "Paranoid",
+                    "imgAlbum": "./assets/images/Bandas y Discos/Heavy Metal/Black Sabbath/Paranoid.jpg",
                     "canciones": [
                         {
-                            "nombre": ""
+                            "nombre": "War Pigs"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Paranoid"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Planet Caravan"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Iron Man"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Electric Funeral"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Hand of Doom"
                         }
                     ]
                 },
                 {
-                    "titulo": "",
-                    "imgAlbum": "",
+                    "titulo": "Master of Reality",
+                    "imgAlbum": "./assets/images/Bandas y Discos/Heavy Metal/Black Sabbath/Master-of-reality.jpg",
                     "canciones": [
                         {
-                            "nombre": ""
+                            "nombre": "Sweet Leaf"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "After Forever"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Embryo"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Children of the Grave"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Orchid"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Lord of This World"
                         }
                     ]
                 },
                 {
-                    "titulo": "",
-                    "imgAlbum": "",
+                    "titulo": "Sabbath, Bloody Sabbath",
+                    "imgAlbum": "./assets/images/Bandas y Discos/Heavy Metal/Black Sabbath/sabbath-bloody-sabbath.jpg",
                     "canciones": [
                         {
-                            "nombre": ""
+                            "nombre": "Sabbath, Bloody Sabbath"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "A National Acrobat"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Fluff"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Sabbra Cadabra"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Killing Yourself to Live"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Who Are You?"
                         }
                     ]
                 },
                 {
-                    "titulo": "",
-                    "imgAlbum": "",
+                    "titulo": "Mob Rules",
+                    "imgAlbum": "./assets/images/Bandas y Discos/Heavy Metal/Black Sabbath/mob-rules.jpg",
                     "canciones": [
                         {
-                            "nombre": ""
+                            "nombre": "Turn Up the Night"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Voodoo"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "The Sign of the Southern Cross"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "E5150"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "The Mob Rules"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Country Girl"
                         }
                     ]
                 }
             ]
         },
         {
-            "titulo:": "",
-            "imgLogo": "",
-            "imgBanda": "",
-            "pais": "",
-            "genero": "",
+            "titulo:": "Running Wild",
+            "imgLogo": "./assets/images/Bandas y Discos/Heavy Metal/running wild/logo.png",
+            "imgBanda": "./assets/images/Bandas y Discos/Heavy Metal/running wild/image.jpeg",
+            "pais": "Alemania",
+            "genero": "Heavy Metal",
             "integrantes": [
                 {
-                    "nombre": ""
+                    "nombre": "Rolf Kasparek",
+                    "Ocupacion":"Vocalista"
                 },
                 {
-                    "nombre": ""
+                    "nombre": "Peter Jordan",
+                    "Ocupacion":"Guitarrista"
                 },
                 {
-                    "nombre": ""
+                    "nombre": "Michael Wolpers",
+                    "Ocupacion":"Baterista"
                 }
             ],
             "albumes": [
                 {
-                    "titulo": "",
-                    "imgAlbum": "",
+                    "titulo": "Under Jolly Roger",
+                    "imgAlbum": "./assets/images/Bandas y Discos/Heavy Metal/running wild/UNDER-JOLLY-ROGER.jpg",
                     "canciones": [
                         {
-                            "nombre": ""
+                            "nombre": "Under Jolly Roger"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Beggar's Night"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Diamonds of the Black Chest"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "War in the Gutter"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Raise Your Fist"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Land of Ice"
                         }
                     ]
                 },
                 {
-                    "titulo": "",
-                    "imgAlbum": "",
+                    "titulo": "Pile of Skulls",
+                    "imgAlbum": "./assets/images/Bandas y Discos/Heavy Metal/running wild/pile-of-skulls.jpg",
                     "canciones": [
                         {
-                            "nombre": ""
+                            "nombre": "Chamber of Lies"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Whirlwind"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Sinister Eyes"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Black Wings of Death"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Fistful of Dynamite"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Roaring Thunder"
                         }
                     ]
                 },
                 {
-                    "titulo": "",
-                    "imgAlbum": "",
+                    "titulo": "Black Hand Inn",
+                    "imgAlbum": "./assets/images/Bandas y Discos/Heavy Metal/running wild/black-hand-inn.jpg",
                     "canciones": [
                         {
-                            "nombre": ""
+                            "nombre": "The Curse"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Black Hand Inn"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Mr. Deadhead"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Soulless"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "The Privateer"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Fight the Fire of Hate"
                         }
                     ]
                 },
                 {
-                    "titulo": "",
-                    "imgAlbum": "",
+                    "titulo": "The Rivalry",
+                    "imgAlbum": "./assets/images/Bandas y Discos/Heavy Metal/running wild/the-rivalry.jpg",
                     "canciones": [
                         {
-                            "nombre": ""
+                            "nombre": "March of the Final Battle"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "The Rivalry"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Kiss of Death"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Firebreather"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Return of the Dragon"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Resurrection"
                         }
                     ]
                 }
             ]
         },
         {
-            "titulo:": "",
-            "imgLogo": "",
-            "imgBanda": "",
-            "pais": "",
-            "genero": "",
+            "titulo:": "Manowar",
+            "imgLogo": "./assets/images/Bandas y Discos/Heavy Metal/Manowar/logo.png",
+            "imgBanda": "./assets/images/Bandas y Discos/Heavy Metal/Manowar/image.png",
+            "pais": "USA",
+            "genero": "Heavy Metal",
             "integrantes": [
                 {
-                    "nombre": ""
+                    "nombre": "Eric Adams",
+                    "Ocupacion":"Vocalista"
                 },
                 {
-                    "nombre": ""
+                    "nombre": "E.V. Martel",
+                    "Ocupacion":"Guitarrista"
                 },
                 {
-                    "nombre": ""
+                    "nombre": "Anders Johansson",
+                    "Ocupacion":"Baterista"
                 }
             ],
             "albumes": [
                 {
-                    "titulo": "",
-                    "imgAlbum": "",
+                    "titulo": "Fighting the World",
+                    "imgAlbum": "./assets/images/Bandas y Discos/Heavy Metal/Manowar/Fighting-the-World.jpg",
                     "canciones": [
                         {
-                            "nombre": ""
+                            "nombre": "Fighting the World"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Blow Your Speakers"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Carry on"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Violence and Bloodshed"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Defender"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Drums of Doom"
                         }
                     ]
                 },
                 {
-                    "titulo": "",
-                    "imgAlbum": "",
+                    "titulo": "Kings of Metal",
+                    "imgAlbum": "./assets/images/Bandas y Discos/Heavy Metal/Manowar/kings-of-metal.jpg",
                     "canciones": [
                         {
-                            "nombre": ""
+                            "nombre": "Wheels of Fire"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Kings of Metal"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Heart of Steel"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Sting of the Bumblebee"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "The Crown and the Ring"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Kingdom Come"
                         }
                     ]
                 },
                 {
-                    "titulo": "",
-                    "imgAlbum": "",
+                    "titulo": "Warriors of the World",
+                    "imgAlbum": "./assets/images/Bandas y Discos/Heavy Metal/Manowar/Warriors-of-the-World.jpg",
                     "canciones": [
                         {
-                            "nombre": ""
+                            "nombre": "Call to Arms"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "The Fight for Freedom"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Nessun Dorma"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Valhalla"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Swords in the Wind"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "An American Trilogy"
                         }
                     ]
                 },
                 {
-                    "titulo": "",
-                    "imgAlbum": "",
+                    "titulo": "The Lord of Steel",
+                    "imgAlbum": "./assets/images/Bandas y Discos/Heavy Metal/Manowar/Warriors-of-the-World.jpg",
                     "canciones": [
                         {
-                            "nombre": ""
+                            "nombre": "The Lord of Steel"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Manowarriors"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Born in a Grave"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Righteous Glory"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Touch the Sky"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Black List"
                         }
                     ]
                 }
             ]
         },
         {
-            "titulo:": "",
-            "imgLogo": "",
-            "imgBanda": "",
-            "pais": "",
-            "genero": "",
+            "titulo:": "Pantera",
+            "imgLogo": "./assets/images/Bandas y Discos/Heavy Metal/Pantera/logo.png",
+            "imgBanda": "./assets/images/Bandas y Discos/Heavy Metal/Pantera/image.jpg",
+            "pais": "USA",
+            "genero": "Heavy Metal",
             "integrantes": [
                 {
-                    "nombre": ""
+                    "nombre": "Philip Hansen Anselmo",
+                    "Ocupacion":"Vocalista"
                 },
                 {
-                    "nombre": ""
+                    "nombre": "Zakk Wylde",
+                    "Ocupacion":"Guitarrista"
                 },
                 {
-                    "nombre": ""
+                    "nombre": "Charlie Benante",
+                    "Ocupacion":"Baterista"
                 }
             ],
             "albumes": [
                 {
-                    "titulo": "",
-                    "imgAlbum": "",
+                    "titulo": "Cowboys from Hell",
+                    "imgAlbum": "./assets/images/Bandas y Discos/Heavy Metal/Pantera/cowboys-from-hell.jpg",
                     "canciones": [
                         {
-                            "nombre": ""
+                            "nombre": "Cowboys from Hell"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Primal Concrete Sledge"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Psycho Holiday"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Heresy"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Cemetery Gates"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Domination"
                         }
                     ]
                 },
                 {
-                    "titulo": "",
-                    "imgAlbum": "",
+                    "titulo": "Vulgar Display of Power",
+                    "imgAlbum": "./assets/images/Bandas y Discos/Heavy Metal/Pantera/vulgar-display-of-power.jpg",
                     "canciones": [
                         {
-                            "nombre": ""
+                            "nombre": "Mouth for War"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "A New Level"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Walk"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Fucking Hostile"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "This Love"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Rise"
                         }
                     ]
                 },
                 {
-                    "titulo": "",
-                    "imgAlbum": "",
+                    "titulo": "Far Beyond Driven",
+                    "imgAlbum": "./assets/images/Bandas y Discos/Heavy Metal/Pantera/Far_beyond_drivern.jpg",
                     "canciones": [
                         {
-                            "nombre": ""
+                            "nombre": "Strength Beyond Strength"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Becoming"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "5 Minutes Alone"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "I'm Broken"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Good Friends and a Bottle of Pills"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Hard Lines, Sunken Cheeks"
                         }
                     ]
                 },
                 {
-                    "titulo": "",
-                    "imgAlbum": "",
+                    "titulo": "The Great Southern Trendkill",
+                    "imgAlbum": "./assets/images/Bandas y Discos/Heavy Metal/Pantera/The-Great-Southern-Trendkill.jpg",
                     "canciones": [
                         {
-                            "nombre": ""
+                            "nombre": "The Great Southern Trendkill"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "War Nerve"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Drag the Waters"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "10's"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "13 Steps to Nowhere"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Suicide Note"
                         }
                     ]
                 }

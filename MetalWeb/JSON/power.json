@@ -243,231 +243,237 @@
         },
         {
             "titulo:": "Rhapsody",
-            "imgLogo": "",
-            "imgBanda": "",
-            "pais": "",
-            "genero": "",
+            "imgLogo": "./assets/images/Bandas y Discos/Power Metal/Rhapsody/logo.png",
+            "imgBanda": "./assets/images/Bandas y Discos/Power Metal/Rhapsody/image.png",
+            "pais": "Italia",
+            "genero": "Symphonic power",
             "integrantes": [
                 {
-                    "nombre": ""
+                    "nombre": "Fabio Lione",
+                    "Ocupacion":"Vocalista"
                 },
                 {
-                    "nombre": ""
+                    "nombre": "Luca Turilli",
+                    "Ocupacion":"Guitarrista"
                 },
                 {
-                    "nombre": ""
+                    "nombre": "Alex Holzwarth",
+                    "Ocupacion":"Baterista"
                 }
             ],
             "albumes": [
                 {
-                    "titulo": "",
-                    "imgAlbum": "",
+                    "titulo": "Legendary Tales",
+                    "imgAlbum": "./assets/images/Bandas y Discos/Power Metal/Rhapsody/legendary-tales.jpg",
                     "canciones": [
                         {
-                            "nombre": ""
+                            "nombre": "Ira Tenax"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Warrior of Ice"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Rage of the Winter"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Forest of Unicorns"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Flames of Revenge"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Virgin Skies"
                         }
                     ]
                 },
                 {
-                    "titulo": "",
-                    "imgAlbum": "",
+                    "titulo": "Symphony of Enchanted Lands",
+                    "imgAlbum": "./assets/images/Bandas y Discos/Power Metal/Rhapsody/soel.jpg",
                     "canciones": [
                         {
-                            "nombre": ""
+                            "nombre": "Epicus Furor"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Emerald Sword"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Wisdom of the Kings"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Heroes of the Lost Valley"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Eternal Glory"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Beyond the Gates of Infinity"
                         }
                     ]
                 },
                 {
-                    "titulo": "",
-                    "imgAlbum": "",
+                    "titulo": "Dawn of Victory",
+                    "imgAlbum": "./assets/images/Bandas y Discos/Power Metal/Rhapsody/Rhapsody-Dawn-of-Victory.jpg",
                     "canciones": [
                         {
-                            "nombre": ""
+                            "nombre": "Lux Triumphans"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Dawn of Victory"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Triumph for My Magic Steel"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "The Village of Dwarves"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Dargor, Shadowlord of the Black Mountain"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "The Bloody Rage of the Titans"
                         }
                     ]
                 },
                 {
-                    "titulo": "",
-                    "imgAlbum": "",
+                    "titulo": "Symphony of Enchanted Lands II",
+                    "imgAlbum": "./assets/images/Bandas y Discos/Power Metal/Rhapsody/Symphony-of-Enchanted-Lands-2.jpg",
                     "canciones": [
                         {
-                            "nombre": ""
+                            "nombre": "The Dark Secret / Ira Divina"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Unholy Warcry"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Never Forgotten Heroes"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Elgard's Green Valleys"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "The Magic of the Wizard's Dream"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Erian's Mystical Rhymes"
                         }
                     ]
                 }
             ]
         },
         {
-            "titulo:": "",
-            "imgLogo": "",
-            "imgBanda": "",
-            "pais": "",
-            "genero": "",
+            "titulo:": "Sonata Arctica",
+            "imgLogo": "./assets/images/Bandas y Discos/Power Metal/Sonata Arctica/logo.png",
+            "imgBanda": "./assets/images/Bandas y Discos/Power Metal/Sonata Arctica/image.jpg",
+            "pais": "Finlandia",
+            "genero": "Melodic Power",
             "integrantes": [
                 {
-                    "nombre": ""
+                    "nombre": "Tony Kakko",
+                    "Ocupacion":"Vocalista"
                 },
                 {
-                    "nombre": ""
+                    "nombre": "Elias Viljanen",
+                    "Ocupacion":"Guitarrista"
                 },
                 {
-                    "nombre": ""
+                    "nombre": "Tommy Portimo",
+                    "Ocupacion":"Baterista"
                 }
             ],
             "albumes": [
                 {
-                    "titulo": "",
-                    "imgAlbum": "",
+                    "titulo": "Ecliptica",
+                    "imgAlbum": "./assets/images/Bandas y Discos/Power Metal/Sonata Arctica/Ecliptica.jpg",
                     "canciones": [
                         {
-                            "nombre": ""
+                            "nombre": "Blank File"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "My Land"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "8th Commandment"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Replica"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Kingdom for a Heart"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "FullMoon"
                         }
                     ]
                 },
                 {
-                    "titulo": "",
-                    "imgAlbum": "",
+                    "titulo": "Silence",
+                    "imgAlbum": "./assets/images/Bandas y Discos/Power Metal/Sonata Arctica/Silence.jpg",
                     "canciones": [
                         {
-                            "nombre": ""
+                            "nombre": "… of Silence"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Weballergy"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "False News Travel Fast"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "The End of this Chapter"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Black Sheep"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Land of the Free"
                         }
                     ]
                 },
                 {
-                    "titulo": "",
-                    "imgAlbum": "",
+                    "titulo": "Unia",
+                    "imgAlbum": "./assets/images/Bandas y Discos/Power Metal/Sonata Arctica/Unia.jpg",
                     "canciones": [
                         {
-                            "nombre": ""
+                            "nombre": "In Black and White"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Paid in Full"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "For the Sake of Revenge"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "It Won't Fade"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Under Your Tree"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Caleb"
                         }
                     ]
                 },
                 {
-                    "titulo": "",
-                    "imgAlbum": "",
+                    "titulo": "Pariah's Child",
+                    "imgAlbum": "./assets/images/Bandas y Discos/Power Metal/Sonata Arctica/Pariah's-Child.jpg",
                     "canciones": [
                         {
-                            "nombre": ""
+                            "nombre": "The Wolves Die Young"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Running Lights"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Take One Breath"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Cloud Factory"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Blood"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "What Did You Do in the War, Dad?"
                         }
                     ]
                 }
