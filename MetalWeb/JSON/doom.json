@@ -361,116 +361,119 @@
             ]
         },
         {
-            "titulo:": "",
-            "imgLogo": "",
-            "imgBanda": "",
-            "pais": "",
-            "genero": "",
+            "titulo:": "Saint Vitus",
+            "imgLogo": "./assets/images/Bandas y Discos/Doom Metal/Saint Vitus/logo.png",
+            "imgBanda": "./assets/images/Bandas y Discos/Doom Metal/Saint Vitus/image.jpg",
+            "pais": "USA",
+            "genero": "Doom Metal",
             "integrantes": [
                 {
-                    "nombre": ""
+                    "nombre": "Scott Weinrich",
+                    "Ocupacion":"Vocalista"
                 },
                 {
-                    "nombre": ""
+                    "nombre": "Dave Chandler",
+                    "Ocupacion":"Guitarrista"
                 },
                 {
-                    "nombre": ""
+                    "nombre": "Henry Vasquez",
+                    "Ocupacion":"Baterista"
                 }
             ],
             "albumes": [
                 {
-                    "titulo": "",
-                    "imgAlbum": "",
+                    "titulo": "C.O.D.",
+                    "imgAlbum": "./assets/images/Bandas y Discos/Doom Metal/Saint Vitus/C.O.D._4992.jpg",
                     "canciones": [
                         {
-                            "nombre": ""
+                            "nombre": "Intro"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Children of Doom"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Planet of Judgement"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Shadow of a Skeleton"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "(I Am) the Screaming Banshee"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Plague of Man"
                         }
                     ]
                 },
                 {
-                    "titulo": "",
-                    "imgAlbum": "",
+                    "titulo": "V",
+                    "imgAlbum": "./assets/images/Bandas y Discos/Doom Metal/Saint Vitus/V_5021.jpg",
                     "canciones": [
                         {
-                            "nombre": ""
+                            "nombre": "Living Backwards"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "I Bleed Black"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "When Emotion Dies"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Patra (Petra)"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Ice Monkey"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Jack Frost"
                         }
                     ]
                 },
                 {
-                    "titulo": "",
-                    "imgAlbum": "",
+                    "titulo": "Born Too Late",
+                    "imgAlbum": "./assets/images/Bandas y Discos/Doom Metal/Saint Vitus/Born Too Late_9806.jpg",
                     "canciones": [
                         {
-                            "nombre": ""
+                            "nombre": "Born Too Late"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Clear Windowpane"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Dying Inside"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "H.A.A.G."
                         },
                         {
-                            "nombre": ""
+                            "nombre": "The Lost Feeling"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "The War Starter"
                         }
                     ]
                 },
                 {
-                    "titulo": "",
-                    "imgAlbum": "",
+                    "titulo": "Mournful Cries",
+                    "imgAlbum": "./assets/images/Bandas y Discos/Doom Metal/Saint Vitus/Mournful Cries_2790.jpg",
                     "canciones": [
                         {
-                            "nombre": ""
+                            "nombre": "The Creeps"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Dragon Time"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Shooting Gallery"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Bitter Truth"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "The Troll"
                         },
                         {
-                            "nombre": ""
+                            "nombre": "Looking Glass"
                         }
                     ]
                 }
