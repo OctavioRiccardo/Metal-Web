@@ -478,6 +478,125 @@
                     ]
                 }
             ]
+        },
+        {
+            "titulo:": "Masayoshi Takanaka",
+            "imgLogo": "./assets/images/Bandas y Discos/Power Metal/Masayoshi Takanaka/logo.jpg",
+            "imgBanda": "./assets/images/Bandas y Discos/Power Metal/Masayoshi Takanaka/image.jpg",
+            "pais": "Japón",
+            "genero": "Takanaka Power",
+            "integrantes": [
+                {
+                    "nombre": "Masayoshi Takanaka",
+                    "Ocupacion":"Vocalista"
+                },
+                {
+                    "nombre": "Masayoshi Takanaka",
+                    "Ocupacion":"Guitarrista"
+                },
+                {
+                    "nombre": "Badum Ts",
+                    "Ocupacion":"Baterista"
+                }
+            ],
+            "albumes": [
+                {
+                    "titulo": "Takanaka",
+                    "imgAlbum": "./assets/images/Bandas y Discos/Power Metal/Masayoshi Takanaka/Takanaka.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "Summer Breeze"
+                        },
+                        {
+                            "nombre": "Mambo No.5 (Disco Dango)"
+                        },
+                        {
+                            "nombre": "Sweet Agnes"
+                        },
+                        {
+                            "nombre": "Mambo Magic"
+                        },
+                        {
+                            "nombre": "I Remember You"
+                        },
+                        {
+                            "nombre": "Gascon Cocktail"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "The Rainbow Goblins",
+                    "imgAlbum": "./assets/images/Bandas y Discos/Power Metal/Masayoshi Takanaka/the-rainbow-goblins.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "Prologue"
+                        },
+                        {
+                            "nombre": "Once Upon a Song"
+                        },
+                        {
+                            "nombre": "Seven Goblins"
+                        },
+                        {
+                            "nombre": "The Sunset Valley"
+                        },
+                        {
+                            "nombre": "The Moon Rose"
+                        },
+                        {
+                            "nombre": "Soon"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Brasilian Skies",
+                    "imgAlbum": "./assets/images/Bandas y Discos/Power Metal/Masayoshi Takanaka/Brasilian-Skies.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "Beleze Pula"
+                        },
+                        {
+                            "nombre": "Brasilian Skies"
+                        },
+                        {
+                            "nombre": "Nights"
+                        },
+                        {
+                            "nombre": "I Remember Clifford"
+                        },
+                        {
+                            "nombre": "Star Wars Samba"
+                        },
+                        {
+                            "nombre": "Disco B"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "All Of Me",
+                    "imgAlbum": "assets/images/Bandas y Discos/Power Metal/Masayoshi Takanaka/all-of-me.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "Oh! Tengo Suerte"
+                        },
+                        {
+                            "nombre": "Tokyo Reggy"
+                        },
+                        {
+                            "nombre": "Sweet Agnes"
+                        },
+                        {
+                            "nombre": "Akogareno Seychelles Shoto"
+                        },
+                        {
+                            "nombre": "I Remember You"
+                        },
+                        {
+                            "nombre": "Izu Amantsu Nato Uri"
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }
