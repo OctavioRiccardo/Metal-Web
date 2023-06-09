@@ -28,5 +28,10 @@ function cargarCardsJson(){
 function mostrarCards(ObjetoJson){
     const contenedorBandas = document.getElementById("contenedorBandas");
     let numeroDeCartasCargadas = 0;
-    
+    const titulo = document.createElement("h1");
+    titulo.innerHTML = `${ObjetoJson.titulo}`;
+    contenedorBandas.appendChild(titulo);
+    const row = document.createElement("div");
+    row.classList.add("row", "m-3");
+
 }
