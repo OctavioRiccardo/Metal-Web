@@ -125,7 +125,7 @@
         {
             "titulo:": "Running Wild",
             "imgLogo": "./assets/images/Bandas y Discos/Heavy Metal/running wild/logo.png",
-            "imgBanda": "./assets/images/Bandas y Discos/Heavy Metal/running wild/image.jpeg",
+            "imgBanda": "./assets/images/Bandas y Discos/Heavy Metal/running wild/image.jpg",
             "pais": "Alemania",
             "genero": "Heavy Metal",
             "integrantes": [
@@ -244,7 +244,7 @@
         {
             "titulo:": "Manowar",
             "imgLogo": "./assets/images/Bandas y Discos/Heavy Metal/Manowar/logo.png",
-            "imgBanda": "./assets/images/Bandas y Discos/Heavy Metal/Manowar/image.png",
+            "imgBanda": "./assets/images/Bandas y Discos/Heavy Metal/Manowar/image.jpg",
             "pais": "USA",
             "genero": "Heavy Metal",
             "integrantes": [
