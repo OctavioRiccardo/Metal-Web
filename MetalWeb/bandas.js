@@ -28,4 +28,5 @@ function cargarCardsJson(){
 function mostrarCards(ObjetoJson){
     const contenedorBandas = document.getElementById("contenedorBandas");
     let numeroDeCartasCargadas = 0;
+    
 }
