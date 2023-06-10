@@ -9,6 +9,8 @@
             "imgBanda": "./assets/images/Bandas y Discos/Power Metal/Blind Guardian/image.jpg",
             "pais": "Alemania",
             "genero": "Melodic Power",
+            "estado":"Activo",
+            "año":"1986",
             "integrantes": [
                 {
                     "nombre": "Hansi Kürsch",
@@ -128,6 +130,8 @@
             "imgBanda": "./assets/images/Bandas y Discos/Power Metal/Helloween/image.jpg",
             "pais": "Alemania",
             "genero": "Melodic Power",
+            "estado":"Activo",
+            "año":"1983",
             "integrantes": [
                 {
                     "nombre": "Andi Deris",
@@ -247,6 +251,8 @@
             "imgBanda": "./assets/images/Bandas y Discos/Power Metal/Rhapsody/image.png",
             "pais": "Italia",
             "genero": "Symphonic power",
+            "estado":"Cambiaron el nombre",
+            "año":"1995-2006",
             "integrantes": [
                 {
                     "nombre": "Fabio Lione",
@@ -366,6 +372,8 @@
             "imgBanda": "./assets/images/Bandas y Discos/Power Metal/Sonata Arctica/image.jpg",
             "pais": "Finlandia",
             "genero": "Melodic Power",
+            "estado":"Activo",
+            "año":"1996",
             "integrantes": [
                 {
                     "nombre": "Tony Kakko",
@@ -485,6 +493,8 @@
             "imgBanda": "./assets/images/Bandas y Discos/Power Metal/Masayoshi Takanaka/image.jpg",
             "pais": "Japón",
             "genero": "Takanaka Power",
+            "estado":"Activo",
+            "año":"1971",
             "integrantes": [
                 {
                     "nombre": "Masayoshi Takanaka",

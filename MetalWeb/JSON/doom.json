@@ -9,6 +9,8 @@
             "imgBanda": "./assets/images/Bandas y Discos/Doom Metal/Cathedral/img.jpg",
             "pais": "Reino Unido",
             "genero": "Doom Metal",
+            "estado":"Inactivo",
+            "año":"1989-2013",
             "integrantes": [
                 {
                     "nombre": "Lee Dorrian",
@@ -128,6 +130,8 @@
             "imgBanda": "./assets/images/Bandas y Discos/Doom Metal/Candlemass/image.jpg",
             "pais": "Suecia",
             "genero": "Doom Metal",
+            "estado":"Activo",
+            "año":"1980",
             "integrantes": [
                 {
                     "nombre": "Johan Längquist",
@@ -247,6 +251,8 @@
             "imgBanda": "./assets/images/Bandas y Discos/Doom Metal/Trouble/image.jpg",
             "pais": "USA",
             "genero": "Doom Metal",
+            "estado":"Activo",
+            "año":"1979",
             "integrantes": [
                 {
                     "nombre": "kyle Thomas",
@@ -366,6 +372,8 @@
             "imgBanda": "./assets/images/Bandas y Discos/Doom Metal/Saint Vitus/image.jpg",
             "pais": "USA",
             "genero": "Doom Metal",
+            "estado":"Activo",
+            "año":"1979",
             "integrantes": [
                 {
                     "nombre": "Scott Weinrich",

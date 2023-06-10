@@ -9,6 +9,8 @@
             "imgBanda": "./assets/images/Bandas y Discos/Heavy Metal/Black Sabbath/image.jpg",
             "pais": "Reino Unido",
             "genero": "heavy metal",
+            "estado":"Inactivo",
+            "año":"1968-2017",
             "integrantes": [
                 {
                     "nombre": "Ozzy Osbourne",
@@ -128,6 +130,8 @@
             "imgBanda": "./assets/images/Bandas y Discos/Heavy Metal/running wild/image.jpg",
             "pais": "Alemania",
             "genero": "Heavy Metal",
+            "estado":"Activo",
+            "año":"1976",
             "integrantes": [
                 {
                     "nombre": "Rolf Kasparek",
@@ -247,6 +251,8 @@
             "imgBanda": "./assets/images/Bandas y Discos/Heavy Metal/Manowar/image.jpg",
             "pais": "USA",
             "genero": "Heavy Metal",
+            "estado":"Activo",
+            "año":"1980",
             "integrantes": [
                 {
                     "nombre": "Eric Adams",
@@ -366,6 +372,8 @@
             "imgBanda": "./assets/images/Bandas y Discos/Heavy Metal/Pantera/image.jpg",
             "pais": "USA",
             "genero": "Heavy Metal",
+            "estado":"Activo",
+            "año":"1981",
             "integrantes": [
                 {
                     "nombre": "Philip Hansen Anselmo",

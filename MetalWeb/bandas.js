@@ -29,7 +29,14 @@ function mostrarCards(ObjetoJson){
     const contenedorBandas = document.getElementById("contenedorBandas");
     const titulo = document.createElement("h1");
     titulo.innerHTML = `${ObjetoJson.titulo}`;
+    const descripcion = document.createElement("p");
+    descripcion.innerHTML = `${ObjetoJson.descripcion}`;
+    descripcion.classList.add("descripcionGenero");
+    const tituloBandas = document.createElement("h1");
+    tituloBandas.innerHTML = "Bandas";
     contenedorBandas.appendChild(titulo);
+    contenedorBandas.appendChild(descripcion);
+    contenedorBandas.appendChild(tituloBandas);
     const row = document.createElement("div");
     row.classList.add("row", "m-3");
     for (let i = 0; i < ObjetoJson.bandas.length; i++) {
@@ -37,7 +44,7 @@ function mostrarCards(ObjetoJson){
         columna.classList.add("col-md-4", "mt-3");
         const cardBanda = document.createElement("a");
         console.log(ObjetoJson.bandas[i].titulo);
-        cardBanda.setAttribute("href", `./banda?nombre=${ObjetoJson.bandas[i].titulo}`);
+        cardBanda.setAttribute("href", `./Grupo.html?nombre=${ObjetoJson.bandas[i].titulo}`);
         const cardimage = document.createElement("div");
         cardimage.classList.add("card", "card-bandas");
         const imagenBanda = document.createElement("img");

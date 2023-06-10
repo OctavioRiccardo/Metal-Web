@@ -29,8 +29,11 @@ h1{
     src: url(./assets/fonts/MetalMania-Regular.ttf);
 }
 .background-gradient{
-    background: rgb(40,28,55);
-    background: linear-gradient(90deg, rgba(40,28,55,1) 10%, rgba(120,21,113,1) 53%, rgba(16,1,37,1) 88%);
+    /* background: rgb(40,28,55);
+    background: linear-gradient(90deg, #281c37 10%, #781571 53%, #100125 88%); */
+
+    background: rgb(11,11,11);
+    background: linear-gradient(90deg, rgba(11,11,11,1) 5%, rgba(62,16,80,1) 50%, rgba(11,11,11,1) 95%);     
 }
 /*-----------------------------------------------------------------*/
 
@@ -408,9 +411,135 @@ h1{
     text-align: center;
     font-size: 20px;
     font-weight: bold;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .seccion-generos-bandas a{
     text-decoration: none;
 }
 
+/*----------------------Pagina Bandas------------------------------*/
+
+.descripcionGenero{
+    color: #f0f8ff;
+    font-size: 22px;
+    text-align: justify;
+}
+
+
+/*----------------------Pagina Grupo------------------------------*/
+
+
+.containerDescripcionBanda{
+    margin-top: 50px;
+    padding-left: 13%;
+    padding-right: 13%;
+}
+
+
+.columnaDescripcionBanda h1{
+    font-size: 43px;
+    color: white;
+    text-align: center;
+} 
+.containerDescripcionBanda > h2{
+    margin-top: 70px;
+    color: white;
+    font-family: MetalMania-Regular;
+    font-size: 35px;
+}
+
+.columnaDescripcionBanda img{
+    display:block;
+    margin: 0 auto;
+    margin-top: 60px;
+    width: 300px;
+}
+.Fila2Banda{
+    margin-top: 50px;
+}
+@media only screen and (min-width:768px){
+    .columnaImagenBanda{
+        width: 45%;
+        max-width: 370px;
+    }
+    .Fila2Banda .col-md-7{
+        width: 55%;
+    }
+}
+
+.columnaImagenBanda img{
+    width: 100%;
+}
+
+.caracteristica {
+    color: white;
+    font-size: 22px;
+}
+
+.Fila3Banda{
+    margin-top: 50px;
+}
+
+@media only screen and (min-width:768px){
+     .Fila3Banda .columnaIntegrantes{
+        width: 400px;
+    } 
+}
+
+.Fila3Banda .filaIntegrante{
+    background-color: #000000;
+    margin: 6px 0px;
+}
+
+.Fila3Banda p{
+    font-weight: bold;
+    color: rgb(126, 80, 253);
+    font-size: 20px;
+    margin: 12px 0px;
+
+}
+
+.Fila3Banda i{
+    color: white;
+}
+
+.Fila3Banda p span{
+    margin-left: 5px;
+    font-weight: normal;
+    color: white;
+}
+
+
+.filaAlbum{
+    background-color: #2c2c2c;
+    border: 4px black solid;
+    border-radius: 5px;
+    padding: 7px;
+    color: white;
+    margin: 7px;
+}
+
+.filaAlbum .columnaImagenAlbum img{
+    width: 100%;
+    max-width: 140px;
+    border: 1px white solid;
+    border-radius: 4px;
+}
+
+.filaAlbum .columnaTextoAlbum{
+    margin-top: 4px;
+}
+
+
+@media only screen and (min-width:700px){
+    .filaAlbum .columnaImagenAlbum{
+        width: auto;
+    }
+    .filaAlbum .columnaTextoAlbum{
+        width: auto;
+
+    }
+}
