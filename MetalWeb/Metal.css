@@ -1,9 +1,9 @@
-
 /*--------------------------Estilo General------------------------*/
 @font-face {
     font-family: Roboto-Regular;
     src: url(./assets/fonts/Roboto-Regular.ttf);
 }
+
 @font-face {
     font-family: MetalMania-Regular;
     src: url(./assets/fonts/MetalMania-Regular.ttf);
@@ -12,39 +12,44 @@
 @font-face {
     font-family: Roboto-Condensed-Regular;
     src: url(./assets/fonts/RobotoCondensed-Regular.ttf
-    );
+);
 }
+
 @font-face {
-    font-family:PT-Sans-Narrow-Regular;
+    font-family: PT-Sans-Narrow-Regular;
     src: url(./assets/fonts/PTSansNarrow-Regular.ttf);
 }
 
-body{
-    font-family:PT-Sans-Narrow-Regular;
+body {
+    font-family: PT-Sans-Narrow-Regular;
     background-color: rgba(44, 44, 44, 255);
-    
+
 }
-h1{
+
+h1 {
     font-family: MetalMania-Regular;
     src: url(./assets/fonts/MetalMania-Regular.ttf);
 }
-.background-gradient{
+
+.background-gradient {
     /* background: rgb(40,28,55);
     background: linear-gradient(90deg, #281c37 10%, #781571 53%, #100125 88%); */
 
-    background: rgb(11,11,11);
-    background: linear-gradient(90deg, rgba(11,11,11,1) 5%, rgba(62,16,80,1) 50%, rgba(11,11,11,1) 95%);     
+    background: rgb(11, 11, 11);
+    background: linear-gradient(90deg, rgba(11, 11, 11, 1) 5%, rgba(62, 16, 80, 1) 50%, rgba(11, 11, 11, 1) 95%);
 }
+
 /*-----------------------------------------------------------------*/
 
 
 /*-------------Estilo NavBar------------------*/
 
-#imagenLogoBlanco{
+#imagenLogoBlanco {
     position: relative;
     z-index: 0;
 }
-#imagenLogoVioleta{
+
+#imagenLogoVioleta {
     position: absolute;
     scale: 1.04;
     filter: blur(3px);
@@ -53,31 +58,37 @@ h1{
     transition: opacity .4s linear;
 }
 
-.navbar-brand:hover #imagenLogoVioleta{
+.navbar-brand:hover #imagenLogoVioleta {
     opacity: .7;
 }
-.metal-navbar{
+
+.metal-navbar {
     display: flex;
     justify-content: center;
 }
-#nav-button{
+
+#nav-button {
     color: #f0f8ff;
 }
-.metal-navbar a{
+
+.metal-navbar a {
     margin-left: 2rem;
     margin-right: 2rem;
-    font-size:1.5rem;
+    font-size: 1.5rem;
     text-decoration: none !important;
     color: #f0f8ff;
     font-family: MetalMania-Regular;
 }
+
 .background-gradient .navbar-toggler {
     color: rgba(255, 255, 255, 0.992);
     border-color: rgba(255, 255, 255, 0.968);
 }
+
 .background-gradient .navbar-toggler-icon {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
+
 .navbar-toggler-icon {
     display: inline-block;
     width: 1.5em;
@@ -87,76 +98,86 @@ h1{
     background-position: center;
     background-size: 100%;
 }
+
 /*------------------------------------------------*/
 
 
 /* ----------Contenedor Carrusel---------------*/
-#contenedorCarrusel{
+#contenedorCarrusel {
     margin-top: 30px;
     padding: 0px;
     width: 100%;
 }
+
 /*------------------------------------------------*/
 
 /* --------------Estilo Carrusel----------------- */
-#contenedorCarrusel .carousel-item{
+#contenedorCarrusel .carousel-item {
     position: relative;
 }
-#contenedorCarrusel .carousel-item img{
+
+#contenedorCarrusel .carousel-item img {
     height: 70vh;
     width: 100%;
     overflow: hidden;
 }
-#contenedorCarrusel .carousel-item .carruselTexto{
+
+#contenedorCarrusel .carousel-item .carruselTexto {
     height: 130px;
     width: 100%;
     padding: 10px;
     position: absolute;
     bottom: 0;
     left: 0;
-    background:rgba(0, 0, 0, .7);
+    background: rgba(0, 0, 0, .7);
     color: white;
 }
 
-.carruselTexto h2{
+.carruselTexto h2 {
     font-weight: bold;
 }
 
-.carruselTexto p{
+.carruselTexto p {
     font-size: 18px;
 }
 
 
-@media only screen and (min-width: 900px){
-    #contenedorCarrusel{
+@media only screen and (min-width: 900px) {
+    #contenedorCarrusel {
         width: 850px;
     }
-    #contenedorCarrusel .carousel-item img{
+
+    #contenedorCarrusel .carousel-item img {
         height: 70vh;
     }
 }
+
 /*------------------------------------------------*/
 
 /* --------Contenedor Seccion 1---------------*/
-#contenedorSeccion1{
+#contenedorSeccion1 {
     padding-top: 50px;
 }
-.img-seccion-1{
+
+.img-seccion-1 {
     width: 305px;
     height: 100px;
 }
+
 .seccion-1 {
     padding: 30px;
     padding-top: 15px;
     padding-bottom: 10px;
 }
+
 .seccion-1 h1 {
     text-align: center;
     color: white;
     font-size: 50px;
     font-family: MetalMania-Regular;
 }
-.card-bandas{
+
+.card-bandas {
     background-color: black;
     max-width: 340px;
     margin: 0 auto;
@@ -166,33 +187,36 @@ h1{
     transition: all .2s linear;
 }
 
-.card-bandas:hover{
+.card-bandas:hover {
     border: 2px #8a2be2 solid;
     transform: scale(1.1);
 }
 
-.card-bandas img{
+.card-bandas img {
     border-radius: 2%;
 }
 
-.card-info{
-    background-color:#2c2c2c
+.card-info {
+    background-color: #2c2c2c
 }
-.card-text li{
+
+.card-text li {
     color: #e5e5e5;
 }
+
 /*-------------------------------------------------*/
 
 
 /*--------Estilo Aside----------------------------*/
 @media only screen and (min-width: 1200px) {
-#columnaAside{
-    margin: 0px auto;
-    margin-top: 64px;
-    width: 355px; 
+    #columnaAside {
+        margin: 0px auto;
+        margin-top: 64px;
+        width: 355px;
+    }
 }
-}
-#lanzamientos{
+
+#lanzamientos {
     background-color: black;
     padding: 30px;
     padding-top: 15px;
@@ -201,13 +225,15 @@ h1{
     border-radius: .8%;
 
 }
-#lanzamientos h2{
+
+#lanzamientos h2 {
     text-align: center;
     color: white;
     font-size: 25px;
-    font-family:MetalMania-Regular;
+    font-family: MetalMania-Regular;
 }
-.contenidoLanzamientos a .row{
+
+.contenidoLanzamientos a .row {
     box-sizing: content-box;
     height: 80px;
     background-color: rgba(44, 44, 44, 255);
@@ -218,23 +244,28 @@ h1{
     border-radius: .8%;
     transition: color .3s linear, transform .2s linear, border .5s linear;
 }
-.contenidoLanzamientos a .row:hover{
+
+.contenidoLanzamientos a .row:hover {
     color: #8a2be2;
     transform: scale(1.1);
     border: 1px solid #8a2be2;
 }
-.contenidoLanzamientos a{
+
+.contenidoLanzamientos a {
     text-decoration: none;
 }
-.contenidoLanzamientos img{
+
+.contenidoLanzamientos img {
     width: 80px;
 }
-.contenidoLanzamientos .col-9{
+
+.contenidoLanzamientos .col-9 {
     padding-left: 30px;
     padding-top: 5px;
     padding-right: 0px;
 }
-.contenidoLanzamientos h3{
+
+.contenidoLanzamientos h3 {
     margin-bottom: 3px;
     font-size: 16px;
     font-weight: bold;
@@ -242,45 +273,54 @@ h1{
     overflow: hidden;
     text-overflow: ellipsis;
 }
-.contenidoLanzamientos p{
+
+.contenidoLanzamientos p {
     margin-bottom: 1px;
     font-size: 14px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
 }
+
 @media only screen and (max-width: 1199.9px) {
-    .contenidoLanzamientos a .row{
+    .contenidoLanzamientos a .row {
         height: auto;
     }
-    .contenidoLanzamientos img{
+
+    .contenidoLanzamientos img {
         width: 100%;
         height: auto;
     }
-    .contenidoLanzamientos .col-3{
+
+    .contenidoLanzamientos .col-3 {
         max-width: 185px;
     }
-    .contenidoLanzamientos .col-9{
-         padding: 0px;
-         padding-top: 7px;
+
+    .contenidoLanzamientos .col-9 {
+        padding: 0px;
+        padding-top: 7px;
     }
 }
+
 /*------------------------------------------------*/
 
 
 /*--------Estilo Seccion Bandas---------------------*/
 .contenedor-Bandas-1 {
-    padding-top: 50px; 
+    padding-top: 50px;
 }
+
 .img-nandas-1 {
     width: 305px;
     height: 100px;
 }
+
 .bandas-1 {
     padding: 30px;
     padding-top: 15px;
     padding-bottom: 10px;
 }
+
 .bandas-1 h1 {
     text-align: center;
     color: white;
@@ -288,19 +328,21 @@ h1{
     margin-top: 70px;
     font-family: MetalMania-Regular;
 }
+
 /*----------------------------------------------------*/
 
 
 /*----------------------Estilo Paginacion------------*/
-.paginacion{
+.paginacion {
     display: flex;
     justify-content: center;
 }
+
 /*----------------------------------------------------*/
 
 
 /*------------Estilo formulario consulta------------*/
-.formualrio-consulta{
+.formualrio-consulta {
     display: flex;
     justify-content: center;
     background-color: black;
@@ -312,12 +354,15 @@ h1{
     margin: 70px;
     color: aliceblue;
 }
-.formualrio-consulta label{
+
+.formualrio-consulta label {
     font-size: x-large;
 }
-.formualrio-consulta textarea{
+
+.formualrio-consulta textarea {
     resize: none;
 }
+
 .consulta h2 {
     text-align: center;
     color: white;
@@ -325,18 +370,21 @@ h1{
     margin-top: 70px;
     font-family: MetalMania-Regular;
 }
-.campo-texto{
+
+.campo-texto {
     background-color: #2c2c2c
 }
+
 /*-----------------------------------------------------*/
 
 
 /*------------Estilo suscripción----------------------*/
-.suscripción{
+.suscripción {
     display: flex;
     justify-content: center;
 }
-.suscripción-card{
+
+.suscripción-card {
     text-align: center;
     background-color: #2c2c2c;
     font-size: 40px;
@@ -344,6 +392,7 @@ h1{
     font-family: MetalMania-Regular;
     border-radius: 20px;
 }
+
 .encabezado {
     text-align: center;
     color: white;
@@ -351,25 +400,29 @@ h1{
     margin-top: 70px;
     font-family: MetalMania-Regular;
 }
+
 .card-text li {
     color: #e5e5e5;
 }
-.suscripción-button{
+
+.suscripción-button {
     font-size: 20px;
     color: #8a2be2;
 
 }
+
 /*-----------------------------------------------------*/
 
 
 /*------------------Estilo Footer---------------------*/
-.metal-footer{
+.metal-footer {
     color: #e5e5e5;
     background: rgb(40, 28, 55);
     border: #e5e5e5;
     border: 40px;
-   
+
 }
+
 .metal-footer h3 {
     margin-left: 2rem;
     margin-right: 2rem;
@@ -378,36 +431,39 @@ h1{
     color: #f0f8ff;
     font-family: MetalMania-Regular;
 }
+
 .metal-footer .list-group {
     border-radius: 5px;
 }
 
-.metal-footer .list-group-item{
+.metal-footer .list-group-item {
     color: #f0f8ff;
     background: rgb(40, 28, 55);
     border-radius: 5px;
     cursor: pointer;
 }
-.metal-footer .list-group-item:hover{
-     background: #300054; 
+
+.metal-footer .list-group-item:hover {
+    background: #300054;
 }
-.btn{
+
+.btn {
     background-color: #e5e5e5;
     /* background: rgb(40,28,55);
     background: linear-gradient(90deg, rgba(40,28,55,1) 10%, rgba(120,21,113,1) 53%, rgba(16,1,37,1) 88%); */
-} 
+}
 
-.btn:hover{
-    background:#300054;
+.btn:hover {
+    background: #300054;
     color: white;
-} 
+}
 
 
 /*----------------------------------------------------*/
 
 
 /* -------------------Pagina Generos--------------------- */
-.seccion-generos-bandas .card-text li{
+.seccion-generos-bandas .card-text li {
     text-align: center;
     font-size: 20px;
     font-weight: bold;
@@ -416,13 +472,13 @@ h1{
     text-overflow: ellipsis;
 }
 
-.seccion-generos-bandas a{
+.seccion-generos-bandas a {
     text-decoration: none;
 }
 
 /*----------------------Pagina Bandas------------------------------*/
 
-.descripcionGenero{
+.descripcionGenero {
     color: #f0f8ff;
     font-size: 22px;
     text-align: justify;
@@ -432,69 +488,91 @@ h1{
 /*----------------------Pagina Grupo------------------------------*/
 
 
-.containerDescripcionBanda{
+.containerDescripcionBanda {
     margin-top: 50px;
     padding-left: 13%;
     padding-right: 13%;
 }
 
 
-.columnaDescripcionBanda h1{
+.columnaDescripcionBanda h1 {
     font-size: 43px;
     color: white;
     text-align: center;
-} 
-.containerDescripcionBanda > h2{
+}
+
+.containerDescripcionBanda>h2 {
     margin-top: 70px;
     color: white;
     font-family: MetalMania-Regular;
     font-size: 35px;
 }
 
-.columnaDescripcionBanda img{
-    display:block;
+.columnaDescripcionBanda img {
+    display: block;
     margin: 0 auto;
     margin-top: 60px;
     width: 300px;
 }
-.Fila2Banda{
+
+.Fila2Banda {
     margin-top: 50px;
 }
-@media only screen and (min-width:768px){
-    .columnaImagenBanda{
-        width: 45%;
-        max-width: 370px;
-    }
-    .Fila2Banda .col-md-7{
-        width: 55%;
-    }
-}
 
-.columnaImagenBanda img{
+
+.columnaImagenBanda img {
+    display: block;
     width: 100%;
+    max-width: 430px;
+    margin: 0px auto;
 }
 
 .caracteristica {
-    color: white;
+    color: rgb(126, 80, 253);
     font-size: 22px;
+    font-weight: bold;
+    width: 340px;
+    background-color: #000000;
+    height: 54px;
+    padding-top: 9px;
+    padding-left: 7px;
 }
 
-.Fila3Banda{
+.Fila2Banda .columnaCaracteristicas p:first-child {
+    margin-top: 40px;
+}
+
+@media only screen and (min-width:768px) {
+    .columnaImagenBanda {
+        width: 45%;
+        max-width: 370px;
+    }
+
+    .Fila2Banda .col-md-7 {
+        width: 55%;
+    }
+
+    .Fila2Banda .columnaCaracteristicas p:first-child {
+        margin-top: 0px;
+    }
+}
+
+.Fila3Banda {
     margin-top: 50px;
 }
 
-@media only screen and (min-width:768px){
-     .Fila3Banda .columnaIntegrantes{
+@media only screen and (min-width:768px) {
+    .Fila3Banda .columnaIntegrantes {
         width: 400px;
-    } 
+    }
 }
 
-.Fila3Banda .filaIntegrante{
+.Fila3Banda .filaIntegrante {
     background-color: #000000;
     margin: 6px 0px;
 }
 
-.Fila3Banda p{
+.Fila3Banda p {
     font-weight: bold;
     color: rgb(126, 80, 253);
     font-size: 20px;
@@ -502,44 +580,86 @@ h1{
 
 }
 
-.Fila3Banda i{
+.Fila3Banda i {
     color: white;
 }
 
-.Fila3Banda p span{
+.Fila3Banda p span {
     margin-left: 5px;
     font-weight: normal;
     color: white;
 }
 
 
-.filaAlbum{
+
+.contenedorAlbumes {
+    margin: 50px 50px 50px 50px;
+    padding: 13px 10px;
+    background-color: #000000;
+    border: 1px white solid;
+    border-radius: 5px;
+}
+
+.contenedorAlbumes h2 {
+    text-align: center;
+    font-family: MetalMania-Regular;
+    font-size: 35px;
+    color: white;
+}
+
+.filaAlbum {
+    height: max-content;
     background-color: #2c2c2c;
     border: 4px black solid;
-    border-radius: 5px;
+    border-radius: 7px;
     padding: 7px;
     color: white;
-    margin: 7px;
+    margin: 8px;
+    cursor: pointer;
 }
 
-.filaAlbum .columnaImagenAlbum img{
-    width: 100%;
-    max-width: 140px;
+.filaAlbum .columnaImagenAlbum img {
+    width: 140px;
     border: 1px white solid;
     border-radius: 4px;
+    float: left;
+    margin-left: 7px;
 }
 
-.filaAlbum .columnaTextoAlbum{
-    margin-top: 4px;
+.filaAlbum .columnaTextoAlbum {
+    float: left;
+    margin-top: 14px;
+    margin-left: 15px;
+    padding-left: 2px;
 }
 
+.filaAlbum .columnaTextoAlbum h2 {
+    font-family: PT-Sans-Narrow-Regular;
+    font-weight: bold;
+    font-size: 29px;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
 
-@media only screen and (min-width:700px){
-    .filaAlbum .columnaImagenAlbum{
-        width: auto;
-    }
-    .filaAlbum .columnaTextoAlbum{
-        width: auto;
+.filaAlbum i{
+    float: right;
+    font-size: 30px;
+    margin-top: 5px;
+    margin-right: 5px;
+}
 
+@media only screen and (max-width:700px) {
+    .filaAlbum .columnaImagenAlbum img {
+        width: 28%;
     }
+
+    .filaAlbum .columnaTextoAlbum h2 {
+        font-size: 24px;
+    }
+}
+
+.clear {
+    clear: both;
 }
