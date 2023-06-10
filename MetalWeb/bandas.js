@@ -27,11 +27,24 @@ function cargarCardsJson(){
 
 function mostrarCards(ObjetoJson){
     const contenedorBandas = document.getElementById("contenedorBandas");
-    let numeroDeCartasCargadas = 0;
     const titulo = document.createElement("h1");
     titulo.innerHTML = `${ObjetoJson.titulo}`;
     contenedorBandas.appendChild(titulo);
     const row = document.createElement("div");
     row.classList.add("row", "m-3");
+    for (let i = 0; i < ObjetoJson.bandas.length; i++) {
+        const columna = document.createElement("div");
+        columna.classList.add("col-md-4", "mt-3");
+        const cardBanda = document.createElement("a");
+        cardBanda.outerHTML = `<a href="./banda?nombre=${ObjetoJson.bandas[i].titulo}"> </a>`;
+        const cardimage = document.createElement("div");
+        cardimage.classList.add("card", "card-bandas");
+        const imagenBanda = document.createElement("img");
+        imagenBanda.outerHTML = `<img class="card-img-top" src="../${ObjetoJson.bandas[i].imgBanda}">`;
+        const cardbody = document.createElement("div");
+        cardbody.classList.add("card-body");
+        
 
+
+    }
 }
