@@ -4,7 +4,7 @@
     "descripcion": "El doom metal es un subgénero extremo del heavy metal, se distingue por su atmósfera lenta y pesada, de tonalidad oscura con riffs graves.",
     "bandas": [
         {
-            "titulo:": "Cathedral",
+            "titulo": "Cathedral",
             "imgLogo": "./assets/images/Bandas y Discos/Doom Metal/Cathedral/logo.png",
             "imgBanda": "./assets/images/Bandas y Discos/Doom Metal/Cathedral/img.jpg",
             "pais": "Reino Unido",
@@ -123,7 +123,7 @@
             ]
         },
         {
-            "titulo:": "Candlemass",
+            "titulo": "Candlemass",
             "imgLogo": "./assets/images/Bandas y Discos/Doom Metal/Candlemass/logo.png",
             "imgBanda": "./assets/images/Bandas y Discos/Doom Metal/Candlemass/image.jpg",
             "pais": "Suecia",
@@ -242,7 +242,7 @@
             ]
         },
         {
-            "titulo:": "Trouble",
+            "titulo": "Trouble",
             "imgLogo": "./assets/images/Bandas y Discos/Doom Metal/Trouble/logo.png",
             "imgBanda": "./assets/images/Bandas y Discos/Doom Metal/Trouble/image.jpg",
             "pais": "USA",
@@ -361,7 +361,7 @@
             ]
         },
         {
-            "titulo:": "Saint Vitus",
+            "titulo": "Saint Vitus",
             "imgLogo": "./assets/images/Bandas y Discos/Doom Metal/Saint Vitus/logo.png",
             "imgBanda": "./assets/images/Bandas y Discos/Doom Metal/Saint Vitus/image.jpg",
             "pais": "USA",

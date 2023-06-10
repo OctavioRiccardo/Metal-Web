@@ -4,7 +4,7 @@
     "descripcion": "El heavy metal es un género musical que nació a finales de los años sesenta y principios de los setenta tanto en el Reino Unido como en los Estados Unidos, cuyos orígenes provienen del blues rock, hard rock y del rock psicodélico. Se caracteriza principalmente por sus guitarras fuertes y distorsionadas, ritmos enfáticos, los sonidos del bajo y la batería son más densos de lo habitual y la voz es generalmente aguda o gutural.",
     "bandas": [
         {
-            "titulo:": "Black Sabbath",
+            "titulo": "Black Sabbath",
             "imgLogo": "./assets/images/Bandas y Discos/Heavy Metal/Black Sabbath/logo.png",
             "imgBanda": "./assets/images/Bandas y Discos/Heavy Metal/Black Sabbath/image.jpg",
             "pais": "Reino Unido",
@@ -123,7 +123,7 @@
             ]
         },
         {
-            "titulo:": "Running Wild",
+            "titulo": "Running Wild",
             "imgLogo": "./assets/images/Bandas y Discos/Heavy Metal/running wild/logo.png",
             "imgBanda": "./assets/images/Bandas y Discos/Heavy Metal/running wild/image.jpg",
             "pais": "Alemania",
@@ -242,7 +242,7 @@
             ]
         },
         {
-            "titulo:": "Manowar",
+            "titulo": "Manowar",
             "imgLogo": "./assets/images/Bandas y Discos/Heavy Metal/Manowar/logo.png",
             "imgBanda": "./assets/images/Bandas y Discos/Heavy Metal/Manowar/image.jpg",
             "pais": "USA",
@@ -361,7 +361,7 @@
             ]
         },
         {
-            "titulo:": "Pantera",
+            "titulo": "Pantera",
             "imgLogo": "./assets/images/Bandas y Discos/Heavy Metal/Pantera/logo.png",
             "imgBanda": "./assets/images/Bandas y Discos/Heavy Metal/Pantera/image.jpg",
             "pais": "USA",

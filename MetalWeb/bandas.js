@@ -36,15 +36,32 @@ function mostrarCards(ObjetoJson){
         const columna = document.createElement("div");
         columna.classList.add("col-md-4", "mt-3");
         const cardBanda = document.createElement("a");
-        cardBanda.outerHTML = `<a href="./banda?nombre=${ObjetoJson.bandas[i].titulo}"> </a>`;
+        console.log(ObjetoJson.bandas[i].titulo);
+        cardBanda.setAttribute("href", `./banda?nombre=${ObjetoJson.bandas[i].titulo}`);
         const cardimage = document.createElement("div");
         cardimage.classList.add("card", "card-bandas");
         const imagenBanda = document.createElement("img");
-        imagenBanda.outerHTML = `<img class="card-img-top" src="../${ObjetoJson.bandas[i].imgBanda}">`;
+        imagenBanda.classList.add("card-img-top");
+        imagenBanda.setAttribute("src",`../${ObjetoJson.bandas[i].imgBanda}`)
         const cardbody = document.createElement("div");
         cardbody.classList.add("card-body");
-        
+        cardbody.innerHTML= `<ul class="list-group card-text">
+        <li class="list-group-item card-info text-light">${ObjetoJson.bandas[i].titulo}</li>
+        </ul>`;
 
+        cardimage.appendChild(imagenBanda);
+        cardimage.appendChild(cardbody);
+        cardBanda.appendChild(cardimage);
+        columna.appendChild(cardBanda);
+        row.appendChild(columna);
+        if(((i+1)%3)==0){
+            contenedorBandas.appendChild(row.cloneNode(true));
+            row.innerHTML="";
+            continue;
+        }
+        if((i+1) == ObjetoJson.bandas.length){
+            contenedorBandas.appendChild(row.cloneNode(true));
+        }
 
     }
 }

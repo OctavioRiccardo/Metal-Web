@@ -404,13 +404,13 @@ h1{
 
 
 /* -------------------Pagina Generos--------------------- */
-.seccion-generos .card-text li{
+.seccion-generos-bandas .card-text li{
     text-align: center;
     font-size: 20px;
     font-weight: bold;
 }
 
-.seccion-generos a{
+.seccion-generos-bandas a{
     text-decoration: none;
 }
 
