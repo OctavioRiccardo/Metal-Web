@@ -62,150 +62,139 @@
         </div>
     </header>
     <!----------------------------------------------------------------------------------------------------------------------------->
-    <!----------------------------------------------------Componente formulario--------------------------------------------->
-    <section class="container form-contain">
-        <div class="card metal-form">
-            <div class="row">
-                <div class="col-6 card-header" style="display: flex; justify-content: center; align-items: center; background-color: black;">
-                    <div class="row">
-                        <div class="col-12">
-                            <img src="../assets/images/imagen-ejemplo.jpg" alt="" style="height: 650px;">
-                        </div>
-                    </div>
-
-                </div>
-                
-                <div class="col-6 card-body" >
-                    <div class="row">
-                        <div class="col-12" style="text-align: center; margin: 10px auto;">
-                            <div class="card-header bg-transparent">
-                                <h1>Venta de Entradas</h1>
-                            </div>
-                            
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="card-header bg-transparent">
-                                <div class="row">
-                                    <div class="col-8"><h3>Cantidad</h1></div>
-                                    <div class="col-4"><input type="number" min="0" max="100" name="entrada" id="entra"></div>
-                                </div>
-                            </div>   
-                            <div class="card-body ">
-                                <p>$ 1.000,00</p>
-                                <p>+$ 84,58 Costo del servicio</p>
-                                <p>Las ventas finalizan el 2 horas</p>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="card-header bg-transparent">
-                                <div class="row">
-                                    <div class="col-8"><h3>Correo Electronico</h1></div>
-                                    <div class="col-4"><input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"></div>
-                                </div>
-                            </div>   
-                            <div class="card-body ">
-                                preferencias de correo electrónico en mi Cuenta EA (si tengo una asociada con esta dirección de correo electrónico), haciendo clic en «Cancelar la suscripción» en el pie de cualquier correo electrónico que reciba  o contactando con el responsable de protección de datos de EA visitando https://www.ea.com/legal/privacy-portal.
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="card-header bg-transparent">
-                                <button type="submit" class="btn">Siguiente</button>
-                            </div>
-                            
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <!------------------------------------------Seccion del Formulario---------------------------------------------->
+    <section class="container grid-form" style="color: aliceblue; margin: 10px auto; border-radius: 5px;">
+        <div class="img-form">
+            <img src="../assets/images/imagen-ejemplo.jpg" alt="">
         </div>
-
-    </section>
-    <!--------------------------------------------------------------------------------------------------------------------------->
-
-
-    <!--------------------------------------------Componente footer-------------------------------------------------------------->
- <footer class="d text-center ">
-    <div class="card text-center metal-footer">
-        <div class="card-header">
-            <div class="row">
-                <div class="col-8 d-flex justify-content-center">
-                    <h5 class="text-center">Síguenos en:</h5>
+        <div id="manejoForm">
+            <form class="row g-3 needs-validation" novalidate>
+                <div class="col-md-8" style="border: 1px solid black;">
+                    <label for="validationCustom01" class="form-label">Cantidad de Entradas:</label>
                 </div>
                 <div class="col-md-4">
-                    <div class="row d-flex justify-content-center">
-                        <div class="col-md-3">
-                            <a target="_blank" href="#" class="btn-social btn-outline"><i
-                                    class="fa-brands fa-youtube  fa-2xl"></i></a>
-                        </div>
-                        <div class="col-md-3">
-                            <a target="_blank" href="#" class="btn-social btn-outline"><i
-                                    class="fa-brands fa-facebook  fa-2xl"></i></a>
-                        </div>
-                        <div class="col-md-3">
-                            <a target="_blank" href="#" class="btn-social btn-outline"><i
-                                    class="fa-brands fa-instagram  fa-2xl"></i></a>
-                        </div>
-                        <div class="col-md-3">
-                            <a target="_blank" href="#" class="btn-social btn-outline"><i
-                                    class="fa-brands fa-whatsapp  fa-2xl"></i></a>
+                    <input type="number" class="form-control" id="validationCustom01" value="0" min="1" max="100"
+                        required>
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
+
+                </div>
+                <div style="border: 1px solid black;"> precio por entrada , descuento y tiempo</div>
+                <div class="col-md-6" style="border: 1px solid black;">
+                    <label for="validationCustom02" class="form-label">Correo Electrónico:</label>
+                </div>
+                <div class="col-md-6">
+                    <input type="email" class="form-control" id="validationCustom02" value="example@email.com" required>
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
+                </div>
+                <div style="border: 1px solid black;">
+                    preferencias de correo electrónico en mi Cuenta EA (si tengo una asociada con esta dirección de
+                    correo electrónico), haciendo clic en «Cancelar la suscripción» en el pie de cualquier correo
+                    electrónico que reciba o contactando con el responsable de protección de datos de EA visitando
+                    https://www.ea.com/legal/privacy-portal.
+
+                </div>
+
+                <div class="col-12" style="border: 1px solid black;">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                        <label class="form-check-label" for="invalidCheck">
+                            Agree to terms and conditions
+                        </label>
+                        <div class="invalid-feedback">
+                            You must agree before submitting.
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="card-body">
+                <div class="col-12">
+                    <button class="btn" type="button" id="boton" onclick="validacion();">Siguiente</button>
+                </div>
+            </form>
+
+        </div>
+    </section>
+    <!----------------------------------------------------------------------------------------------------------------------------->
+
+    <!--------------------------------------------Componente footer-------------------------------------------------------------->
+    <footer class="d text-center ">
+        <div class="card text-center metal-footer">
+            <div class="card-header">
                 <div class="row">
-                    <div class="col-md-3 footer-col">
-                        <h3>Generos</h3>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">Power Metal</li>
-                            <li class="list-group-item">Heavy Metal</li>
-                            <li class="list-group-item">Thrash Metal</li>
-                            <li class="list-group-item">Speed Metal</li>
-                        </ul>
+                    <div class="col-8 d-flex justify-content-center">
+                        <h5 class="text-center">Síguenos en:</h5>
                     </div>
-
-                    <div class="col-md-3 footer-col">
-                        <h3>Productos</h3>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">Registrarse</li>
-                            <li class="list-group-item">Ingresar</li>
-                            <li class="list-group-item">Suscripciones</li>
-                            <li class="list-group-item">Ayuda</li>
-                        </ul>
-                    </div>
-
-                    <div class="col-md-3 footer-col">
-                        <h3>Contacto</h3>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">Telefono</li>
-                            <li class="list-group-item">Correo</li>
-                            <li class="list-group-item">Ayuda</li>
-                        </ul>
-                    </div>
-                    <div class="col-md-3 footer-col">
-                        <h3>Dirección</h3>
-                        <p>
-                            CABA - Argentina <br />
-                            carrasco 400
-                        </p>
+                    <div class="col-md-4">
+                        <div class="row d-flex justify-content-center">
+                            <div class="col-md-3">
+                                <a target="_blank" href="#" class="btn-social btn-outline"><i
+                                        class="fa-brands fa-youtube  fa-2xl"></i></a>
+                            </div>
+                            <div class="col-md-3">
+                                <a target="_blank" href="#" class="btn-social btn-outline"><i
+                                        class="fa-brands fa-facebook  fa-2xl"></i></a>
+                            </div>
+                            <div class="col-md-3">
+                                <a target="_blank" href="#" class="btn-social btn-outline"><i
+                                        class="fa-brands fa-instagram  fa-2xl"></i></a>
+                            </div>
+                            <div class="col-md-3">
+                                <a target="_blank" href="#" class="btn-social btn-outline"><i
+                                        class="fa-brands fa-whatsapp  fa-2xl"></i></a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="card-footer text-muted">
-                <p>Copyright &copy;
-                    <script>document.write(new Date().getFullYear())</script> Todos Los Derechos Reservados.
-                </p>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-3 footer-col">
+                            <h3>Generos</h3>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Power Metal</li>
+                                <li class="list-group-item">Heavy Metal</li>
+                                <li class="list-group-item">Thrash Metal</li>
+                                <li class="list-group-item">Speed Metal</li>
+                            </ul>
+                        </div>
+
+                        <div class="col-md-3 footer-col">
+                            <h3>Productos</h3>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Registrarse</li>
+                                <li class="list-group-item">Ingresar</li>
+                                <li class="list-group-item">Suscripciones</li>
+                                <li class="list-group-item">Ayuda</li>
+                            </ul>
+                        </div>
+
+                        <div class="col-md-3 footer-col">
+                            <h3>Contacto</h3>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Telefono</li>
+                                <li class="list-group-item">Correo</li>
+                                <li class="list-group-item">Ayuda</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3 footer-col">
+                            <h3>Dirección</h3>
+                            <p>
+                                CABA - Argentina <br />
+                                carrasco 400
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer text-muted">
+                    <p>Copyright &copy;
+                        <script>document.write(new Date().getFullYear())</script> Todos Los Derechos Reservados.
+                    </p>
+                </div>
             </div>
         </div>
-    </div>
-</footer>
-<!--------------------------------------------------------------------------------------------------------------------------->
+    </footer>
+    <!--------------------------------------------------------------------------------------------------------------------------->
 
 </body>
 
