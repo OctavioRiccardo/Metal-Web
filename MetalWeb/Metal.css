@@ -681,7 +681,7 @@ h1 {
     background-color: #131313;
     height: 0;
     overflow: hidden;  
-    transition: height .4s linear;
+    transition: height .4s ease-in;
 }
 
 .ListaCanciones{
