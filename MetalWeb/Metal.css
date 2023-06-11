@@ -538,6 +538,11 @@ h1 {
     padding-left: 7px;
 }
 
+.caracteristica span{
+    color: white;
+    font-weight: normal;
+}
+
 .Fila2Banda .columnaCaracteristicas p:first-child {
     margin-top: 40px;
 }
@@ -615,6 +620,8 @@ h1 {
     color: white;
     margin: 8px;
     padding-top: 8px;
+}
+.AlbumBoton{
     cursor: pointer;
 }
 
