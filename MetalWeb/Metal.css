@@ -656,8 +656,12 @@ h1 {
     font-size: 30px;
     margin-top: 5px;
     margin-right: 5px;
+    transition: transform .3s linear;
 }
 
+.listaDesplegada i{
+    transform: rotate(180deg);
+}
 @media only screen and (max-width:700px) {
     .filaAlbum .columnaImagenAlbum img {
         width: 28%;
