@@ -507,17 +507,19 @@ h1 {
 
 @media only screen and (max-width: 1400px){
 
-    .grid-form .img-form{
+    .img-form{
         display: none;
     }
     .grid-form{
         grid-template-columns: 1fr;
+        width: auto;
+        height: auto;
+    }
+    .grid-form div{
+        width: auto;
+        height: auto;
     }
 }
-
-
-
-
 
 
 /*----------------------------------------------------*/
@@ -633,20 +635,7 @@ h1 {
 }
 
 
-@media only screen and (max-width: 1199.9px){
-    .img-form{
-        display: none;
-    }
-    .grid-form{
-        grid-template-columns: 1fr;
-        width: auto;
-        height: auto;
-    }
-    .grid-form div{
-        width: auto;
-        height: auto;
-    }
-}
+
 /*----------------------------------------------------------*/
 
 /*----------------------------------------------------------*/
