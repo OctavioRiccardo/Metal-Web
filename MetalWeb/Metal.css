@@ -32,8 +32,11 @@ h1 {
 }
 
 .background-gradient {
-    background: rgb(40, 28, 55);
-    background: linear-gradient(90deg, rgba(40, 28, 55, 1) 10%, rgba(120, 21, 113, 1) 53%, rgba(16, 1, 37, 1) 88%);
+    /* background: rgb(40,28,55);
+    background: linear-gradient(90deg, #281c37 10%, #781571 53%, #100125 88%); */
+
+    background: rgb(11, 11, 11);
+    background: linear-gradient(90deg, rgba(11, 11, 11, 1) 5%, rgba(62, 16, 80, 1) 50%, rgba(11, 11, 11, 1) 95%);
 }
 
 /*-----------------------------------------------------------------*/
@@ -460,9 +463,25 @@ h1 {
 
 
 /* -------------------Pagina Generos--------------------- */
-.seccion-generos .card-text li {
+.seccion-generos-bandas .card-text li {
     text-align: center;
-    font-size: 18px;
+    font-size: 20px;
+    font-weight: bold;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.seccion-generos-bandas a {
+    text-decoration: none;
+}
+
+/*----------------------Pagina Bandas------------------------------*/
+
+.descripcionGenero {
+    color: #f0f8ff;
+    font-size: 22px;
+    text-align: justify;
 }
 
 /*----------------------------------------------------*/
@@ -479,6 +498,113 @@ h1 {
 .grid-form div{
     background: rgb(40, 28, 55);
     padding: 1em;
+/*----------------------Pagina Grupo------------------------------*/
+
+
+.containerDescripcionBanda {
+    margin-top: 50px;
+    padding-left: 13%;
+    padding-right: 13%;
+}
+
+
+.columnaDescripcionBanda h1 {
+    font-size: 43px;
+    color: white;
+    text-align: center;
+}
+
+.containerDescripcionBanda>h2 {
+    margin-top: 40px;
+    color: white;
+    font-family: MetalMania-Regular;
+    font-size: 35px;
+}
+
+.columnaDescripcionBanda img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 60px;
+    width: 300px;
+}
+
+.Fila2Banda {
+    margin-top: 50px;
+}
+
+
+.columnaImagenBanda img {
+    display: block;
+    width: 100%;
+    max-width: 430px;
+    margin: 0px auto;
+}
+
+.caracteristica {
+    color: rgb(126, 80, 253);
+    font-size: 22px;
+    font-weight: bold;
+    width: 340px;
+    background-color: #000000;
+    height: 54px;
+    padding-top: 9px;
+    padding-left: 7px;
+}
+
+.caracteristica span{
+    color: white;
+    font-weight: normal;
+}
+
+.Fila2Banda .columnaCaracteristicas p:first-child {
+    margin-top: 40px;
+}
+
+@media only screen and (min-width:768px) {
+    .columnaImagenBanda {
+        width: 45%;
+        max-width: 370px;
+    }
+
+    .Fila2Banda .col-md-7 {
+        width: 55%;
+    }
+
+    .Fila2Banda .columnaCaracteristicas p:first-child {
+        margin-top: 0px;
+    }
+}
+
+.Fila3Banda {
+    margin-top: 50px;
+}
+
+@media only screen and (min-width:768px) {
+    .Fila3Banda .columnaIntegrantes {
+        width: 400px;
+    }
+}
+
+.Fila3Banda .filaIntegrante {
+    background-color: #000000;
+    margin: 10px 0px;
+}
+
+.Fila3Banda p {
+    font-weight: bold;
+    color: rgb(126, 80, 253);
+    font-size: 20px;
+    margin: 12px 0px;
+
+}
+
+.Fila3Banda i {
+    color: white;
+}
+
+.Fila3Banda p span {
+    margin-left: 5px;
+    font-weight: normal;
     color: white;
 }
 
@@ -500,3 +626,111 @@ h1 {
 /*----------------------------------------------------------*/
 
 /*----------------------------------------------------------*/
+
+.contenedorAlbumes {
+    margin: 50px 50px 50px 50px;
+    padding: 13px 10px;
+    background-color: #000000;
+    border: 1px white solid;
+    border-radius: 5px;
+}
+
+.contenedorAlbumes h2 {
+    text-align: center;
+    font-family: MetalMania-Regular;
+    font-size: 35px;
+    color: white;
+}
+
+.filaAlbum {
+    height: max-content;
+    background-color: #2c2c2c;
+    border: 4px black solid;
+    border-radius: 7px;
+    color: white;
+    margin: 8px;
+    padding-top: 8px;
+}
+.AlbumBoton{
+    cursor: pointer;
+}
+
+.filaAlbum .columnaImagenAlbum img {
+    width: 140px;
+    border: 1px white solid;
+    border-radius: 4px;
+    float: left;
+    margin-left: 7px;
+    margin-bottom: 8px;
+    transition: border-color .3s ease-in;
+}
+
+.filaAlbum .columnaTextoAlbum {
+    float: left;
+    margin-top: 14px;
+    margin-left: 15px;
+    padding-left: 2px;
+}
+
+.filaAlbum .columnaTextoAlbum h2 {
+    font-family: PT-Sans-Narrow-Regular;
+    font-weight: bold;
+    font-size: 29px;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.filaAlbum i{
+    float: right;
+    font-size: 30px;
+    margin-top: 5px;
+    margin-right: 5px;
+    transition: transform .3s linear;
+}
+
+.listaDesplegada i{
+    transform: rotate(180deg);
+}
+
+.listaDesplegada .columnaImagenAlbum img{
+    border-color: rgb(126, 80, 253);
+}
+
+@media only screen and (max-width:700px) {
+    .filaAlbum .columnaImagenAlbum img {
+        width: 28%;
+    }
+
+    .filaAlbum .columnaTextoAlbum h2 {
+        font-size: 24px;
+    }
+}
+
+.clear {
+    clear: both;
+}
+
+.ContenedorCancionesAlbum{
+    padding: 0px 25px;
+    background-color: #131313;
+    height: 0;
+    overflow: hidden;  
+    transition: height .4s ease-in;
+}
+
+.ListaCanciones{
+    margin-bottom: 0px;
+    padding: 8px 30px;
+}
+
+.ListaCanciones .listItem{
+    margin: 8px 0px;
+    font-size: 20px;
+}
+
+.listItem::marker{
+    color: rgb(126, 80, 253);
+    font-weight: bold;
+}
