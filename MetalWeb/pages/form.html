@@ -70,10 +70,10 @@
         <div id="manejoForm">
             <form class="row g-3 needs-validation" novalidate>
                 <div class="col-md-8" style="border: 1px solid black;">
-                    <label for="validationCustom01" class="form-label">Cantidad de Entradas:</label>
+                    <label for="validaCantEntradas" class="form-label">Cantidad de Entradas:</label>
                 </div>
                 <div class="col-md-4">
-                    <input type="number" class="form-control" id="validationCustom01" value="0" min="1" max="100"
+                    <input type="number" class="form-control" id="validaCantEntradas" value="0" min="1" max="100"
                         required>
                     <div class="valid-feedback">
                         Looks good!
@@ -82,14 +82,14 @@
                 </div>
                 <div style="border: 1px solid black;"> precio por entrada , descuento y tiempo</div>
                 <div class="col-md-6" style="border: 1px solid black;">
-                    <label for="validationCustom04" class="form-label">Formas de Pago:</label>
+                    <label for="validaOpcionesDePago" class="form-label">Formas de Pago:</label>
                 </div>
                 <div class="col-md-6">
-                    <select class="form-select" id="validationCustom04" required>
+                    <select class="form-select" id="validaOpcionesDePago" required>
                         <option selected disabled value="">Opciones de Pago...</option>
                         <option>Efectivo</option>
                         <option>Debito</option>
-                    </select>>
+                    </select>
                     <div class="invalid-feedback">
                         Please select a valid state.
                     </div>
@@ -98,29 +98,10 @@
                     <button class="btn" type="button" id="boton" onclick="validacion();">Siguiente</button>
                 </div>
                 <div class="col-12">
-                    <button class="btnV" type="button" id="botonVolver" >Volver a Eventos</button>
+                    <button class="btn" type="button" id="botonVolver" >Volver a Eventos</button>
                 </div>
             </form>
-            <form class="row g-3 needs-validation" style="display: none;" novalidate>
-                <div class="col-md-8" style="border: 1px solid black;">
-                    <label for="validationCustom01" class="form-label">Nombre:</label>
-                </div>
-                <div class="col-md-4">
-                    <input type="text" class="form-control" id="validationCustom01" required>
-                    <div class="valid-feedback">
-                        Looks good!
-                    </div>
-                </div>
-                <div class="col-md-8" style="border: 1px solid black;">
-                    <label for="validationCustom01" class="form-label">Apellido:</label>
-                </div>
-                <div class="col-md-4">
-                    <input type="text" class="form-control" id="validationCustom01" required>
-                    <div class="valid-feedback">
-                        Looks good!
-                    </div>
-                </div>
-            </form>
+            
 
         </div>
     </section>
