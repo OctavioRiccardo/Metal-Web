@@ -82,35 +82,43 @@
                 </div>
                 <div style="border: 1px solid black;"> precio por entrada , descuento y tiempo</div>
                 <div class="col-md-6" style="border: 1px solid black;">
-                    <label for="validationCustom02" class="form-label">Correo Electrónico:</label>
+                    <label for="validationCustom04" class="form-label">Formas de Pago:</label>
                 </div>
                 <div class="col-md-6">
-                    <input type="email" class="form-control" id="validationCustom02" value="example@email.com" required>
-                    <div class="valid-feedback">
-                        Looks good!
-                    </div>
-                </div>
-                <div style="border: 1px solid black;">
-                    preferencias de correo electrónico en mi Cuenta EA (si tengo una asociada con esta dirección de
-                    correo electrónico), haciendo clic en «Cancelar la suscripción» en el pie de cualquier correo
-                    electrónico que reciba o contactando con el responsable de protección de datos de EA visitando
-                    https://www.ea.com/legal/privacy-portal.
-
-                </div>
-
-                <div class="col-12" style="border: 1px solid black;">
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
-                        <label class="form-check-label" for="invalidCheck">
-                            Agree to terms and conditions
-                        </label>
-                        <div class="invalid-feedback">
-                            You must agree before submitting.
-                        </div>
+                    <select class="form-select" id="validationCustom04" required>
+                        <option selected disabled value="">Opciones de Pago...</option>
+                        <option>Efectivo</option>
+                        <option>Debito</option>
+                    </select>>
+                    <div class="invalid-feedback">
+                        Please select a valid state.
                     </div>
                 </div>
                 <div class="col-12">
                     <button class="btn" type="button" id="boton" onclick="validacion();">Siguiente</button>
+                </div>
+                <div class="col-12">
+                    <button class="btnV" type="button" id="botonVolver" >Volver a Eventos</button>
+                </div>
+            </form>
+            <form class="row g-3 needs-validation" style="display: none;" novalidate>
+                <div class="col-md-8" style="border: 1px solid black;">
+                    <label for="validationCustom01" class="form-label">Nombre:</label>
+                </div>
+                <div class="col-md-4">
+                    <input type="text" class="form-control" id="validationCustom01" required>
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
+                </div>
+                <div class="col-md-8" style="border: 1px solid black;">
+                    <label for="validationCustom01" class="form-label">Apellido:</label>
+                </div>
+                <div class="col-md-4">
+                    <input type="text" class="form-control" id="validationCustom01" required>
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
                 </div>
             </form>
 
