@@ -35,7 +35,6 @@ function versionPropia() {
       form.innerHTML = "";
       form.innerHTML = `
       <form class="row g-3 needs-validation" novalidate>
-                    <h1>Venta de Entradas</h1>
                     <div class="row g-3">
                         <div class="col-md-8" style="border: 1px solid black;">
                             <label for="validaNombre" class="form-label">Nombre:</label>
@@ -60,10 +59,10 @@ function versionPropia() {
                     </div>
 
                     <div class="row g-3">
-                        <div class="col-md-8" style="border: 1px solid black;">
+                        <div class="col-md-4" style="border: 1px solid black;">
                             <label for="validaCorreo" class="form-label">Correo Electronico:</label>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-8">
                             <input  type="email" class="form-control" id="validaCorreo" required>
                             <div class="valid-feedback">
                                 Looks good!
@@ -72,10 +71,10 @@ function versionPropia() {
                     </div>
 
                     <div class="row g-3">
-                        <div class="col-md-8" style="border: 1px solid black;">
+                        <div class="col-md-4" style="border: 1px solid black;">
                             <label for="validaCorreo" class="form-label">Confirmar Correo:</label>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-8">
                             <input  type="email" class="form-control" id="confirmCorreo" required>
                             <div class="valid-feedback">
                                 Looks good!
