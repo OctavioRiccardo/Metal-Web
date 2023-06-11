@@ -44,7 +44,9 @@ function mostrarCards(ObjetoJson){
         columna.classList.add("col-md-4", "mt-3");
         const cardBanda = document.createElement("a");
         console.log(ObjetoJson.bandas[i].titulo);
-        cardBanda.setAttribute("href", `./Grupo.html?nombre=${ObjetoJson.bandas[i].titulo}`);
+        const parametrosUrl = new URLSearchParams(document.location.search);
+        const generoUrl = parametrosUrl.get("genero");
+        cardBanda.setAttribute("href", `./Grupo.html?genero=${generoUrl}&nombre=${ObjetoJson.bandas[i].titulo}`);
         const cardimage = document.createElement("div");
         cardimage.classList.add("card", "card-bandas");
         const imagenBanda = document.createElement("img");
