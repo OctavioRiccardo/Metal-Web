@@ -70,7 +70,7 @@
         <div  id="manejoForm">
             <h1>Venta de Entradas</h1>
             <form class="row g-3 needs-validation" novalidate>
-                <div class="row g-3">
+                <div class="row g-3" style="margin: auto; padding: 20px auto;">
                     <div class="col-md-8" style="border: 1px solid black;">
                         <label for="validaCantEntradas" class="form-label">Cantidad de Entradas:</label>
                     </div>
@@ -82,26 +82,18 @@
                         </div>
                     </div>
                     <div style="border: 1px solid black;"> precio por entrada , descuento y tiempo</div>
-                </div>
-                
-                <div class="row g-3">
                     <div class="col-md-6" style="border: 1px solid black;">
                         <label for="validaOpcionesDePago" class="form-label">Formas de Pago:</label>
                     </div>
                     <div class="col-md-6">
                         <select class="form-select" id="validaOpcionesDePago" required>
                             <option selected disabled value="">Opciones de Pago...</option>
-                            <option value="1">Credito</option>
-                            <option value="2">Debito</option>
+                            <option value="1">Credito y debito</option>
                         </select>
                         <div class="invalid-feedback">
                             Please select a valid state.
                         </div>
                     </div>
-                </div>
-                
-
-                <div class="row g-3">
                     <div class="col-md-6">
                         <button class="btn" type="button" id="boton" onclick="validacion();">Siguiente</button>
                     </div>
@@ -109,8 +101,9 @@
                         <input class="btn" type="button" onclick="history.back()" name="volver atrás" value="volver atrás">
                     </div>
                 </div>
-
             </form>
+            
+            
         </div>
     </section>
     <!----------------------------------------------------------------------------------------------------------------------------->
