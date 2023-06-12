@@ -83,7 +83,7 @@ function pedidoDeDatos() {
                     <div class="row g-3">
                         <div class="col-md-12">
                             <label for="validaTarjeta" class="form-label">Numero de Tarjeta</label>
-                            <input type="number" class="form-control" id="validaTarjeta" min="1" max="100"
+                            <input type="number" class="form-control" id="validaTarjeta" min="1000000000000000" max="9999999999999999"
                                 required>
                             <div class="valid-feedback">
                                 Looks good!
@@ -114,7 +114,7 @@ function pedidoDeDatos() {
                         </div>
                         <div class="col-md-12">
                             <label for="validaNombreTar" class="form-label">Nombre Exacto de Tarjeta</label>
-                            <input type="text" class="form-control" id="validaNombreTar"  required>
+                            <input pattern="[A-Za-z]+" type="text" class="form-control" id="validaNombreTar"  required>
                             <div class="valid-feedback">
                                 Looks good!
                             </div>
