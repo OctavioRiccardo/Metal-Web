@@ -190,5 +190,21 @@ function validarCompra() {
 
 /*-----------------------------------------------Peticiones HTTP-------------------------------------------------------*/
 
-
+function DatosPower() {
+    fetch('./JSON/power.json')
+        .then(function (response) {
+            if (response.ok) {
+                return response.json();
+            }
+            throw new Error('No se pudo obtener la informacion.');
+        })
+        .then(function (data) {
+            // Hacer algo con los datos
+            console.log(data);
+        })
+        .catch(function (error) {
+            // Manejar errores
+            console.log(error);
+        });
+}
 
