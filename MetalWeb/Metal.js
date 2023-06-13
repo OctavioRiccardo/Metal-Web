@@ -191,12 +191,9 @@ function validarCompra() {
 /*---------------------------------------------------------------------------------------------------------------------------------------- */
 
 /*-----------------------------------------------Peticiones HTTP-------------------------------------------------------*/
-<<<<<<< HEAD
-function DatosGenero1() {
-=======
+function DatosGenero1() {}
 
 function DatosPower() {
->>>>>>> e2897bc0fc7d6e59ca5d924a22a3b854abd048b4
     fetch('./JSON/power.json')
         .then(function (response) {
             if (response.ok) {
@@ -250,7 +247,4 @@ function DatosGenero3() {
         });
 }
 
-<<<<<<< HEAD
 
-=======
->>>>>>> e2897bc0fc7d6e59ca5d924a22a3b854abd048b4
