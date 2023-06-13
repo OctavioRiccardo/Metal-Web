@@ -113,7 +113,7 @@
     </div>
 
     <!----------------------------------------------------Componente Seccion 1-------------------------------------------------->
-    <div class="container-fluid background-gradient" id="contenedorSeccion1">
+    <div class="container-fluid background-gradient" id="contenedorSeccion1" onload="CargaDatos()">
         <div class="row">
 
             <div class="col-xl-8">
@@ -288,7 +288,7 @@
                     <label for="exampleFormControlTextarea1" class="form-label">Consulta</label>
                     <textarea class="form-control campo-texto" id="exampleFormControlTextarea1" rows="3"></textarea>
                 </div>
-                <button type="button" class="btn btn-light  m-5" onclick="DatosPower()">Enviar</button>
+                <button type="button" class="btn btn-light  m-5" onclick="DatosGenero1()">Enviar</button>
             </div>
         </div>
         <!-------------------------------------------------------------------------------------------------------------------------------->
@@ -371,6 +371,14 @@
         </footer>
         <!-------------------------------------------------------------------------------------------------------------------------------->
 
+        <!----------Cargando la informacion de JSON-------->
+        <script>
+       
+             
+             DatosGenero2();
+             DatosGenero1();
+
+        </script>
 </body>
 
 </html>

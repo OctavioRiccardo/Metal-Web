@@ -189,7 +189,7 @@ function validarCompra() {
 /*---------------------------------------------------------------------------------------------------------------------------------------- */
 
 /*-----------------------------------------------Peticiones HTTP-------------------------------------------------------*/
-function DatosPower() {
+function DatosGenero1() {
     fetch('./JSON/power.json')
         .then(function (response) {
             if (response.ok) {
@@ -199,7 +199,7 @@ function DatosPower() {
         })
         .then(function (data) {
             // Hacer algo con los datos
-            console.log(data);
+            console.log("Datos Genero 1", data);
         })
         .catch(function (error) {
             // Manejar errores
@@ -207,6 +207,40 @@ function DatosPower() {
         });
 }
 
+function DatosGenero2() {
+    fetch('./JSON/heavy.json')
+        .then(function (response) {
+            if (response.ok) {
+                return response.json();
+            }
+            throw new Error('No se pudo obtener la informacion.');
+        })
+        .then(function (data) {
+            // Hacer algo con los datos
+            console.log("Datos Genero 2", data);
+        })
+        .catch(function (error) {
+            // Manejar errores
+            console.log(error);
+        });
+}
 
+function DatosGenero3() {
+    fetch('./JSON/doom.json')
+        .then(function (response) {
+            if (response.ok) {
+                return response.json();
+            }
+            throw new Error('No se pudo obtener la informacion.');
+        })
+        .then(function (data) {
+            // Hacer algo con los datos
+            console.log("Datos Genero 3", data);
+        })
+        .catch(function (error) {
+            // Manejar errores
+            console.log(error);
+        });
+}
 
 
