@@ -72,16 +72,16 @@
             <form class="row g-3 needs-validation" novalidate>
                 <div class="row g-3" style="margin: auto; padding: 20px auto;">
                     <div class="col-md-8" style="border: 1px solid black;">
-                        <label for="validaCantEntradas" class="form-label">Cantidad de Entradas:</label>
+                        <label for="validCant" class="form-label">Cantidad de Entradas:</label>
                     </div>
                     <div class="col-md-4">
-                        <input type="number" class="form-control" id="validaCantEntradas" min="1" max="5"
+                        <input  id="validCant" type="number" class="form-control" min="1" max="5" value="0" 
                             required>
                         <div class="valid-feedback">
                             Looks good!
                         </div>
                     </div>
-                    <div style="border: 1px solid black;"> precio por entrada 1000$ , descuento y tiempo</div>
+                    <div style="border: 1px solid black;" id="precio"> precio por entrada 1000$ , descuento y tiempo</div>
                     <div class="col-md-6" style="border: 1px solid black;">
                         <label for="validaOpcionesDePago" class="form-label">Formas de Pago:</label>
                     </div>
@@ -102,8 +102,7 @@
                     </div>
                 </div>
             </form>
-            
-            
+
         </div>
     </section>
     <!----------------------------------------------------------------------------------------------------------------------------->
