@@ -169,9 +169,6 @@ function pedidoDeDatos() {
                                 <label class="form-check-label" for="invalidCheck">
                                     Agree to terms and conditions
                                 </label>
-                                <div class="invalid-feedback">
-                                    You must agree before submitting.
-                                </div>
                             </div>
                         </div>
                         <div class="col-md-6">
