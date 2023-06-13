@@ -27,7 +27,7 @@
 
 </head>
 
-<body class="background-gradient">
+<body class="background-gradient" onload=" CargaDatos() ">
     <!----------------------------------------------------Componente Narbar--------------------------------------------->
     <header>
         <div class="container-fluid">
@@ -113,7 +113,7 @@
     </div>
 
     <!----------------------------------------------------Componente Seccion 1-------------------------------------------------->
-    <div class="container-fluid background-gradient" id="contenedorSeccion1" onload="CargaDatos()">
+    <div class="container-fluid background-gradient" id="contenedorSeccion1" >
         <div class="row">
 
             <div class="col-xl-8">
@@ -372,13 +372,7 @@
         <!-------------------------------------------------------------------------------------------------------------------------------->
 
         <!----------Cargando la informacion de JSON-------->
-        <script>
-       
-             
-             DatosGenero2();
-             DatosGenero1();
-
-        </script>
+  
 </body>
 
 </html>

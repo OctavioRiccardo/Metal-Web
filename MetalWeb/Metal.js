@@ -226,10 +226,6 @@ function pedidoDeDatos() {
     });
 }
 
-
-
-
-
 function validacionFinal() {
     var btnF = document.getElementById("boton");
     btnF.addEventListener('click', validarCompra());
@@ -251,12 +247,8 @@ function validarCompra() {
 /*---------------------------------------------------------------------------------------------------------------------------------------- */
 
 /*-----------------------------------------------Peticiones HTTP-------------------------------------------------------*/
-<<<<<<< HEAD
-function DatosGenero1() {
-=======
 
-function DatosPower() {
->>>>>>> e2897bc0fc7d6e59ca5d924a22a3b854abd048b4
+function DatosGenero1() {
     fetch('./JSON/power.json')
         .then(function (response) {
             if (response.ok) {
@@ -310,7 +302,9 @@ function DatosGenero3() {
         });
 }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> e2897bc0fc7d6e59ca5d924a22a3b854abd048b4
+function CargaDatos() {
+    DatosGenero1();
+    DatosGenero2();
+    DatosGenero3();
+}
+/*----------------------------------------------------------------------------------------------------------------------------*/
