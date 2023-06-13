@@ -64,10 +64,10 @@
     <!----------------------------------------------------------------------------------------------------------------------------->
     <!------------------------------------------Seccion del Formulario---------------------------------------------->
     <section class="container grid-form" style="color: aliceblue; margin: 10px auto; border-radius: 5px;">
-        <div class="img-form">
-            <img src="../assets/images/imagen-ejemplo.jpg" alt="">
+        <div class="img-form" >
+            <img src="../assets/images/img-formulario.jpg" alt="crow" width="600px" height="700px">
         </div>
-        <div  id="manejoForm">
+        <div id="manejoForm">
             <h1>Venta de Entradas</h1>
             <form class="row g-3 needs-validation" novalidate>
                 <div class="row g-3" style="margin: auto; padding: 20px auto;">
@@ -75,13 +75,13 @@
                         <label for="validCant" class="form-label">Cantidad de Entradas:</label>
                     </div>
                     <div class="col-md-4">
-                        <input  id="validCant" type="number" class="form-control" min="1" max="5" value="0" 
-                            required>
+                        <input id="validCant" type="number" class="form-control" min="1" max="5" value="0" required>
                         <div class="valid-feedback">
                             Looks good!
                         </div>
                     </div>
-                    <div style="border: 1px solid black;" id="precio"> precio por entrada 1000$ , descuento y tiempo</div>
+                    <div style="border: 1px solid black;" id="precio"> precio por entrada 1000$ , descuento y tiempo
+                    </div>
                     <div class="col-md-6" style="border: 1px solid black;">
                         <label for="validaOpcionesDePago" class="form-label">Formas de Pago:</label>
                     </div>
@@ -90,15 +90,40 @@
                             <option selected disabled value="">Opciones de Pago...</option>
                             <option value="1">Credito y debito</option>
                         </select>
-                        <div class="invalid-feedback">
-                            Please select a valid state.
+                    </div>
+                    <div class="col-md-6" style="border: 1px solid black;">
+                        <label for="validaNombre" class="form-label">Nombre:</label>
+                    </div>
+                    <div class="col-md-6">
+                        <input pattern="[a-zA-ZÀ-ÿ-' ]+" type="text" class="form-control" minlength="3" maxlength="32"
+                            id="validaNombre" required>
+                        <div class="valid-feedback">
+                            Looks good!
+                        </div>
+                    </div>
+                    <div class="col-md-6" style="border: 1px solid black;">
+                        <label for="validaApellido" class="form-label">Apellido:</label>
+                    </div>
+                    <div class="col-md-6">
+                        <input pattern="[a-zA-ZÀ-ÿ-' ]+" type="text" class="form-control" minlength="3" maxlength="32"
+                            id="validaApellido" required>
+                        <div class="valid-feedback">
+                            Looks good!
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <label for="validaCorreo" class="form-label">Correo Electronico:</label>
+                        <input type="email" class="form-control" id="validaCorreo" required>
+                        <div class="valid-feedback">
+                            Looks good!
                         </div>
                     </div>
                     <div class="col-md-6">
                         <button class="btn" type="button" id="boton" onclick="validacion();">Siguiente</button>
                     </div>
                     <div class="col-md-6">
-                        <input class="btn" type="button" onclick="history.back()" name="volver atrás" value="volver atrás">
+                        <input class="btn" type="button" onclick="history.back()" name="volver atrás"
+                            value="volver atrás">
                     </div>
                 </div>
             </form>
