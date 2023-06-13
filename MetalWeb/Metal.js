@@ -3,13 +3,34 @@
 
 /*----------------------------------------Funcion de Validacion Pagina de formulario------------------------------------------------------- */
 const precio = 1000;
+var formularios = document.querySelectorAll(".needs-validation");
+var cant = document.getElementById('validCant');
+var opcionesPago = document.getElementById('validaOpcionesDePago');
+var preci = document.getElementById('precio');
+cant.addEventListener('input', actualizarPrecioTotal);
+opcionesPago.addEventListener('change', actualizarPrecioTotal);
+
+function actualizarPrecioTotal() {
+    var cantidad = parseInt(cant.value, 10);
+    var opcionPago = opcionesPago.value;
+    var total = precio * cantidad;
+
+    if (opcionPago === "1") {
+        total *= 0.9; // Aplicar descuento del 10%
+    }
+
+    preci.textContent = "El precio a pagar es: " + total + " pesos";
+}
+
+
+
 function validacion() {
     var btn = document.getElementById("boton");
     btn.addEventListener('click', versionPropia());
 }
 
 function versionPropia() {
-    var forms = document.querySelectorAll('.needs-validation');
+    let forms = document.querySelectorAll('.needs-validation');
     forms.forEach(function (form) {
         var wasValidated = form.classList.contains('was-validated');
         if (form.checkValidity()) {
@@ -21,7 +42,7 @@ function versionPropia() {
                         <label for="validaNombre" class="form-label">Nombre:</label>
                         </div>
                         <div class="col-md-4">
-                        <input pattern="[A-Za-z]+" type="text" class="form-control" id="validaNombre" required>
+                        <input pattern="[a-zA-ZÀ-ÿ-' ]+" type="text" class="form-control" minlength="3" maxlength="32" id="validaNombre" required>
                         <div class="valid-feedback">
                             Looks good!
                         </div>
@@ -30,21 +51,14 @@ function versionPropia() {
                         <label for="validaApellido" class="form-label">Apellido:</label>
                         </div>
                         <div class="col-md-4">
-                        <input pattern="[A-Za-z]+" type="text" class="form-control" id="validaApellido" required>
+                        <input pattern="[a-zA-ZÀ-ÿ-' ]+" type="text" class="form-control" minlength="3" maxlength="32" id="validaApellido" required>
                         <div class="valid-feedback">
                             Looks good!
                         </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-12">
                         <label for="validaCorreo" class="form-label">Correo Electronico:</label>
                             <input  type="email" class="form-control" id="validaCorreo" required>
-                            <div class="valid-feedback">
-                                Looks good!
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <label for="validaCorreo" class="form-label">Confirmar Correo:</label>
-                            <input  type="email" class="form-control" id="confirmCorreo" required>
                             <div class="valid-feedback">
                                 Looks good!
                             </div>
@@ -73,7 +87,7 @@ function validacionDeDatos() {
 }
 
 function pedidoDeDatos() {
-    var forms = document.querySelectorAll('.needs-validation');
+    let forms = document.querySelectorAll('.needs-validation');
     forms.forEach(function (form) {
         var wasValidated = form.classList.contains('was-validated');
         if (form.checkValidity()) {
@@ -83,22 +97,30 @@ function pedidoDeDatos() {
                     <div class="row g-3">
                         <div class="col-md-12">
                             <label for="validaTarjeta" class="form-label">Numero de Tarjeta</label>
-                            <input type="number" class="form-control" id="validaTarjeta" min="1000000000000000" max="9999999999999999"
+                            <input type="text" class="form-control" id="validaTarjeta" minlength="19" maxlength="19" autocomplete="off"
                                 required>
                             <div class="valid-feedback">
                                 Looks good!
                             </div>
                         </div>
                         <div class="col-md-4">
-                            <label for="validaFechaVencimiento" class="form-label">Fecha Vencimiento:</label>
-                            <input type="date" class="form-control" id="validaFechaVencimiento" required>
-                            <div class="valid-feedback">
-                                Looks good!
+                            <label for="validaDia" class="form-label">Expiracion:</label>
+                            <select class="form-select" id="validaDia" required>
+                                <option selected disabled value="">mes...</option>
+                            </select>
+                            <div class="invalid-feedback">
+                                Please select a valid state.
+                            </div>
+                            <select class="form-select" id="validaAño" required>
+                                <option selected disabled value="">Año...</option>
+                            </select>
+                            <div class="invalid-feedback">
+                                Please select a valid state.
                             </div>
                         </div>
                         <div class="col-md-4">
                             <label for="validaCodigoSeguridad" class="form-label">Cod Seguridad</label>
-                            <input type="number" class="form-control" id="validaCodigoSeguridad" min="100" max="999"
+                            <input type="text" class="form-control" maxlength="3" id="validaCodigoSeguridad"
                                 required>
                             <div class="valid-feedback">
                                 Looks good!
@@ -106,7 +128,7 @@ function pedidoDeDatos() {
                         </div>
                         <div class="col-md-4">
                             <label for="validaCodigoPostal" class="form-label">Codigo Postal</label>
-                            <input type="number" class="form-control" id="validaCodigoPostal" min="1000" max="9999"
+                            <input type="text" class="form-control" id="validaCodigoPostal"  maxlength="5"
                                 required>
                             <div class="valid-feedback">
                                 Looks good!
@@ -114,7 +136,7 @@ function pedidoDeDatos() {
                         </div>
                         <div class="col-md-12">
                             <label for="validaNombreTar" class="form-label">Nombre Exacto de Tarjeta</label>
-                            <input pattern="[A-Za-z]+" type="text" class="form-control" id="validaNombreTar"  required>
+                            <input pattern="[a-zA-ZÀ-ÿ-' ]+" type="text" class="form-control" id="validaNombreTar" minlength="5" maxlength="19" autocomplete="off" required>
                             <div class="valid-feedback">
                                 Looks good!
                             </div>
@@ -124,7 +146,10 @@ function pedidoDeDatos() {
                             <select class="form-select" id="validaCompIdentidad" required>
                                 <option selected disabled value="">Identidad...</option>
                                 <option value="1">Documento</option>
-                                <option value="2">CIPE</option>
+                                <option value="2">CI</option>
+                                <option value="3">LC</option>
+                                <option value="4">LE</option>
+                                <option value="5">otro</option>
                             </select>
                             <div class="invalid-feedback">
                                 Please select a valid state.
@@ -132,7 +157,7 @@ function pedidoDeDatos() {
                         </div>
                         <div class="col-md-6">
                             <label for="validaNumeroIdent" class="form-label">Numero de identidad</label>
-                            <input type="number" class="form-control" id="validaNumeroIdent" min="10000000" max="55000000"
+                            <input type="text" class="form-control" maxlength="8"  id="validaNumeroIdent"
                                 required>
                             <div class="valid-feedback">
                                 Looks good!
@@ -158,6 +183,43 @@ function pedidoDeDatos() {
                     </div>     
                 </form>
             `;
+            // carga select de manera dinamica
+            for (let i = 1; i <= 12; i++) {
+                let opcion = document.createElement('option');
+                opcion.value = i;
+                opcion.innerText = i;
+                form.validaDia.appendChild(opcion);
+            }
+            for (let i = 1; i <= 8; i++) {
+                let opcion = document.createElement('option');
+                opcion.value = i;
+                opcion.innerText = 2022 + i;
+                form.validaAño.appendChild(opcion);
+            }
+            // control numero tarjeta
+            form.validaTarjeta.addEventListener('keyup', function (e) {
+                var valorInput = e.target.value;
+                // elimina espacios en blanco// elimina todas las letras // cada 4 numeros coloca espacio// quita espacio final
+                form.validaTarjeta.value = valorInput.replace(/\s/g, '').replace(/\D/g, '').replace(/([0-9]{4})/g, '$1 ').trim();
+            });
+            // control numero documento
+            form.validaNumeroIdent.addEventListener('keyup', function (e) {
+                var valorInput = e.target.value;
+                // elimina espacios en blanco// elimina todas las letras // cada 4 numeros coloca espacio// quita espacio final
+                form.validaNumeroIdent.value = valorInput.replace(/\s/g, '').replace(/\D/g, '').trim();
+            });
+            // control codigo tarjeta
+            form.validaCodigoSeguridad.addEventListener('keyup', function (e) {
+                var valorInput = e.target.value;
+                // elimina espacios en blanco// elimina todas las letras // cada 4 numeros coloca espacio// quita espacio final
+                form.validaCodigoSeguridad.value = valorInput.replace(/\s/g, '').replace(/\D/g, '').trim();
+            });
+            // control codigo postal
+            form.validaCodigoPostal.addEventListener('keyup', function (e) {
+                var valorInput = e.target.value;
+                // elimina espacios en blanco// elimina todas las letras // cada 4 numeros coloca espacio// quita espacio final
+                form.validaCodigoPostal.value = valorInput.replace(/\s/g, '').replace(/\D/g, '').trim();
+            });
         } else {
             form.classList.add('was-validated');
         }
@@ -168,14 +230,17 @@ function pedidoDeDatos() {
 }
 
 
+
+
+
 function validacionFinal() {
-    var btnF = document.getElementById("siguenteD");
+    var btnF = document.getElementById("boton");
     btnF.addEventListener('click', validarCompra());
 }
 
 
 function validarCompra() {
-    var forms = document.querySelectorAll('.needs-validation');
+    let forms = document.querySelectorAll('.needs-validation');
     forms.forEach(function (form) {
         if (form.checkValidity()) {
             form.classList.add('was-validated');
