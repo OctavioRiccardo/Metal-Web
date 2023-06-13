@@ -11,8 +11,7 @@
 
 @font-face {
     font-family: Roboto-Condensed-Regular;
-    src: url(./assets/fonts/RobotoCondensed-Regular.ttf
-);
+    src: url(./assets/fonts/RobotoCondensed-Regular.ttf);
 }
 
 @font-face {
@@ -99,7 +98,7 @@ h1 {
     background-size: 100%;
 }
 
-a:hover {
+.metal-navbar a:hover {
     color: #8a2be2;
 }
 /*------------------------------------------------*/
