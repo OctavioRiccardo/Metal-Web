@@ -3,7 +3,6 @@
 
 /*----------------------------------------Funcion de Validacion Pagina de formulario------------------------------------------------------- */
 const precio = 1000;
-var formularios = document.querySelectorAll(".needs-validation");
 var cant = document.getElementById('validCant');
 var opcionesPago = document.getElementById('validaOpcionesDePago');
 var preci = document.getElementById('precio');
@@ -17,10 +16,10 @@ function actualizarPrecioTotal() {
 
     if (opcionPago === "1") {
         total *= 0.9; // Aplicar descuento del 10%
-        preci.innerHTML=`
-        <div class="row g-3">
+        preci.innerHTML = `
+        <div class="row g-3"style="margin: auto; padding: 20px auto;">
             <div class="col-md-6" id="tipoTarjetaDeb">
-                <label for="validaTarjetaDeb" class="form-label">Nombre de Tarjeta:</label>
+                <label for="validaTarjetaDeb" class="form-label col-form" style="font-size: 16px;">Nombre de Tarjeta:</label>
                 <select class="form-select" id="validaTarjetaDeb" required>
                     <option selected disabled value="">Tarjeta...</option>
                     <option value="1">Mercado Pago</option>
@@ -29,16 +28,16 @@ function actualizarPrecioTotal() {
                     <option value="4">Mastercard Débito</option>
                 </select>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 precio-texto" style="font-size: 16px;" >
                 <p>El precio a pagar es de: ${total} pesos</p>
             </div>
         </div>
-        `;  
-    }else {
-        preci.innerHTML=`
-            <div class="row g-3">
-                <div class="col-md-6" id="tipoTarjetaCred">
-                    <label for="validaTarjetaCred" class="form-label">Nombre de Tarjeta:</label>
+        `;
+    } else {
+        preci.innerHTML = `
+            <div class="row g-3"style="margin: auto; padding: 20px auto;">
+                <div class="col-md-4" id="tipoTarjetaCred">
+                    <label for="validaTarjetaCred" class="form-label col-form" style="font-size: 16px;">Nombre de Tarjeta:</label>
                     <select class="form-select" id="validaTarjetaCred" required>
                         <option selected disabled value="">Tarjeta...</option>
                         <option value="1">VISA</option>
@@ -47,8 +46,8 @@ function actualizarPrecioTotal() {
                         <option value="4">NARANJA</option>
                     </select>
                 </div>
-                <div class="col-md-6" id="cantidadCuotas">
-                    <label for="validaCuotas" class="form-label">Cantidad de Cuotas</label>
+                <div class="col-md-4" id="cantidadCuotas">
+                    <label for="validaCuotas" class="form-label col-form" style="font-size: 16px;">Cantidad de Cuotas</label>
                     <select class="form-select" id="validaCuotas" required>
                         <option selected disabled value="">Cuotas...</option>
                         <option value="1">1</option>
@@ -57,13 +56,13 @@ function actualizarPrecioTotal() {
                         <option value="4">12</option>
                     </select>
                 </div>
-                <p>3 y 6 cuotas contienen 10% interes y 12 cuotas el 12% de interes</p>
+                <p class="col-md-4 precio-texto" style="font-size: 16px;">3 y 6 cuotas contienen 10% interes y 12 cuotas el 12% de interes</p>
             </div>
         `;
     }
-    
 
-    
+
+
 }
 
 
@@ -80,46 +79,50 @@ function versionPropia() {
         var wasValidated = form.classList.contains('was-validated');
         if (form.checkValidity()) {
             form.classList.add('was-validated');
-            aux=true;
+            aux = true;
         } else {
             form.classList.add('was-validated');
         }
-        if (aux==true) {
-            
+        if (aux == true) {
+
             form.innerHTML = "";
             manejoForm.innerHTML = `
             <form class="row g-3 needs-validation" novalidate>
             <div class="row g-3">
                 <div class="col-md-12">
-                    <label for="validaTarjeta" class="form-label">Numero de Tarjeta</label>
+                    <label for="validaTarjeta" class="form-label col-form">Numero de Tarjeta</label>
                     <input pattern=".{19,19}" type="text" class="form-control" id="validaTarjeta" minlength="19" maxlength="19" maxSize autocomplete="off"
                         required>
                 </div>
                 <div class="col-md-3">
-                    <label for="validaDia" class="form-label">Fecha</label>
+                    <label for="validaDia" class="form-label col-form">Fecha</label>
                     <select class="form-select" id="validaDia" required>
                         <option selected disabled value="">mes...</option>
                     </select>
                 </div>
                 <div class="col-md-3">
-                    <label for="validaDia" class="form-label">Vencimiento</label>
+                    <label for="validaDia" class="form-label col-form">Vencimiento</label>
                     <select class="form-select" id="validaAño" required>
                         <option selected disabled value="">Año...</option>
                     </select>
                 </div>
                 <div class="col-md-3">
-                    <label for="validaCodigoSeguridad" class="form-label">Cod Seguridad</label>
+                    <label for="validaCodigoSeguridad" class="form-label col-form">CVV</label>
                     <input type="text" class="form-control" maxlength="3" id="validaCodigoSeguridad"
                         required>
                 </div>
                 <div class="col-md-3">
-                    <label for="validaCodigoPostal" class="form-label">Codigo Postal</label>
+                    <label for="validaCodigoPostal" class="form-label col-form">Codigo Postal</label>
                     <input type="text" class="form-control" id="validaCodigoPostal"  maxlength="5"
                         required>
                 </div>
+                <div class="col-md-12 precio-texto">
+                        <label for="validaCorreo" class="form-label col-form">Correo Electronico :</label>
+                        <input type="email" class="form-control" id="validaCorreo" required>
+                </div>
 
                 <div class="col-md-6">
-                    <label for="validaCompIdentidad" class="form-label">Identidad:</label>
+                    <label for="validaCompIdentidad" class="form-label col-form">Identidad:</label>
                     <select class="form-select" id="validaCompIdentidad" required>
                         <option selected disabled value="">Identidad...</option>
                         <option value="1">Documento</option>
@@ -130,23 +133,23 @@ function versionPropia() {
                     </select>
                 </div>
                 <div class="col-md-6">
-                    <label for="validaNumeroIdent" class="form-label">Numero de identidad</label>
+                    <label for="validaNumeroIdent" class="form-label col-form">Numero de identidad</label>
                     <input type="text" class="form-control" maxlength="8"  id="validaNumeroIdent"
                         required>
                 </div>
                 <div class="col-12">
                     <div class="form-check">
                         <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
-                        <label class="form-check-label" for="invalidCheck">
+                        <label class="form-check-label col-form" for="invalidCheck">
                             Agree to terms and conditions
                         </label>
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <button class="btn" type="button" id="boton" onclick="validacionFinal();">Finalizar Compra</button>
+                    <button class="btn boton-form" type="button" id="boton" onclick="validacionFinal();">Finalizar Compra</button>
                 </div>
                 <div class="col-md-6">
-                    <input class="btn" type="button" onclick="location.reload();" name="Cancelar Compra" value="Cancelar compra">
+                    <input class="btn boton-form" type="button" onclick="location.reload();" name="Cancelar Compra" value="Cancelar compra">
                 </div>
             </div>     
             </form>
@@ -187,9 +190,9 @@ function versionPropia() {
                 var valorInput = e.target.value;
                 // elimina espacios en blanco// elimina todas las letras //  quita espacio final
                 validaCodigoPostal.value = valorInput.replace(/\s/g, '').replace(/\D/g, '').trim();
-            });   
+            });
         }
-        
+
     });
 }
 
@@ -204,9 +207,9 @@ function validacionFinal() {
 function validarCompra() {
     let forms = document.querySelectorAll('.needs-validation');
     forms.forEach(function (form) {
-            
+
         if (form.checkValidity()) {
-        
+
             form.classList.add('was-validated');
             form.submit();
         } else {
