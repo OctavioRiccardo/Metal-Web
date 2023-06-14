@@ -1,28 +1,27 @@
 window.addEventListener('load', cargarBandaJson);
 
-function cargarBandaJson(){
+function cargarBandaJson() {
     const parametrosUrl = new URLSearchParams(document.location.search);
     const generoUrl = parametrosUrl.get("genero");
-    switch(generoUrl){
+    switch (generoUrl) {
         case "power":
             fetch("../JSON/power.json")
-            .then (res => res.json())
-            .then(data => mostrarBanda(data))
+                .then(res => res.json())
+                .then(data => mostrarBanda(data))
             break;
         case "doom":
             fetch("../JSON/doom.json")
-            .then (res => res.json())
-            .then(data => mostrarBanda(data))
+                .then(res => res.json())
+                .then(data => mostrarBanda(data))
             break;
         case "heavy":
             fetch("../JSON/heavy.json")
-            .then (res => res.json())
-            .then(data => mostrarBanda(data))
+                .then(res => res.json())
+                .then(data => mostrarBanda(data))
     }
 }
 
-
-function mostrarBanda(ObjetoJson){
+function mostrarBanda(ObjetoJson) {
     const parametrosUrl = new URLSearchParams(document.location.search);
     const grupoUrl = parametrosUrl.get("nombre");
     const columnaTitulo = document.querySelector('.columnaDescripcionBanda');
@@ -30,18 +29,18 @@ function mostrarBanda(ObjetoJson){
     const columnaCaracteristicas = document.querySelector('.columnaCaracteristicas');
     const columnaIntegrantes = document.querySelector('.columnaIntegrantes');
     const columnaAlbumes = document.querySelector('.contenedorAlbumes');
-    for(let i=0; i < ObjetoJson.bandas.length; i++){
-        if(grupoUrl == ObjetoJson.bandas[i].titulo){
+    for (let i = 0; i < ObjetoJson.bandas.length; i++) {
+        if (grupoUrl == ObjetoJson.bandas[i].titulo) {
             const titulo = document.createElement('h1');
             titulo.innerHTML = ObjetoJson.bandas[i].titulo;
             const logo = document.createElement('img');
-            logo.setAttribute('src',`../${ObjetoJson.bandas[i].imgLogo}`);
+            logo.setAttribute('src', `../${ObjetoJson.bandas[i].imgLogo}`);
             columnaTitulo.appendChild(titulo);
             columnaTitulo.appendChild(logo);
             const imagenBanda = document.createElement('img');
-            imagenBanda.setAttribute('src',`../${ObjetoJson.bandas[i].imgBanda}`);
+            imagenBanda.setAttribute('src', `../${ObjetoJson.bandas[i].imgBanda}`);
             columnaImagenBanda.appendChild(imagenBanda);
-            columnaCaracteristicas.innerHTML=`
+            columnaCaracteristicas.innerHTML = `
             <p class="caracteristica">Genero: <span>${ObjetoJson.bandas[i].genero}</span></p>
             <p class="caracteristica">Pais: <span>${ObjetoJson.bandas[i].pais}</span></p>
             <p class="caracteristica">Estado: <span>${ObjetoJson.bandas[i].estado}</span></p>
@@ -56,7 +55,7 @@ function mostrarBanda(ObjetoJson){
             <div class="row filaIntegrante">
                 <p><i class="fa-solid fa-drum"></i> ${ObjetoJson.bandas[i].integrantes[2].Ocupacion}: <span>${ObjetoJson.bandas[i].integrantes[2].nombre}</span></p>
             </div>`
-            for(let j=0; j < ObjetoJson.bandas[i].albumes.length; j++){
+            for (let j = 0; j < ObjetoJson.bandas[i].albumes.length; j++) {
                 console.log(ObjetoJson.bandas[i].albumes[j])
                 const filaAlbum = document.createElement('div');
                 filaAlbum.classList.add('filaAlbum');
@@ -83,10 +82,10 @@ function mostrarBanda(ObjetoJson){
                 ContenedorCancionesAlbum.classList.add('ContenedorCancionesAlbum');
                 const listaCanciones = document.createElement('ol');
                 listaCanciones.classList.add('ListaCanciones');
-                for(let k=0; k < ObjetoJson.bandas[i].albumes[j].canciones.length; k++){
+                for (let k = 0; k < ObjetoJson.bandas[i].albumes[j].canciones.length; k++) {
                     const listItem = document.createElement('li');
                     listItem.classList.add('listItem');
-                    listItem.innerHTML=ObjetoJson.bandas[i].albumes[j].canciones[k].nombre;
+                    listItem.innerHTML = ObjetoJson.bandas[i].albumes[j].canciones[k].nombre;
                     listaCanciones.appendChild(listItem);
                 }
                 ContenedorCancionesAlbum.appendChild(listaCanciones);
@@ -99,30 +98,27 @@ function mostrarBanda(ObjetoJson){
     Desplegador();
 }
 
-
-
-
-function Desplegador(){
-const albumBox = document.querySelectorAll('.filaAlbum');
-albumBox.forEach((item)=>{
-    const albumBoton = item.querySelector('.AlbumBoton');
-    console.log(albumBoton);
-    albumBoton.addEventListener('click',() =>{
-        const despliegue = document.querySelector('.listaDesplegada');
-        muestraCanciones(item);
-        if(despliegue && despliegue!=item){
-            muestraCanciones(despliegue);
-        }
+function Desplegador() {
+    const albumBox = document.querySelectorAll('.filaAlbum');
+    albumBox.forEach((item) => {
+        const albumBoton = item.querySelector('.AlbumBoton');
+        console.log(albumBoton);
+        albumBoton.addEventListener('click', () => {
+            const despliegue = document.querySelector('.listaDesplegada');
+            muestraCanciones(item);
+            if (despliegue && despliegue != item) {
+                muestraCanciones(despliegue);
+            }
+        })
     })
-})
 }
 
-function muestraCanciones (item){
+function muestraCanciones(item) {
     const contenedorCanciones = item.querySelector('.ContenedorCancionesAlbum');
-    if(item.classList.contains('listaDesplegada')){
+    if (item.classList.contains('listaDesplegada')) {
         contenedorCanciones.removeAttribute('style');
         item.classList.remove('listaDesplegada');
-    }else{
+    } else {
         contenedorCanciones.style.height = contenedorCanciones.scrollHeight + 'px';
         item.classList.add('listaDesplegada');
     }
