@@ -15,6 +15,7 @@ var preci = document.getElementById('precio');
 cant.addEventListener('input', actualizarPrecioTotal);
 opcionesPago.addEventListener('change', actualizarPrecioTotal);
 
+
 function actualizarPrecioTotal() {
     var cantidad = parseInt(cant.value, 10);
     var opcionPago = opcionesPago.value;
@@ -93,7 +94,6 @@ function versionPropia() {
             form.classList.add('was-validated');
         }
         if (aux == true) {
-
             form.innerHTML = "";
             manejoForm.innerHTML = `
             <form class="row g-3 needs-validation" novalidate>
@@ -124,11 +124,6 @@ function versionPropia() {
                     <label for="validaCodigoPostal" class="form-label col-form">Codigo Postal</label>
                     <input type="text" class="form-control" id="validaCodigoPostal"  maxlength="5"
                         required>
-                </div>
-                <div class="col-md-12 precio-texto">
-                        <label for="validaCorreo" class="form-label col-form">Correo Electronico :</label>
-                        <input pattern="\S+@\S+\.\S+"type="email" class="form-control" id="validaCorreo" placeholder="example@mail.com"
-                            required>
                 </div>
 
                 <div class="col-md-6">
@@ -164,6 +159,7 @@ function versionPropia() {
             </div>     
             </form>
             `;
+            validCorreo.setAttribute("pattern","\S+@\S+\.\S+");
             // carga select de manera dinamica
             for (let i = 1; i <= 12; i++) {
                 let opcion = document.createElement('option');

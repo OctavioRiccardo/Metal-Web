@@ -94,24 +94,22 @@
                     </div>
                     <div class="d-flex justify-content-center col-form precio-texto" id="precio"> </div>
 
-                    <div class="col-md-6 col-form">
-                        <label for="validaNombre" class="form-label" >Nombre :</label>
-                    </div>
-
                     <div class="col-md-6">
+                        <label for="validaNombre" class="form-label" >Nombre :</label>
                         <input pattern="[a-zA-ZÀ-ÿ-' ]+" type="text" class="form-control" minlength="3" maxlength="32"
                             id="validaNombre" placeholder="Ozzy" required>
                     </div>
 
-                    <div class="col-md-6 col-form">
-                        <label for="validaApellido" class="form-label">Apellido :</label>
-                    </div>
-
                     <div class="col-md-6">
+                        <label for="validaApellido" class="form-label">Apellido :</label>
                         <input pattern="[a-zA-ZÀ-ÿ-' ]+" type="text" class="form-control" minlength="3" maxlength="32"
                             id="validaApellido" placeholder="Osbourne" required>
                     </div>
-
+                    <div class="col-md-12 precio-texto mb-3">
+                        <label for="validaCorreo" class="form-label">Correo Electronico :</label>
+                        <input pattern="\S+@\S+\.\S+" type="email" class="form-control"
+                            id="validaCorreo" placeholder="example@mail.com" required>
+                    </div>
 
 
                     <div class="col-md-6">
