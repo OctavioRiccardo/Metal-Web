@@ -65,7 +65,7 @@
     <!------------------------------------------Seccion del Formulario---------------------------------------------->
     <section class="container grid-form" style="color: aliceblue; margin: 10px auto; border-radius: 5px;">
         <div class="img-form" >
-            <img src="../assets/images/img-formulario.jpg" alt="crow" width="600px" height="700px">
+            <img src="../assets/images/img-formulario.jpg" alt="crow" width="700px" height="800px">
         </div>
         <div id="manejoForm" class="f">
             <h1>Venta de Entradas</h1>
@@ -76,9 +76,6 @@
                     </div>
                     <div class="col-md-4">
                         <input id="validCant" type="number" class="form-control" min="1" max="5" value="0" required>
-                        <div class="valid-feedback">
-                            Looks good!
-                        </div>
                     </div>
                     <div style="border: 1px solid black;" id="precio"> precio por entrada 1000$ , descuento y tiempo
                     </div>
@@ -88,7 +85,8 @@
                     <div class="col-md-6">
                         <select class="form-select" id="validaOpcionesDePago" required>
                             <option selected disabled value="">Opciones de Pago...</option>
-                            <option value="1">Credito y debito</option>
+                            <option value="1">Debito</option>
+                            <option value="2">Credito</option>
                         </select>
                     </div>
                     <div class="col-md-6" style="border: 1px solid black;">
@@ -97,9 +95,6 @@
                     <div class="col-md-6">
                         <input pattern="[a-zA-ZÀ-ÿ-' ]+" type="text" class="form-control"  minlength="3" maxlength="32"
                             id="validaNombre" required>
-                        <div class="valid-feedback">
-                            Looks good!
-                        </div>
                     </div>
                     <div class="col-md-6" style="border: 1px solid black;">
                         <label for="validaApellido" class="form-label">Apellido:</label>
@@ -107,16 +102,10 @@
                     <div class="col-md-6">
                         <input pattern="[a-zA-ZÀ-ÿ-' ]+" type="text" class="form-control" minlength="3" maxlength="32"
                             id="validaApellido" required>
-                        <div class="valid-feedback">
-                            Looks good!
-                        </div>
                     </div>
                     <div class="col-md-12">
                         <label for="validaCorreo" class="form-label">Correo Electronico:</label>
                         <input type="email" class="form-control" id="validaCorreo" required>
-                        <div class="valid-feedback">
-                            Looks good!
-                        </div>
                     </div>
                     <div class="col-md-6">
                         <button class="btn" type="button" id="boton" onclick="validacion();">Siguiente</button>

@@ -17,9 +17,53 @@ function actualizarPrecioTotal() {
 
     if (opcionPago === "1") {
         total *= 0.9; // Aplicar descuento del 10%
+        preci.innerHTML=`
+        <div class="row g-3">
+            <div class="col-md-6" id="tipoTarjetaDeb">
+                <label for="validaTarjetaDeb" class="form-label">Nombre de Tarjeta:</label>
+                <select class="form-select" id="validaTarjetaDeb" required>
+                    <option selected disabled value="">Tarjeta...</option>
+                    <option value="1">Mercado Pago</option>
+                    <option value="2">VISA</option>
+                    <option value="3">CABAL</option>
+                    <option value="4">Mastercard Débito</option>
+                </select>
+            </div>
+            <div class="col-md-6">
+                <p>El precio a pagar es de: ${total} pesos</p>
+            </div>
+        </div>
+        `;  
+    }else {
+        preci.innerHTML=`
+            <div class="row g-3">
+                <div class="col-md-6" id="tipoTarjetaCred">
+                    <label for="validaTarjetaCred" class="form-label">Nombre de Tarjeta:</label>
+                    <select class="form-select" id="validaTarjetaCred" required>
+                        <option selected disabled value="">Tarjeta...</option>
+                        <option value="1">VISA</option>
+                        <option value="2">MASTERCARD</option>
+                        <option value="3">BBVA</option>
+                        <option value="4">NARANJA</option>
+                    </select>
+                </div>
+                <div class="col-md-6" id="cantidadCuotas">
+                    <label for="validaCuotas" class="form-label">Cantidad de Cuotas</label>
+                    <select class="form-select" id="validaCuotas" required>
+                        <option selected disabled value="">Cuotas...</option>
+                        <option value="1">1</option>
+                        <option value="2">3</option>
+                        <option value="3">6</option>
+                        <option value="4">12</option>
+                    </select>
+                </div>
+                <p>3 y 6 cuotas contienen 10% interes y 12 cuotas el 12% de interes</p>
+            </div>
+        `;
     }
+    
 
-    preci.textContent = "El precio a pagar es: " + total + " pesos";
+    
 }
 
 
@@ -45,53 +89,35 @@ function versionPropia() {
             form.innerHTML = "";
             manejoForm.innerHTML = `
             <form class="row g-3 needs-validation" novalidate>
-            <div class="row g-3" id="f">
+            <div class="row g-3">
                 <div class="col-md-12">
                     <label for="validaTarjeta" class="form-label">Numero de Tarjeta</label>
                     <input pattern=".{19,19}" type="text" class="form-control" id="validaTarjeta" minlength="19" maxlength="19" maxSize autocomplete="off"
                         required>
-                    <div class="valid-feedback">
-                        Looks good!
-                    </div>
                 </div>
-                <div class="col-md-4">
-                    <label for="validaDia" class="form-label">Expiracion:</label>
+                <div class="col-md-3">
+                    <label for="validaDia" class="form-label">Fecha</label>
                     <select class="form-select" id="validaDia" required>
                         <option selected disabled value="">mes...</option>
                     </select>
-                    <div class="invalid-feedback">
-                        Please select a valid state.
-                    </div>
+                </div>
+                <div class="col-md-3">
+                    <label for="validaDia" class="form-label">Vencimiento</label>
                     <select class="form-select" id="validaAño" required>
                         <option selected disabled value="">Año...</option>
                     </select>
-                    <div class="invalid-feedback">
-                        Please select a valid state.
-                    </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-3">
                     <label for="validaCodigoSeguridad" class="form-label">Cod Seguridad</label>
                     <input type="text" class="form-control" maxlength="3" id="validaCodigoSeguridad"
                         required>
-                    <div class="valid-feedback">
-                        Looks good!
-                    </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-3">
                     <label for="validaCodigoPostal" class="form-label">Codigo Postal</label>
                     <input type="text" class="form-control" id="validaCodigoPostal"  maxlength="5"
                         required>
-                    <div class="valid-feedback">
-                        Looks good!
-                    </div>
                 </div>
-                <div class="col-md-12">
-                    <label for="validaNombreTar" class="form-label">Nombre Exacto de Tarjeta</label>
-                    <input pattern="[a-zA-ZÀ-ÿ-' ]+" type="text" class="form-control" id="validaNombreTar" minlength="5" maxlength="19" autocomplete="off" required>
-                    <div class="valid-feedback">
-                        Looks good!
-                    </div>
-                </div>
+
                 <div class="col-md-6">
                     <label for="validaCompIdentidad" class="form-label">Identidad:</label>
                     <select class="form-select" id="validaCompIdentidad" required>
@@ -102,17 +128,11 @@ function versionPropia() {
                         <option value="4">LE</option>
                         <option value="5">otro</option>
                     </select>
-                    <div class="invalid-feedback">
-                        Please select a valid state.
-                    </div>
                 </div>
                 <div class="col-md-6">
                     <label for="validaNumeroIdent" class="form-label">Numero de identidad</label>
                     <input type="text" class="form-control" maxlength="8"  id="validaNumeroIdent"
                         required>
-                    <div class="valid-feedback">
-                        Looks good!
-                    </div>
                 </div>
                 <div class="col-12">
                     <div class="form-check">
