@@ -34,6 +34,7 @@ function actualizarPrecioTotal() {
         </div>
         `;
     } else {
+        total *= 1.1;
         preci.innerHTML = `
             <div class="row g-3"style="margin: auto; padding: 20px auto;">
                 <div class="col-md-4" id="tipoTarjetaCred">
@@ -56,7 +57,9 @@ function actualizarPrecioTotal() {
                         <option value="4">12</option>
                     </select>
                 </div>
-                <p class="col-md-4 precio-texto" style="font-size: 16px;">3 y 6 cuotas contienen 10% interes y 12 cuotas el 12% de interes</p>
+                <div class="col-md-4 precio-texto" style="font-size: 16px;" >
+                    <p>El total a pagar es: ${total} pesos</p>
+                </div>
             </div>
         `;
     }
@@ -118,7 +121,8 @@ function versionPropia() {
                 </div>
                 <div class="col-md-12 precio-texto">
                         <label for="validaCorreo" class="form-label col-form">Correo Electronico :</label>
-                        <input type="email" class="form-control" id="validaCorreo" required>
+                        <input pattern="\S+@\S+\.\S+"type="email" class="form-control" id="validaCorreo" placeholder="example@mail.com"
+                            required>
                 </div>
 
                 <div class="col-md-6">
@@ -146,7 +150,7 @@ function versionPropia() {
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <button class="btn boton-form" type="button" id="boton" onclick="validacionFinal();">Finalizar Compra</button>
+                    <button class="btn boton-form" type="button" id="boton" onclick="validacionFinal('boton');">Finalizar Compra</button>
                 </div>
                 <div class="col-md-6">
                     <input class="btn boton-form" type="button" onclick="location.reload();" name="Cancelar Compra" value="Cancelar compra">
@@ -198,8 +202,8 @@ function versionPropia() {
 
 
 
-function validacionFinal() {
-    var btnF = document.getElementById("boton");
+function validacionFinal(boton) {
+    var btnF = document.getElementById(boton);
     btnF.addEventListener('click', validarCompra());
 }
 
