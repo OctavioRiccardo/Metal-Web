@@ -63,25 +63,30 @@
     </header>
     <!----------------------------------------------------------------------------------------------------------------------------->
     <!------------------------------------------Seccion del Formulario---------------------------------------------->
-    <section class="container grid-form" style="color: aliceblue; margin: 10px auto; border-radius: 5px;">
+    <section class="container grid-form section-form">
         <div class="img-form" >
             <img src="../assets/images/img-formulario.jpg" alt="crow" width="700px" height="800px">
         </div>
         <div id="manejoForm" class="f">
             <h1>Venta de Entradas</h1>
             <form class="row g-3 needs-validation"  novalidate>
-                <div class="row g-3" id="f" style="margin: auto; padding: 20px auto;">
-                    <div class="col-md-8" style="border: 1px solid black;">
-                        <label for="validCant" class="form-label">Cantidad de Entradas:</label>
+
+                <div class="row  g-3" id="f" style="margin: auto; padding: 20px auto;">
+
+                    <div class="d-flex justify-content-center col-form precio-texto" id="precio"> Precio por entrada 1000$ - Descuento y tiempo</div>
+
+                    <div class="col-md-8  col-form" >
+                        <label for="validCant" class="form-label ">Cantidad de Entradas :</label>
                     </div>
+
                     <div class="col-md-4">
                         <input id="validCant" type="number" class="form-control" min="1" max="5" value="0" required>
                     </div>
-                    <div style="border: 1px solid black;" id="precio"> precio por entrada 1000$ , descuento y tiempo
+
+                    <div class="col-md-6 col-form">
+                        <label for="validaOpcionesDePago" class="form-label">Formas de Pago :</label>
                     </div>
-                    <div class="col-md-6" style="border: 1px solid black;">
-                        <label for="validaOpcionesDePago" class="form-label">Formas de Pago:</label>
-                    </div>
+
                     <div class="col-md-6">
                         <select class="form-select" id="validaOpcionesDePago" required>
                             <option selected disabled value="">Opciones de Pago...</option>
@@ -89,31 +94,39 @@
                             <option value="2">Credito</option>
                         </select>
                     </div>
-                    <div class="col-md-6" style="border: 1px solid black;">
-                        <label for="validaNombre" class="form-label">Nombre:</label>
+
+                    <div class="col-md-6 col-form">
+                        <label for="validaNombre" class="form-label">Nombre :</label>
                     </div>
+
                     <div class="col-md-6">
                         <input pattern="[a-zA-ZÀ-ÿ-' ]+" type="text" class="form-control"  minlength="3" maxlength="32"
                             id="validaNombre" required>
                     </div>
-                    <div class="col-md-6" style="border: 1px solid black;">
-                        <label for="validaApellido" class="form-label">Apellido:</label>
+
+                    <div class="col-md-6 col-form">
+                        <label for="validaApellido" class="form-label">Apellido :</label>
                     </div>
+
                     <div class="col-md-6">
                         <input pattern="[a-zA-ZÀ-ÿ-' ]+" type="text" class="form-control" minlength="3" maxlength="32"
                             id="validaApellido" required>
                     </div>
-                    <div class="col-md-12">
-                        <label for="validaCorreo" class="form-label">Correo Electronico:</label>
+
+                    <div class="col-md-12 precio-texto">
+                        <label for="validaCorreo" class="form-label">Correo Electronico :</label>
                         <input type="email" class="form-control" id="validaCorreo" required>
                     </div>
+
                     <div class="col-md-6">
-                        <button class="btn" type="button" id="boton" onclick="validacion();">Siguiente</button>
+                        <button class="btn boton-form" type="button" id="boton" onclick="validacion();">Siguiente</button>
                     </div>
+
                     <div class="col-md-6">
-                        <input class="btn" type="button" onclick="history.back()" name="volver atrás"
+                        <input class="btn boton-form" type="button" onclick="history.back()" name="volver atrás"
                             value="volver atrás">
                     </div>
+
                 </div>
             </form>
 
@@ -122,7 +135,7 @@
     <!----------------------------------------------------------------------------------------------------------------------------->
 
     <!--------------------------------------------Componente footer-------------------------------------------------------------->
-    <footer class="d text-center ">
+    <footer class="d text-center mt-5">
         <div class="card text-center metal-footer">
             <div class="card-header">
                 <div class="row">

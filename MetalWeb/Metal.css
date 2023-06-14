@@ -645,11 +645,34 @@ h1 {
 }
 
 
+/*-----------------------------Estilo formulairo De entradas--------------*/
+    .col-form {
+        border: 1.8px solid black;
+    }
+    .col-form label {
+        font-size: 26px;
+        font-weight: bold;
+    }
+    .precio-texto {
+        font-size: 26px;
+        font-weight: bold;    
+    }
+    .boton-form{
+        font-size: 20px;
+        font-weight: bold;
+    }
 
-/*----------------------------------------------------------*/
+    .section-form{
+        color: aliceblue;
+        margin: 10px auto;
+        border-radius: 5px;
 
-/*----------------------------------------------------------*/
+    }
+/*---------------------------------------------------------------------------*/
 
+/*--------------------------------------------------------------------------*/
+
+/*------------------Estilo albunes----------------------------------------*/
 .contenedorAlbumes {
     margin: 50px 50px 50px 50px;
     padding: 13px 10px;
@@ -757,3 +780,4 @@ h1 {
     color: rgb(126, 80, 253);
     font-weight: bold;
 }
+/*---------------------------------------------------------------------*/
