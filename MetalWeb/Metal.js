@@ -159,7 +159,6 @@ function versionPropia() {
             </div>     
             </form>
             `;
-            validCorreo.setAttribute("pattern","\S+@\S+\.\S+");
             // carga select de manera dinamica
             for (let i = 1; i <= 12; i++) {
                 let opcion = document.createElement('option');
