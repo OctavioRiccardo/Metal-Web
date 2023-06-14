@@ -2,7 +2,13 @@
 
 
 /*----------------------------------------Funcion de Validacion Pagina de formulario------------------------------------------------------- */
-const precio = 1000;
+const parametrosUrl = new URLSearchParams(document.location.search);
+const precio = parseInt(parametrosUrl.get("precio"), 10);
+const evento = parametrosUrl.get("Evento");
+const contenedorTituloEvento = document.getElementById("tituloEvento");
+contenedorTituloEvento.innerHTML = evento;
+const textoPrecio = document.getElementById("precio");
+textoPrecio.innerHTML=`Precio por entrada $${precio} - Pagando con debito se obtiene un 10% de descuento y con credito un 10% de interes`
 var cant = document.getElementById('validCant');
 var opcionesPago = document.getElementById('validaOpcionesDePago');
 var preci = document.getElementById('precio');
