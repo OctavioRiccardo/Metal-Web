@@ -779,3 +779,11 @@ h1 {
     font-weight: bold;
 }
 /*---------------------------------------------------------------------*/
+/*------------------------Estilo albunes------------------------------- */
+
+.contenedorEventos .card{
+    padding: 5px;
+    background-color: #000000;
+    color: white;
+}
+
