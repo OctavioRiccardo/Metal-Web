@@ -166,6 +166,11 @@ h1 {
     height: 100px;
 }
 
+.seccion-1 a{
+    text-decoration: none;
+
+}
+
 .seccion-1 {
     padding: 30px;
     padding-top: 15px;
@@ -377,6 +382,11 @@ h1 {
     background-color: #2c2c2c
 }
 
+#boton1{
+    width: 100%;
+    margin-bottom: 15px;
+}
+
 /*-----------------------------------------------------*/
 
 
@@ -423,6 +433,11 @@ h1 {
     border: #e5e5e5;
     border: 40px;
 
+}
+
+.metal-footer a{
+    text-decoration: none;
+    color: white;
 }
 
 .metal-footer h3 {
@@ -645,11 +660,32 @@ h1 {
 }
 
 
+/*-----------------------------Estilo formulairo De entradas--------------*/
+    
+    .col-form label {
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .precio-texto {
+        font-size: 20px;
+        font-weight: bold;    
+    }
+    .boton-form{
+        font-size: 20px;
+        font-weight: bold;
+    }
 
-/*----------------------------------------------------------*/
+    .section-form{
+        color: aliceblue;
+        margin: 10px auto;
+        border-radius: 5px;
 
-/*----------------------------------------------------------*/
+    }
+/*---------------------------------------------------------------------------*/
 
+/*--------------------------------------------------------------------------*/
+
+/*------------------Estilo albunes----------------------------------------*/
 .contenedorAlbumes {
     margin: 50px 50px 50px 50px;
     padding: 13px 10px;
@@ -757,3 +793,12 @@ h1 {
     color: rgb(126, 80, 253);
     font-weight: bold;
 }
+/*---------------------------------------------------------------------*/
+/*------------------------Estilo albunes------------------------------- */
+
+.contenedorEventos .card{
+    padding: 5px;
+    background-color: #000000;
+    color: white;
+}
+

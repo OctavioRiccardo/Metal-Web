@@ -607,6 +607,175 @@
                     ]
                 }
             ]
+        },
+        {
+            "titulo": "Angra",
+            "imgLogo": "./assets/images/Bandas y Discos/Power Metal/Angra/logo.png",
+            "imgBanda": "./assets/images/Bandas y Discos/Power Metal/Angra/image.jpg",
+            "pais": "Brasil",
+            "genero": "Symphonic power",
+            "estado":"Activo",
+            "año":"1991",
+            "integrantes": [
+                {
+                    "nombre": "Fabio Lione",
+                    "Ocupacion":"Vocalista"
+                },
+                {
+                    "nombre": "Marcelo Barbosa",
+                    "Ocupacion":"Guitarrista"
+                },
+                {
+                    "nombre": "Bruno Valverde",
+                    "Ocupacion":"Baterista"
+                }
+            ],
+            "albumes": [
+                {
+                    "titulo": "Angels Cry",
+                    "imgAlbum": "./assets/images/Bandas y Discos/Power Metal/Angra/angels-cry.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "Carry on"
+                        },
+                        {
+                            "nombre": "Time"
+                        },
+                        {
+                            "nombre": "Angels Cry"
+                        },
+                        {
+                            "nombre": "Stand Away"
+                        },
+                        {
+                            "nombre": "Never Understand"
+                        },
+                        {
+                            "nombre": "Wutherings Heights"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Holy Land",
+                    "imgAlbum": "./assets/images/Bandas y Discos/Power Metal/Angra/holy-land.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "Nothing to Say"
+                        },
+                        {
+                            "nombre": "Silence and Distance"
+                        },
+                        {
+                            "nombre": "Carolina IV"
+                        },
+                        {
+                            "nombre": "Holy Land"
+                        },
+                        {
+                            "nombre": "The Shaman"
+                        },
+                        {
+                            "nombre": "Make Believe"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Rebirth",
+                    "imgAlbum": "./assets/images/Bandas y Discos/Power Metal/Angra/Rebirth.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "Nova Era"
+                        },
+                        {
+                            "nombre": "Millennium Sun"
+                        },
+                        {
+                            "nombre": "Acid Rain"
+                        },
+                        {
+                            "nombre": "Heroes of Sand"
+                        },
+                        {
+                            "nombre": "Unholy Wars"
+                        },
+                        {
+                            "nombre": "Rebirth"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Temple of Shadows",
+                    "imgAlbum": "./assets/images/Bandas y Discos/Power Metal/Angra/Angra_Temple-of-Shadows.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "Deus Le Volt !"
+                        },
+                        {
+                            "nombre": "Spread Your Fire"
+                        },
+                        {
+                            "nombre": "Angels and Demons"
+                        },
+                        {
+                            "nombre": "Waiting Silence"
+                        },
+                        {
+                            "nombre": "Wishing Well"
+                        },
+                        {
+                            "nombre": "The Temple of Hate"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Aqua",
+                    "imgAlbum": "./assets/images/Bandas y Discos/Power Metal/Angra/angra-aqua.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "Arising Thunder"
+                        },
+                        {
+                            "nombre": "Awake from Darkness"
+                        },
+                        {
+                            "nombre": "Lease of Life"
+                        },
+                        {
+                            "nombre": "The Rage of the Waters"
+                        },
+                        {
+                            "nombre": "Spirit of the Air"
+                        },
+                        {
+                            "nombre": "Hollow"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Secret Garden",
+                    "imgAlbum": "./assets/images/Bandas y Discos/Power Metal/Angra/Secret-Garden.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "Newborn Me"
+                        },
+                        {
+                            "nombre": "Black Hearted Soul"
+                        },
+                        {
+                            "nombre": "Final Light"
+                        },
+                        {
+                            "nombre": "Storm of Emotions"
+                        },
+                        {
+                            "nombre": "Synchronicity II"
+                        },
+                        {
+                            "nombre": "Violet Sky"
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }

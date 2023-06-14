@@ -51,7 +51,7 @@
                                 <a class="nav-link " aria-current="page" href="../index.html">Inicio</a>
                                 <a class="nav-link " aria-current="page" href="./generos.html">Generos</a>
                                 <a class="nav-link" href="./Eventos.html">Eventos</a>
-                                <a class="nav-link" href="../index.html#contactos">Contacto</a>
+                                <a class="nav-link" href="../index.html#consulta">Contacto</a>
                             </div>
                         </div>
 
@@ -63,25 +63,28 @@
     </header>
     <!----------------------------------------------------------------------------------------------------------------------------->
     <!------------------------------------------Seccion del Formulario---------------------------------------------->
-    <section class="container grid-form" style="color: aliceblue; margin: 10px auto; border-radius: 5px;">
-        <div class="img-form" >
-            <img src="../assets/images/img-formulario.jpg" alt="crow" width="700px" height="800px">
+    <section class="container grid-form section-form">
+        <div class="img-form">
+            <img src="../assets/images/img-formulario.jpg" alt="crow" width="600px" height="700px">
         </div>
-        <div id="manejoForm" class="f">
+        <div id="manejoForm">
             <h1>Venta de Entradas</h1>
-            <form class="row g-3 needs-validation"  novalidate>
-                <div class="row g-3" id="f" style="margin: auto; padding: 20px auto;">
-                    <div class="col-md-8" style="border: 1px solid black;">
-                        <label for="validCant" class="form-label">Cantidad de Entradas:</label>
+            <form class="row g-3 needs-validation" novalidate>
+                <h3 id="tituloEvento"></h3>
+                <div class="row  g-3" style="margin: auto; padding: 20px auto;">
+
+                    <div class="col-md-8  col-form">
+                        <label for="validCant" class="form-label ">Cantidad de Entradas :</label>
                     </div>
+
                     <div class="col-md-4">
                         <input id="validCant" type="number" class="form-control" min="1" max="5" value="0" required>
                     </div>
-                    <div style="border: 1px solid black;" id="precio"> precio por entrada 1000$ , descuento y tiempo
+
+                    <div class="col-md-6 col-form">
+                        <label for="validaOpcionesDePago" class="form-label">Formas de Pago :</label>
                     </div>
-                    <div class="col-md-6" style="border: 1px solid black;">
-                        <label for="validaOpcionesDePago" class="form-label">Formas de Pago:</label>
-                    </div>
+
                     <div class="col-md-6">
                         <select class="form-select" id="validaOpcionesDePago" required>
                             <option selected disabled value="">Opciones de Pago...</option>
@@ -89,31 +92,38 @@
                             <option value="2">Credito</option>
                         </select>
                     </div>
-                    <div class="col-md-6" style="border: 1px solid black;">
-                        <label for="validaNombre" class="form-label">Nombre:</label>
+                    <div class="d-flex justify-content-center col-form precio-texto" id="precio"> </div>
+
+                    <div class="col-md-6 col-form">
+                        <label for="validaNombre" class="form-label" >Nombre :</label>
                     </div>
-                    <div class="col-md-6">
-                        <input pattern="[a-zA-ZÀ-ÿ-' ]+" type="text" class="form-control"  minlength="3" maxlength="32"
-                            id="validaNombre" required>
-                    </div>
-                    <div class="col-md-6" style="border: 1px solid black;">
-                        <label for="validaApellido" class="form-label">Apellido:</label>
-                    </div>
+
                     <div class="col-md-6">
                         <input pattern="[a-zA-ZÀ-ÿ-' ]+" type="text" class="form-control" minlength="3" maxlength="32"
-                            id="validaApellido" required>
+                            id="validaNombre" placeholder="Ozzy" required>
                     </div>
-                    <div class="col-md-12">
-                        <label for="validaCorreo" class="form-label">Correo Electronico:</label>
-                        <input type="email" class="form-control" id="validaCorreo" required>
+
+                    <div class="col-md-6 col-form">
+                        <label for="validaApellido" class="form-label">Apellido :</label>
                     </div>
+
                     <div class="col-md-6">
-                        <button class="btn" type="button" id="boton" onclick="validacion();">Siguiente</button>
+                        <input pattern="[a-zA-ZÀ-ÿ-' ]+" type="text" class="form-control" minlength="3" maxlength="32"
+                            id="validaApellido" placeholder="Osbourne" required>
                     </div>
+
+
+
                     <div class="col-md-6">
-                        <input class="btn" type="button" onclick="history.back()" name="volver atrás"
+                        <button class="btn boton-form" type="button" id="boton"
+                            onclick="validacion();">Siguiente</button>
+                    </div>
+
+                    <div class="col-md-6">
+                        <input class="btn boton-form" type="button" onclick="history.back()" name="volver atrás"
                             value="volver atrás">
                     </div>
+
                 </div>
             </form>
 
@@ -121,11 +131,11 @@
     </section>
     <!----------------------------------------------------------------------------------------------------------------------------->
 
-    <!--------------------------------------------Componente footer-------------------------------------------------------------->
-    <footer class="d text-center ">
+    <!---------------------------------------------------Componente Footer------------------------------------------------------->
+    <footer class="d text-center mt-53">
         <div class="card text-center metal-footer">
             <div class="card-header">
-                <div class="row">
+                <div class="row mt-3 mb-5">
                     <div class="col-8 d-flex justify-content-center">
                         <h5 class="text-center">Síguenos en:</h5>
                     </div>
@@ -133,19 +143,19 @@
                         <div class="row d-flex justify-content-center">
                             <div class="col-md-3">
                                 <a target="_blank" href="#" class="btn-social btn-outline"><i
-                                        class="fa-brands fa-youtube  fa-2xl" style="color: #ffffff;"></i></a>
+                                        class="fa-brands fa-youtube  fa-2xl mt-4"></i></a>
                             </div>
                             <div class="col-md-3">
                                 <a target="_blank" href="#" class="btn-social btn-outline"><i
-                                        class="fa-brands fa-facebook  fa-2xl" style="color: #ffffff;"></i></a>
+                                        class="fa-brands fa-facebook  fa-2xl mt-4"></i></a>
                             </div>
                             <div class="col-md-3">
                                 <a target="_blank" href="#" class="btn-social btn-outline"><i
-                                        class="fa-brands fa-instagram  fa-2xl" style="color: #ffffff;"></i></a>
+                                        class="fa-brands fa-instagram  fa-2xl mt-4"></i></a>
                             </div>
                             <div class="col-md-3">
                                 <a target="_blank" href="#" class="btn-social btn-outline"><i
-                                        class="fa-brands fa-whatsapp  fa-2xl" style="color: #ffffff;"></i></a>
+                                        class="fa-brands fa-whatsapp  fa-2xl mt-4"></i></a>
                             </div>
                         </div>
                     </div>
@@ -157,27 +167,22 @@
                             <ul class="list-group list-group-flush">
                                 <li class="list-group-item">Power Metal</li>
                                 <li class="list-group-item">Heavy Metal</li>
-                                <li class="list-group-item">Thrash Metal</li>
-                                <li class="list-group-item">Speed Metal</li>
+                                <li class="list-group-item">Doom Metal</li>
                             </ul>
                         </div>
 
                         <div class="col-md-3 footer-col">
                             <h3>Productos</h3>
                             <ul class="list-group list-group-flush">
-                                <li class="list-group-item">Registrarse</li>
-                                <li class="list-group-item">Ingresar</li>
-                                <li class="list-group-item">Suscripciones</li>
-                                <li class="list-group-item">Ayuda</li>
+                                <li class="list-group-item">Eventos</li>
+                                <li class="list-group-item">Entradas</li>
                             </ul>
                         </div>
 
                         <div class="col-md-3 footer-col">
                             <h3>Contacto</h3>
                             <ul class="list-group list-group-flush">
-                                <li class="list-group-item">Telefono</li>
-                                <li class="list-group-item">Correo</li>
-                                <li class="list-group-item">Ayuda</li>
+                                <li class="list-group-item">Contacto</li>
                             </ul>
                         </div>
                         <div class="col-md-3 footer-col">
@@ -197,7 +202,6 @@
             </div>
         </div>
     </footer>
-    <!--------------------------------------------------------------------------------------------------------------------------->
 
 </body>
 
