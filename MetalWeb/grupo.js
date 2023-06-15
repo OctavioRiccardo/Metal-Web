@@ -41,8 +41,8 @@ function mostrarBanda(ObjetoJson) {
             imagenBanda.setAttribute('src', `../${ObjetoJson.bandas[i].imgBanda}`);
             columnaImagenBanda.appendChild(imagenBanda);
             columnaCaracteristicas.innerHTML = `
-            <p class="caracteristica">Genero: <span>${ObjetoJson.bandas[i].genero}</span></p>
-            <p class="caracteristica">Pais: <span>${ObjetoJson.bandas[i].pais}</span></p>
+            <p class="caracteristica">Género: <span>${ObjetoJson.bandas[i].genero}</span></p>
+            <p class="caracteristica">País: <span>${ObjetoJson.bandas[i].pais}</span></p>
             <p class="caracteristica">Estado: <span>${ObjetoJson.bandas[i].estado}</span></p>
             <p class="caracteristica">Año: <span>${ObjetoJson.bandas[i].año}</span></p>`
             columnaIntegrantes.innerHTML = `
