@@ -8,12 +8,13 @@ const evento = parametrosUrl.get("Evento");
 const contenedorTituloEvento = document.getElementById("tituloEvento");
 contenedorTituloEvento.innerHTML = evento;
 const textoPrecio = document.getElementById("precio");
-textoPrecio.innerHTML=`Precio por entrada $${precio} - Pagando con debito se obtiene un 10% de descuento y con credito un 10% de interes`
+textoPrecio.innerHTML=`Precio por entrada $${precio} - Pagando con débito se obtiene un 10% de descuento y con crédito un 10% de interés`
 var cant = document.getElementById('validCant');
 var opcionesPago = document.getElementById('validaOpcionesDePago');
 var preci = document.getElementById('precio');
 cant.addEventListener('input', actualizarPrecioTotal);
 opcionesPago.addEventListener('change', actualizarPrecioTotal);
+
 
 function actualizarPrecioTotal() {
     var cantidad = parseInt(cant.value, 10);
@@ -93,13 +94,12 @@ function versionPropia() {
             form.classList.add('was-validated');
         }
         if (aux == true) {
-
             form.innerHTML = "";
             manejoForm.innerHTML = `
             <form class="row g-3 needs-validation" novalidate>
             <div class="row g-3">
                 <div class="col-md-12">
-                    <label for="validaTarjeta" class="form-label col-form">Numero de Tarjeta</label>
+                    <label for="validaTarjeta" class="form-label col-form">Número de Tarjeta</label>
                     <input pattern=".{19,19}" type="text" class="form-control" id="validaTarjeta" minlength="19" maxlength="19" maxSize autocomplete="off"
                         required>
                 </div>
@@ -121,14 +121,9 @@ function versionPropia() {
                         required>
                 </div>
                 <div class="col-md-3">
-                    <label for="validaCodigoPostal" class="form-label col-form">Codigo Postal</label>
+                    <label for="validaCodigoPostal" class="form-label col-form">Código Postal</label>
                     <input type="text" class="form-control" id="validaCodigoPostal"  maxlength="5"
                         required>
-                </div>
-                <div class="col-md-12 precio-texto">
-                        <label for="validaCorreo" class="form-label col-form">Correo Electronico :</label>
-                        <input pattern="\S+@\S+\.\S+"type="email" class="form-control" id="validaCorreo" placeholder="example@mail.com"
-                            required>
                 </div>
 
                 <div class="col-md-6">
@@ -143,7 +138,7 @@ function versionPropia() {
                     </select>
                 </div>
                 <div class="col-md-6">
-                    <label for="validaNumeroIdent" class="form-label col-form">Numero de identidad</label>
+                    <label for="validaNumeroIdent" class="form-label col-form">Número de identidad</label>
                     <input type="text" class="form-control" maxlength="8"  id="validaNumeroIdent"
                         required>
                 </div>
